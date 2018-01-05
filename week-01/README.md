@@ -47,16 +47,16 @@ The instructor will then review the pull request and make comments should furthe
 [Course Structure Quiz, Problem 6]
 - Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
 
-- *Answer*(<ldai-stat6250>): Yes.
+- *Answer*(<ldai-stat6250>): <Yes.>
 
 [Course Structure Quiz, Problem 7]
 - Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
-
+- *Answer* (<ldai4-stat6250>): < Yes, encouraging resubmission of incomplete assignments is to encourage students to focus on creating projects.>
 
 
 [Course Structure Quiz, Problem 8]
 - Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
--Answer: except the above reasons, the most important reason is that the professor encourages students learn more. 
+- *Answer*(<ldai-stat6250>): <Except the above reasons, the most important reason is that the professor encourages students learn more.> 
 
 
 [Course Structure Quiz, Problem 9]
@@ -67,15 +67,15 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 10]
 - Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
--Answer:Yes, I can be asked to contribute to the repositories.
+- *Answer* (<ldai-stat6250>): <Yes, I can be asked to contribute to the repositories.>
 
 
 [hello-world Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
 
--Answer:Yes, there is.
+- *Answer*(<ldai-stat6250>): <Yes, there is.>
 
 [fizz-buzz Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is the mod function at all related to how clocks work, with hours counting from 1 to 12, and then starting back at 1 again?
 
--Answer: No, the mod function returns the remainder of the division of elements of the first argument by elements of the second argument.
+- *Answer*(<ldai-stat6250>): <No, the mod function returns the remainder of the division of elements of the first argument by elements of the second argument.>
