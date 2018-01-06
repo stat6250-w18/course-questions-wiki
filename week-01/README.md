@@ -33,9 +33,13 @@ The instructor will then review the pull request and make comments should furthe
 *Answer* (tdinh28−stat6250):
 
  [Title] 
+
  [Complete URL] 
+
  [Synopsis]
+
  [Explanation for Article Choice]
+
 
 [Course Structure Quiz, Problem 3]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
@@ -77,18 +81,16 @@ The instructor will then review the pull request and make comments should furthe
 [Course Structure Quiz, Problem 7]
 - Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
 
-*Question* (tdinh28−stat6250): What does function "mod" do?
-
-*Answer* (tdinh28−stat6250): return the remainder after division. In the SAS example, it’s used to test if the number is divisible by 3 and 5
+*Answer* (tdinh28−stat6250): to help students have more chances to learn and improve their work.
 
 
 [Course Structure Quiz, Problem 8]
 - Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
 - Answer (ilankham−stat6250): An African swallow maybe, but not a European swallow.
 
-*Question* (tdinh28−stat6250): 
+*Question* (tdinh28−stat6250): What does function "mod" do?
 
-*Answer* (tdinh28−stat6250): 
+*Answer* (tdinh28−stat6250): return the remainder after division. In the SAS example, it’s used to test if the number is divisible by 3 and 5
 
 
 [Course Structure Quiz, Problem 9]
@@ -102,7 +104,7 @@ The instructor will then review the pull request and make comments should furthe
 [Course Structure Quiz, Problem 10]
 - Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
 
-*Answer* (tdinh28−stat6250): 
+*Answer* (tdinh28−stat6250): to check for any updates, changes to the repository. To check any new project, and to compare the new changes with the previous submission
 
 [hello-world Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
