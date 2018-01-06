@@ -34,6 +34,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
 
 -Question (aamiri2-stat6250): What are the benefits of creating and answering weekly quizzes?
+
 Answer (aamiri2-stat6250): Creating your own questions and answering them enables deeper understanding.The goal is to internalize new concepts and really pushes student to read daily.
 
 
