@@ -97,5 +97,7 @@ Answer (aamiri2-stat6250): Creating your own questions and answering them enable
 [fizz-buzz Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is the mod function at all related to how clocks work, with hours counting from 1 to 12, and then starting back at 1 again?
 
--Question (aamiri2-stat6250): 
+-Question (aamiri2-stat6250): What is CPU time? Which is better CPU time or Real Time?
+
+-Answer (aamiri2-stat6250): CPU time is the amount of time it takes to utilize CPU resources. CPU time is generally less time than Real Time meaning it is faster than Real Time. Time is just a measurement so CPU generates faster in most cases.
 
