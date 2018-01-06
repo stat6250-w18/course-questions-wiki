@@ -51,7 +51,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 7]
 - Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
-- *Answer* (<ldai4-stat6250>): < Yes, encouraging resubmission of incomplete assignments is to encourage students to focus on creating projects.>
+- *Answer* (ldai4-stat6250): < Yes, encouraging resubmission of incomplete assignments is to encourage students to focus on creating projects.>
 
 
 [Course Structure Quiz, Problem 8]
@@ -73,9 +73,9 @@ The instructor will then review the pull request and make comments should furthe
 [hello-world Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
 
-- *Answer*(ldai4-stat6250): Yes, there is.
+- *Answer*(ldai4-stat6250): Yes, in the log window displays message about your SAS session and about any SAS program that you submit; in output,you browse LISTING output from SAS programs you submit.
 
 [fizz-buzz Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is the mod function at all related to how clocks work, with hours counting from 1 to 12, and then starting back at 1 again?
 
-- *Answer*(ldai-stat6250): No, the mod function returns the remainder of the division of elements of the first argument by elements of the second argument.
+- *Answer*(ldai4-stat6250): No, the mod function returns the remainder of the division of elements of the first argument by elements of the second argument.
