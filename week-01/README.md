@@ -90,7 +90,7 @@ The instructor will then review the pull request and make comments should furthe
 
 *Question* (tdinh28−stat6250): What does function "mod" do?
 
-*Answer* (tdinh28−stat6250): return the remainder after division. In the SAS example, it’s used to test if the number is divisible by 3 and 5
+*Answer* (tdinh28−stat6250): return the remainder after division.
 
 
 [Course Structure Quiz, Problem 9]
