@@ -30,7 +30,7 @@ The instructor will then review the pull request and make comments should furthe
 [Course Structure Quiz, Problem 3]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
 
-- *Answer* (<ldai4-stat6250>): <I think the requirment will give students more opportunity to improve their grades.>
+- *Answer* (<ldai4-stat6250>): I think the requirment will give students more opportunity to improve their grades.
 
 [Course Structure Quiz, Problem 4]
 - Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involved comments on code in GitHub, meetings with the instructor, or both?
