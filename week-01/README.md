@@ -1,4 +1,4 @@
-*## Week 1 Quiz Questions and Answers
+4*## Week 1 Quiz Questions and Answers
 
 In order to prepare your Week 1 Quiz submission, please edit ***this*** document to provide substantive questions for each Quiz Problem and SAS Recipe listed below, as well as answers to at least three questions raised.
 
@@ -18,7 +18,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 1]
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
-- *Answer* (<ldai-stat6250>): <It is very common to use "repo" in a Github.>
+- *Answer* (<ldai4-stat6250>): <It is very common to use "repo" in a Github.>
 
 
 [Course Structure Quiz, Problem 2]
@@ -30,7 +30,7 @@ The instructor will then review the pull request and make comments should furthe
 [Course Structure Quiz, Problem 3]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
 
-- *Answer* (<ldai-stat6250>): <I think the requirment will give students more opportunity to improve their grades.>
+- *Answer* (<ldai4-stat6250>): <I think the requirment will give students more opportunity to improve their grades.>
 
 [Course Structure Quiz, Problem 4]
 - Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involved comments on code in GitHub, meetings with the instructor, or both?
@@ -47,7 +47,7 @@ The instructor will then review the pull request and make comments should furthe
 [Course Structure Quiz, Problem 6]
 - Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
 
-- *Answer*(<ldai-stat6250>): <Yes.>
+- *Answer*(<ldai4-stat6250>): <Yes.>
 
 [Course Structure Quiz, Problem 7]
 - Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
@@ -56,7 +56,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 8]
 - Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
-- *Answer*(<ldai-stat6250>): <Except the above reasons, the most important reason is that the professor encourages students learn more.> 
+- *Answer*(<ldai4-stat6250>): <Except the above reasons, the most important reason is that the professor encourages students learn more.> 
 
 
 [Course Structure Quiz, Problem 9]
@@ -67,13 +67,13 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 10]
 - Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
-- *Answer* (<ldai-stat6250>): <Yes, I can be asked to contribute to the repositories.>
+- *Answer* (<ldai4-stat6250>): <Yes, I can be asked to contribute to the repositories.>
 
 
 [hello-world Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
 
-- *Answer*(<ldai-stat6250>): <Yes, there is.>
+- *Answer*(<ldai4-stat6250>): <Yes, there is.>
 
 [fizz-buzz Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is the mod function at all related to how clocks work, with hours counting from 1 to 12, and then starting back at 1 again?
