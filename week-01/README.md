@@ -18,7 +18,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 1]
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
- Answer (ilankham−stat6250):It's pretty common in the industry.
+ Answer (asharda−stat6250):It's pretty common in the industry.
 
 
 [Course Structure Quiz, Problem 2]
