@@ -18,7 +18,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 1]
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
-
+ Answer (ilankham−stat6250):It's pretty common in the industry.
 
 
 [Course Structure Quiz, Problem 2]
@@ -70,12 +70,94 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
+[Course Structure Quiz, Problem 1]
+Question (asharda−stat6250): Will there be any extra points for best practices,adding documentation?
+
+
+
+[Course Structure Quiz, Problem 2]
+- Question (asharda−stat6250): Which is the best IDE to use for SAS Programming?
+
+
+
+[Course Structure Quiz, Problem 3]
+- Question (asharda−stat6250): Are there any extra points for peer code reviews?.
+
+
+
+[Course Structure Quiz, Problem 4]
+- Question (asharda−stat6250): How will the code be evaluated for optimization?
+
+
+
+[Course Structure Quiz, Problem 5]
+- Question (asharda−stat6250): Will there be any wiki for best practices?
+
+
+
+[Course Structure Quiz, Problem 6]
+- Question (asharda−stat6250): Will data structures be taught as a  part of the course?
+
+
+
+[Course Structure Quiz, Problem 7]
+- Question (asharda−stat6250): Will there be peer code reviews?
+
+
+
+[Course Structure Quiz, Problem 8]
+- Question (asharda−stat6250): How common it is to abbreviate the word "Pull Request" as "PR"?
+
+
+
+[Course Structure Quiz, Problem 9]
+- Question (asharda−stat6250): Can we do screen sharing as a part of code review?
+
+
+
+[Course Structure Quiz, Problem 9]
+- Question (asharda−stat6250): Do you recommend adding documentation for the logic?.
+
+
+
+[hello-world Week 1 SAS Recipe]
+- Question (asharda−stat6250): What happens if you miss run from the code.
+
+
+
+[hello-world Week 1 SAS Recipe]
+- Question (asharda−stat6250): Can you use anything other than put to output.
+
+
+
+[hello-world Week 1 SAS Recipe]
+- Question (asharda−stat6250): Why do you specify data_null at start?
+
+
+
+[Course Structure Quiz, Problem 7]
+- Question (asharda−stat6250): Is SAS case specific?
+
+
+
+[fizz-buzz Week 1 SAS Recipe]
+- Question (asharda−stat6250): What are the different conditional statements that can be used in SAS programming?
+
+
+
+[fizz-buzz Week 1 SAS Recipe]
+- Question (asharda−stat6250): Can you use for and while loops in SAS programming?
+
+
+
 [hello-world Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
+- Answer (asharda−stat6250): Yes,using the PUT statement ,you can customize the output to write to SAS log or to another output file.
 
 
 
 [fizz-buzz Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is the mod function at all related to how clocks work, with hours counting from 1 to 12, and then starting back at 1 again?
+- Answer (asharda−stat6250): No,mod function returns the remainder from the division of the first argument by the second argument ,fuzzed to avoid unexpected floating point results.
 
 
