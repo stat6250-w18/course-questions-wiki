@@ -2,7 +2,7 @@
 When you have a question, what are some of the suggestions that is recommended in order for you to find an answer?
 
 <h3>Problem 1 Answer</h3>
-*The syllabus provides many resources including BlackBoard. There is a Q&A board in Slack, Office Hours, Google Hangouts or via Email.*
+*The syllabus provides many resources including BlackBoard. There is a Q&A board in Slack, Office Hours, Google Hangouts or via Email*
 
 <h3>Problem 2</h3>
 When approaching this course, what type of mindset is recommended in order for students to become successful?
