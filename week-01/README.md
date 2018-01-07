@@ -18,18 +18,18 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 1]
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
-
+Answer (tbishaw-stat6250):I beleive this is common abbreviation.
 
 
 [Course Structure Quiz, Problem 2]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 forum posts to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
 - Answer (ilankham−stat6250): Both; however, students are encouraged to complete all assignments as written, even if they have no impact on their course grade.
 
-
+Question (tbishaw-stat6250): How have students in the past that had little to no experience in SAS been able to adjust to this course?
 
 [Course Structure Quiz, Problem 3]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
-
+Answer (tbishaw-stat6250): It is to accommodate students enrolled in the course late and give others a chance to improve their performance in the course.  
 
 
 [Course Structure Quiz, Problem 4]
@@ -46,18 +46,18 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 6]
 - Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
-
+Answer (tbishaw-stat6250): It is realted to the common employee rating scale, and it will help us become familiar with the level of work expected in the realworld.  
 
 
 [Course Structure Quiz, Problem 7]
 - Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
-
+Answer (Bishaw-stat6250): This is to make sure that students actually understand what they are doing and to encourage students to give their best effort towards all the projects and assignments in this class. 
 
 
 [Course Structure Quiz, Problem 8]
 - Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
 
-
+Question (tbishaw-stat6250): How often is extra credit given? And is there extra credit in form of extra assignments that we can submit for this class?
 
 [Course Structure Quiz, Problem 9]
 - Question (ilankham−stat6250): Instead of a carrier pigeon, what about an unladen swallow?
@@ -73,7 +73,7 @@ The instructor will then review the pull request and make comments should furthe
 [hello-world Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
 
-
+Question (tbishaw-stat6250): Are there any other platforms you would recommend to SAS beginners to help them get more familiar with the platform?
 
 [fizz-buzz Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is the mod function at all related to how clocks work, with hours counting from 1 to 12, and then starting back at 1 again?
