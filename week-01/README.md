@@ -19,6 +19,12 @@ The instructor will then review the pull request and make comments should furthe
 [Course Structure Quiz, Problem 1]
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
 
+Question (aguenane−stat6250): What are the goals of the two team projects ?
+
+Answer (aguenane-stat6250): To collaboratively work toward creative solutions and adding value to each team-member's work-sample portfolio. If your code doesn't work, someone else can take a look with fresh eyes and see if they can come up with a solution. This fosters teamwork and communication.
+
+
+
 
 
 [Course Structure Quiz, Problem 2]
@@ -29,6 +35,8 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 3]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
+
+Answer (aguenane-stat6250): it to accommodate students enrolling in the course late.
 
 
 
@@ -42,6 +50,9 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
 - Answer (ilankham−stat6250): The best way to prepare for the Final Exam is to work through every assigned Weekly Quiz Problem and to develop an understanding of all concepts involved to the point that the problems can be thoroughly answered without consulting reference materials.
 
+Question (aguenane−stat6250): What is the benefit of continuing to contribute to the Course Questions Wiki when preparing for the final exam?
+
+Answer (aguenane-stat6250): Asking and answering substantive questions helps you understand and remember important course concepts, which can help you with final and the futer .
 
 
 [Course Structure Quiz, Problem 6]
@@ -51,18 +62,19 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 7]
 - Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
-
+Answer (aguenane-stat6250):i think is both , to encourage student resubmission of incomplete assignmentsand and to to focus on iteratively creating projects that can be added to work-sample portfolios
 
 
 [Course Structure Quiz, Problem 8]
 - Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
-
+Answer (aguenane-stat6250): i belive to to reassure students that everyone makes mistakes and be fair with students 
 
 
 [Course Structure Quiz, Problem 9]
 - Question (ilankham−stat6250): Instead of a carrier pigeon, what about an unladen swallow?
 - Answer (ilankham−stat6250): An African swallow maybe, but not a European swallow.
 
+Question (aguenane−stat6250): What must you do if your Horizon email address is already associated with a GitHub account?
 
 
 [Course Structure Quiz, Problem 10]
@@ -77,5 +89,5 @@ The instructor will then review the pull request and make comments should furthe
 
 [fizz-buzz Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is the mod function at all related to how clocks work, with hours counting from 1 to 12, and then starting back at 1 again?
-
+Question (aguenane−stat6250): Which chapters do you need to study from the  textbook for the final exam ?
 
