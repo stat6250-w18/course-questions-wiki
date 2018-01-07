@@ -45,13 +45,13 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (tchan49−stat6250): Githun is where you submit your quiz. Mostly important, getting familiar with Github helps you build your profile when upload your projects and show them to employers. 
 
 [Course Structure Quiz, Problem 7]
-- Question (tchan−stat6250): 
-- Answer (tchan49−stat6250):
+- Question (tchan−stat6250): How many points do you need to get in order to receive an A in this class? 
+- Answer (tchan49−stat6250): First, this is not a traditional class where you get an A because you get certain points. However, to do good in this class, you need to fulfill all the requirement listed on syllabus. Importantly, you need to show your effort and time in projects and other assignments and get approved by the professors. 
 
 
 [Course Structure Quiz, Problem 8]
 - Question (tchan−stat6250): How to be a professional programmer?
-- Answer (tchan49−stat6250):
+- Answer (tchan49−stat6250):Professional programmers need to have a can-do spirit where they are able to support teammates when they need help and do work together. Also, professional programmers are capable of paying attention to details and identifing problems quickly. They look at the problem at big picture and small picture as well. In my opinion, they should not be afraid of making mistakes but instead, they can point out the mistake quickly and solve it before it becomes unredeemable.
 
 
 [Course Structure Quiz, Problem 9]
@@ -64,7 +64,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [hello-world Week 1 SAS Recipe]
 - Question (tchan49−stat6250): What are the two steps invloved in code organization in SAS?
-
+- Answer (tchan49−stat6250): Data and Proc steps. Procedure  (Proc) steps 
 
 
 [fizz-buzz Week 1 SAS Recipe]
