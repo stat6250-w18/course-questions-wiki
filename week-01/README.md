@@ -63,4 +63,5 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy−stat6250): Breifly explain the skeleton of a SAS program with explanation of the steps involved.
 
 
-
+[fizz-buzz Week 1 SAS Recipe]
+- *Question* (akrishnamurthy−stat6250): Why is a null data step used?
