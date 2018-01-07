@@ -19,6 +19,8 @@ The instructor will then review the pull request and make comments should furthe
 [Course Structure Quiz, Problem 1]
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
 
+- Question (akurayev-stat6250): Where to learn more about ERROR and WARNING messages in SAS? As I just getting started with SAS programming, it is a good idea to learn how to interpret the SAS log messages.
+
 
 
 [Course Structure Quiz, Problem 2]
@@ -29,6 +31,9 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 3]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
+
+- Question (akurayev-stat6250): What does SAS stand for?
+- Answer (akurayev-stat6250): Ths SAS abbreviation stand for Statistical Analysis System.
 
 
 
@@ -47,16 +52,31 @@ The instructor will then review the pull request and make comments should furthe
 [Course Structure Quiz, Problem 6]
 - Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
 
+- Question (akurayev-stat6250): What sort of aptitude should someone have in order to learn SAS?
+- Answer (akurayev-stat6250): The aptitude to learn. I think it wiil take some time but stay and follow the course and it will just click. Anyone can learn SAS.
+
 
 
 [Course Structure Quiz, Problem 7]
 - Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
+
+- Question (akurayev-stat6250): If Team-Based Problem Solving should be done in team environment, why does everyone have to submit their work separately?
 
 
 
 [Course Structure Quiz, Problem 8]
 - Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
 
+- Question (akurayev-stat6250): Can you import Excel spreadsheets to SAS? If yes, what is import syntax?
+- Answer (akurayev-stat6250): Yes, you can. Syntax:
+proc import
+datafile="filename"
+out=SAS-data-set
+dbms=identifier
+  replace;
+  sheet="sheet name";
+  getnames=yes;
+run;
 
 
 [Course Structure Quiz, Problem 9]
@@ -68,14 +88,18 @@ The instructor will then review the pull request and make comments should furthe
 [Course Structure Quiz, Problem 10]
 - Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
 
+- Question (akurayev-stat6250): Whats is the default length of a numeric variable in SAS?
+- Answer (akurayev-stat6250): The default length of a numeric variables is 8 bytes, which means we can store up to 16 digits for a numeric varibale in SAS.
+
 
 
 [hello-world Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
-
+- Question (akurayev-stat6250): How to convert number formst to date format?
 
 
 [fizz-buzz Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is the mod function at all related to how clocks work, with hours counting from 1 to 12, and then starting back at 1 again?
+- Question (akurayev-stat6250): What do we need to have spaces or special characters in a varible name?
 
 
