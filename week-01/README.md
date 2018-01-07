@@ -76,7 +76,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question 2 (kamirneni−stat6250) : How much time investment and labour is required for projects?
 
 
-- Question 3 (kamirneni−stat6250) : Is there any other ways of getting extra credit apart from the ones given in the instructions?
+- Question 3 (kamirneni−stat6250) : Are there any other ways of getting extra credit apart from the ones given in the instructions?
 
 [hello-world Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
