@@ -17,65 +17,56 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Structure Quiz, Problem 1]
-- Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
 
-
+- Question (ttruong59−stat6250): Including (1) signing up for the course Slack team, (2) signing up for GitHub, (3) following the full instructions for the GitHub hello-world tutorial, (4) posting the URL for your hello-world repo in the appropriate Slack channel, and (5) posting a screenshot of the SAS hello-world recipe in the appropriate Slack channel, a student needs to successfully complete ___ of ___ components of the Week 1 Setup Instructions in order to earn a ___ Achievement in the course.
+- Answer (ttruong59−stat6250): Including (1) signing up for the course Slack team, (2) signing up for GitHub, (3) following the full instructions for the GitHub hello-world tutorial, (4) posting the URL for your hello-world repo in the appropriate Slack channel, and (5) posting a screenshot of the SAS hello-world recipe in the appropriate Slack channel, a student needs to successfully complete [5] of [5] components of the Week 1 Setup Instructions in order to earn a [Initial Setup] Achievement in the course.
 
 [Course Structure Quiz, Problem 2]
-- Question (ilankham−stat6250): Is the requirement to complete 8 of 10 forum posts to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
-- Answer (ilankham−stat6250): Both; however, students are encouraged to complete all assignments as written, even if they have no impact on their course grade.
-
-
+- Question (ttruong59−stat6250): There will tentatively be ___ Weekly Forum Posts, with ___ of ___ posts needing to be completed to earn the ___ achievement in the course.
+- Answer (ttruong59−stat6250): There will tentatively be [10] Weekly Forum Posts, with [8] of [10] posts needing to be completed to earn the [Reading for Breath]achievement in the course.
 
 [Course Structure Quiz, Problem 3]
-- Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
-
-
+- Question (ttruong59−stat6250): There will tentatively be ___ Weekly Quizzes, with ___ of ___ posts needing to be completed to earn the ___ achievement in the course.
+A- nswer (ttruong59−stat6250): There will tentatively be [10] Weekly Quizzes, with [8] of [10] posts needing to be completed to earn the [Reading for Depth] achievement in the course.
 
 [Course Structure Quiz, Problem 4]
-- Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involve comments on code in GitHub, meetings with the instructor, or both?
-- Answer (ilankham−stat6250): Both; Code Reviews will involve 1:1 meetings with the instructor held through Google Hangouts, during which project code will discussed and commented.
-
-
+- Question (ttruong59−stat6250): There will tentatively be ___ team-based projects in the course; counting (1) Step 1, (2) Step 2, (3) Step 3, and (4) Code Review, each project will consist of ___ discrete steps, and ___ of ___ total steps across all projects will need to be completed in order to earn a ___ achievement for the course.
+- Answer (ttruong59−stat6250): There will tentatively be [2] team-based projects in the course; counting (1) Step 1, (2) Step 2, (3) Step 3, and (4) Code Review, each project will consist of [4] discrete steps, and [8] of [8] total steps across all projects will need to be completed in order to earn a [team-based problem solving] achievement for the course.
 
 [Course Structure Quiz, Problem 5]
-- Question (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
-- Answer (ilankham−stat6250): The best way to prepare for the Final Exam is to work through every assigned Weekly Quiz Problem and to develop an understanding of all concepts involved to the point that the problems can be thoroughly answered without consulting reference materials.
-
-
+- Question (ttruong59−stat6250): The Final Exam will tentatively consist of ___ multiple-choice questions highly similar to problems from ___ , with a time limit of ___ minutes and ___ percent or higher required to earn the ___ achievement in the course.
+- Answer (ttruong59−stat6250): The Final Exam will tentatively consist of [65] multiple-choice questions highly similar to problems from [weekly quizzes], with a time limit of [110] minutes and [70] percent or higher required to earn the [building general knowledge] achievement in the course.
 
 [Course Structure Quiz, Problem 6]
-- Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
-
-
+- Question (ttruong59−stat6250): In order to earn an A in STAT 6250 this quarter, the following achievement/achievements should be earned:
+- Answer (ttruong59−stat6250): initial setup, reading for breadth, team-based problem solving achievement, building general knowledge, reading for depth
 
 [Course Structure Quiz, Problem 7]
-- Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
-
-
+- Question (ttruong59−stat6250): Fill in the blanks: Late submissions [can|can't]  be counted toward course grades, and  incomplete submissions[can|can't] be eligible for resubmission at the instructor's discretion.
+- Answer (ttruong59−stat6250): can’t/can
 
 [Course Structure Quiz, Problem 8]
-- Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
-
-
+- Question (ttruong59−stat6250): The instructor gives extra credit for ...
+- Answer (ttruong59−stat6250): pointing out typos in course materials, substantive suggestions for improving clarity in course materials, contributions to the Course Questions Wiki after the Week 10 Quiz deadline
 
 [Course Structure Quiz, Problem 9]
-- Question (ilankham−stat6250): Instead of a carrier pigeon, what about an unladen swallow?
-- Answer (ilankham−stat6250): An African swallow maybe, but not a European swallow.
-
-
+- Question (ttruong59−stat6250): The best way to contact the instructor with questions/comments is...
+- Answer (ttruong59−stat6250): a direct messages sent through the course Slack team
 
 [Course Structure Quiz, Problem 10]
-- Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
-
-
+- Question (ttruong59−stat6250): The following technology/technologies will be used for this course and should be check daily
+- Answer (ttruong59−stat6250): Blackboard, CSUEB-provided Horizon Email Accounts, Slack, Github
 
 [hello-world Week 1 SAS Recipe]
-- Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
+- Question (ttruong59−stat6250): What language is sas written in?
+- Answer (ttruong59−stat6250): SAS was rewritten in the C programming language, and can run on many platforms, including Windows and Linux.
 
+[hello-world Week 1 SAS Recipe]
+- Question (ttruong59−stat6250): As SAS is written in the C programing language, why a syntax to print out the output is quite different? For example, to print out ‘Hello Word!’, C is written as printf("Hello, World!"); while SAS is written as put “Hello Word!”.
+- Answer (ttruong59−stat6250): If I’m not mistaken, SAS program must follow 3 steps as: DATA step, PROC step, OUTPUT step to complete reading the input data, analysing the data and giving the output of the analysis. Also the RUN statement at the end of each step is required to complete the execution of that step.
 
-
-[fizz-buzz Week 1 SAS Recipe]
-- Question (ilankham−stat6250): Is the mod function at all related to how clocks work, with hours counting from 1 to 12, and then starting back at 1 again?
+[hello-world Week 1 SAS Recipe]
+- Question (ttruong59−stat6250): What is DATA _NULL_ statement?
+- Answer (ttruong59−stat6250): It can be used to write output without creating a dataset.
 
 
