@@ -64,7 +64,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [hello-world Week 1 SAS Recipe]
 - Question (tchan49−stat6250): What are the two steps invloved in code organization in SAS?
-- Answer (tchan49−stat6250): Data and Proc steps. Procedure  (Proc) steps 
+- Answer (tchan49−stat6250): Data and Proc steps. Procedure  (Proc) steps are the prepakaged of manipulating data. The Null data step helps keep step the data from outputting a new dataset. 
 
 
 [fizz-buzz Week 1 SAS Recipe]
