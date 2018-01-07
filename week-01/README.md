@@ -18,7 +18,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 1]
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
-
+- Answer (kamirneni−stat6250) : It is common but usually depends on one's preferences.
 
 
 [Course Structure Quiz, Problem 2]
@@ -29,7 +29,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 3]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
-
+- Answer (kamirneni−stat6250) : It allows to accomodate students enrolling in the course late.
 
 
 [Course Structure Quiz, Problem 4]
@@ -52,11 +52,11 @@ The instructor will then review the pull request and make comments should furthe
 [Course Structure Quiz, Problem 7]
 - Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
 
-
+- Answer (kamirneni−stat6250) : The intention is to make the students learn what they missed out by not completing the assignment. As an added bonus,it encourages students to focus on iteratively creating projects that can be added to work-sample portfolios.
 
 [Course Structure Quiz, Problem 8]
 - Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
-
+- Answer (kamirneni−stat6250) : It is to reassure students that everyone makes mistakes and also proofread his course materials.
 
 
 [Course Structure Quiz, Problem 9]
@@ -68,7 +68,15 @@ The instructor will then review the pull request and make comments should furthe
 [Course Structure Quiz, Problem 10]
 - Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
 
+- Answer (kamirneni−stat6250) : Checking GitHUb daily provides one with newly created repos which might have efficient code and perform functions which might not have been performed before.
 
+- Question 1 (kamirneni−stat6250) : How can one work on SAS software using virtual box on personal Desktop?
+
+
+- Question 2 (kamirneni−stat6250) : How much time investment and labour is required for projects?
+
+
+- Question 3 (kamirneni−stat6250) : Is there any other ways of getting extra credit apart from the ones given in the instructions?
 
 [hello-world Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
