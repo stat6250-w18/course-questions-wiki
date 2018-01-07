@@ -29,6 +29,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 3]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
+Answer (mchitti-stat6250) : Both
 
 
 
@@ -46,6 +47,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 6]
 - Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
+Answer (mchitti-6250): Yes
 
 
 
@@ -72,10 +74,15 @@ The instructor will then review the pull request and make comments should furthe
 
 [hello-world Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
-
+- Answer(mchitti-stat6250):
+Each method of running the SAS System has a default destination for the SAS log and procedure output files, but you can override these defaults with either SAS system options (when you invoke the SAS System) or the PRINTTO procedure (while you are running the SAS System).
 
 
 [fizz-buzz Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is the mod function at all related to how clocks work, with hours counting from 1 to 12, and then starting back at 1 again?
+
+-Question (mchitti-stat6250):how can we form teams as this is an online class
+-Question (mchitti-stat6250):what are deadlines for the learning objectives in the Team Project Instructions
+-Question (mchitti-stat6250):what is a carrier pigeon
 
 
