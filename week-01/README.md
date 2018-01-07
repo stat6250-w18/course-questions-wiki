@@ -56,7 +56,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 8]
 - Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
-- Answer (kamirneni−stat6250) : It is to reassure students that everyone makes mistakes and also proofread his course materials.
+- Answer (kamirneni−stat6250) : It is to reassure students that everyone makes mistakes and also to proofread course materials.
 
 
 [Course Structure Quiz, Problem 9]
