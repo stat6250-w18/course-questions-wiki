@@ -21,6 +21,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (jbettonville−stat6250): The question on the quiz mentions five items that must be completed, but the instructions for the initial setup have two separate lists of tasks to complete, the first being "Preparing Week 1 Setup Components" with six items, and the second being "Submitting Week 1 Setup Components" with four items. Would it be more accurate to say that ten components must be completed rather than five? 
 - *Question* (cnguyen77-stat6250): How many components of the Week 1 Setup Instructions does a student need to complete in order to earn an Initial Setup Achievement?
 
+-Question (aamiri2-stat6250): Will we receive any feedback on our week 1 setup so we know if we are on a good start or not?
 
 
 [Course Structure Quiz, Problem 2]
@@ -30,6 +31,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): How many scheduled forum posts do students need to complete in order to earn a Reading for Breadth Achievement toward their course grade?
 - *Answer* (cnguyen77-stat6250): Students should successfully complete at least 8 of the 10 scheduled forum posts by their assigned due dates.
 
+-Question (aamiri2-stat6250): Since it’s required to complete 8 of the 10 weekly forum posts, if we complete all of them do we get extra credit?
+- Answer (aamiri2-stat6250): No, even though it is only required to complete 8 of 10, students are encouraged to complete 10 of 10 weekly forum posts. This is meant for students that may start the course late and allows the flexibility. Not to mention this is a great way of helping your grade in case a student forgets a post or is unable to complete one.
 
 
 [Course Structure Quiz, Problem 3]
@@ -38,6 +41,9 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): If students successfully complete at least 8 of the 10 scheduled quizzes by their assigned due dates, what achievement will they get?
 - *Answer* (cnguyen77-stat6250): They will earn Reading for Depth Achievement toward their course grade.
 
+-Question (aamiri2-stat6250): What are the benefits of creating and answering weekly quizzes?
+
+Answer (aamiri2-stat6250): Creating your own questions and answering them enables deeper understanding.The goal is to internalize new concepts and really pushes student to read daily.
 
 
 [Course Structure Quiz, Problem 4]
@@ -45,6 +51,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ilankham−stat6250): Both; Code Reviews will involve 1:1 meetings with the instructor held through Google Hangouts, during which project code will discussed and commented.
 - Question (jbettonville-stat6250): At the moment it appears that instructions about only the first step of the first project are available in Blackboard; when will the information about the next steps in each phase of the projects be made available to students?
 - *Question* (cnguyen77-stat6250): How many team-based projects are required to complete in this course?
+
+-Question (aamiri2-stat6250): Since we have a few  team projects, will we be given a group of students to work with throughout the quarter?
 
 
 
@@ -54,6 +62,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (jbettonville-stat6250): Based upon past offerings of this course, what percentage of students who have taken this exam have achieved a score of 70% or higher?
 - *Question* (cnguyen77-stat6250): How many multiple-choice questions does the Final Exam consist?
 
+-Question (aamiri2-stat6250): Will we be given a final exam sample question so we can better understand the type of questions being asked?
+
 
 
 [Course Structure Quiz, Problem 6]
@@ -61,6 +71,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (jbettonville-stat6250): Based upon past offerings of this course, which, if any, of these achievements are students most likely to fail to earn?
 - *Question* (cnguyen77-stat6250): To earn an A in STAT 6250 this quarter, what achievement/achievements does a student should earn?
 
+-Question (aamiri2-stat6250): What percentage of students receive an A with full effort of completing the requirements?
 
 
 [Course Structure Quiz, Problem 7]
@@ -68,6 +79,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (jbettonville-stat6250): Under what circumstances might the resubmission of an incomplete assignment be accepted?
 - *Question* (cnguyen77-stat6250): Can late submission be counted toward course grades?
 
+-Question (aamiri2-stat6250):  If an assignment is submitted late, does it result in a dock of points?
 
 
 [Course Structure Quiz, Problem 8]
@@ -75,6 +87,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (jbettonville-stat6250): What is the mechanism by which extra credit is applied? (i.e. which achievements does it impact, and may it impact different achievements depending upon the circumstance under which it is awarded)
 - Answer (jbettonville-stat6250): I assume the instructor can provide a precise answer, but it seems to me that extra credit to be given for catching errors or seeking clarification would tie into the Reading for Depth Achievement, since it involves thoroughly reviewing written content. I would also think that contributions to the Course Questions Wiki beyond the Week 10 quiz may also relate to the Building General Knowledge and Team-based Problem Solving achievements; in any case I would like to know more about this for sure.
 - *Question* (cnguyen77-stat6250): In what ways does the instructor give extra credit for students in this course?
+
+-Question (aamiri2-stat6250): Can we receive extra credit for proposing a suggestion on the course flow?
 
 
 
@@ -86,6 +100,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): What is the best way to contact the instructor with questions/comments?
 - *Answer* (cnguyen77-stat6250): Make a direct messages sent through the course Slack team.
 
+-Question (aamiri2-stat6250): How quickly does the professor respond to DM’s via Slack?
+
 
 
 [Course Structure Quiz, Problem 10]
@@ -94,6 +110,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (jbettonville-stat6250): Blackboard has the "Announcements" page visible upon login that includes any new documents and pages that have been added. The Slack desktop app shows badges on the icon when new posts are available. The Horizon email system can be set up and checked by a mail client regularly. GitHub appears to track activity for each user, but at this time it is unclear if it will also track new updates to repos that have been forked. Any other suggestions for workflow management are appreciated!
 - *Question* (cnguyen77-stat6250): Why should students check their CSUEB-provided Horizon Email Accounts daily?
 
+-Question (aamiri2-stat6250): Will we see course announcement via Slack or Github daily?
+
 
 
 [hello-world Week 1 SAS Recipe]
@@ -101,12 +119,20 @@ The instructor will then review the pull request and make comments should furthe
 - Question (jbettonville-stat6250): How similar is the syntax and grammar of SAS to other commonly used programming languages? What are some of the major differences between SAS and other languages commonly used for statistical analysis?
 - *Question* (cnguyen77-stat6250):What is the best way to learn programming?
 
+-Question (aamiri2-stat6250): What is CPU time? Which is better CPU time or Real Time?
+
+-Answer (aamiri2-stat6250): CPU time is the amount of time it takes to utilize CPU resources. CPU time is generally less time than Real Time meaning it is faster than Real Time. Time is just a measurement so CPU generates faster in most cases.
 
 
 [fizz-buzz Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is the mod function at all related to how clocks work, with hours counting from 1 to 12, and then starting back at 1 again?
 - Question (jbettonville-stat6250): Can you recommend any other simple programming exercises for aspiring programmers to practice in multiple languages?
 - *Question* (cnguyen77-stat6250): What is the print out of numbers that are multiples of both three and five?
+
+
+-Question (aamiri2-stat6250): Is there a particular reason why Computer Science graduates from universities cannot answer the basic programming interview questions? 
+
+
 
 
 
