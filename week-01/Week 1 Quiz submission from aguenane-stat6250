@@ -1,0 +1,140 @@
+## Week 1 Quiz Questions and Answers
+
+In order to prepare your Week 1 Quiz submission, please edit ***this*** document to provide substantive questions for each Quiz Problem and SAS Recipe listed below, as well as answers to at least three questions raised.
+
+All edits should conform to GitHub Markdown specifications (https://guides.github.com/features/mastering-markdown/) and should be committed to a branch named "week-1" in your fork of this repo. Then, after all edits have been made/committed, your Week 1 Quiz should be submitted by initiating a pull request using
+
+- the master branch of the stat6250/course_questions_wiki repo as the base fork and
+
+- the week-1 branch of your version of the repo as the head fork.
+
+The instructor will then review the pull request and make comments should further revision be needed. Then, after the contents of the pull request have been finalized without any merge conflicts, the instructor will merge the pull request.
+
+
+
+********************************************************************************
+
+
+
+
+[Course Structure Quiz, Problem 1]
+- Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
+
+
+
+
+
+
+
+[Course Structure Quiz, Problem 2]
+- Question (ilankham−stat6250): Is the requirement to complete 8 of 10 forum posts to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
+- Answer (ilankham−stat6250): Both; however, students are encouraged to complete all assignments as written, even if they have no impact on their course grade.
+
+
+
+[Course Structure Quiz, Problem 3]
+- Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
+
+Answer (aguenane-stat6250): it to accommodate students enrolling in the course late.
+
+
+
+[Course Structure Quiz, Problem 4]
+- Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involve comments on code in GitHub, meetings with the instructor, or both?
+- Answer (ilankham−stat6250): Both; Code Reviews will involve 1:1 meetings with the instructor held through Google Hangouts, during which project code will discussed and commented.
+
+
+
+[Course Structure Quiz, Problem 5]
+- Question (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
+- Answer (ilankham−stat6250): The best way to prepare for the Final Exam is to work through every assigned Weekly Quiz Problem and to develop an understanding of all concepts involved to the point that the problems can be thoroughly answered without consulting reference materials.
+
+
+
+
+[Course Structure Quiz, Problem 6]
+- Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
+
+
+
+[Course Structure Quiz, Problem 7]
+- Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
+Answer (aguenane-stat6250):i think is both , to encourage student resubmission of incomplete assignmentsand and to to focus on iteratively creating projects that can be added to work-sample portfolios
+
+
+[Course Structure Quiz, Problem 8]
+- Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
+Answer (aguenane-stat6250): i belive to to reassure students that everyone makes mistakes and be fair with students 
+
+
+[Course Structure Quiz, Problem 9]
+- Question (ilankham−stat6250): Instead of a carrier pigeon, what about an unladen swallow?
+- Answer (ilankham−stat6250): An African swallow maybe, but not a European swallow.
+
+
+
+[Course Structure Quiz, Problem 10]
+- Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
+
+
+
+[hello-world Week 1 SAS Recipe]
+- Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
+
+
+
+[fizz-buzz Week 1 SAS Recipe]
+- Question (ilankham−stat6250): Is the mod function at all related to how clocks work, with hours counting from 1 to 12, and then starting back at 1 again?
+
+[ Quiz, Problem 1]
+
+
+Answer (aguenane-stat6250): You can change the username on the account or you can change the account's email address which allows you to create a new account, after that ,you have a GitHub account connected  with class  STAT 6250.
+
+[Quiz, Problem 2]
+
+Question (aguenane−stat6250): What is the benefit of using a news aggregator service like feedly.com to look for recent articles relating to SAS?
+
+Answer (aguenane-stat6250): Using a news aggregator service lets you look at recent article posts from all of the sources that you want
+
+[ Quiz, Problem 3]
+
+Question (aguenane−stat6250): When you submit your Weekly quiz, will the Professor automatically merge your pull request? 
+
+[Quiz, Problem 4]
+
+Question (aguenane−stat6250): What are the goals of the two team projects (besides getting good grades on them)?
+
+Answer (aguenane-stat6250): To collaboratively work toward creative solutions and adding value to each team-member's work-sample portfolio. If your code doesn't work, someone else can take a look with fresh eyes and see if they can come up with a solution. 
+
+[ Quiz, Problem 5]
+
+Question (aguenane−stat6250): Which chapters do you need to study out of the course textbook for the final exam and what should you focus on?
+
+[ Quiz, Problem 6]
+
+Question (aguenane−stat6250): How can you use the five professional practices to get more out of this class than just a letter grade? Basically, what can they teach you outside of the classroom?
+
+[ Quiz, Problem 7]
+
+Question (aguenane−stat6250): If you find yourself not meeting assignment expectations or deadlines, what can you do so that you can succeed in this course?
+
+[Quiz, Problem 8]
+
+Question (aguenane−stat6250): What is the benefit of continuing to contribute to the Course Questions Wiki when preparing for the final exam?
+
+Answer (aguenane-stat6250): Asking and answering substantive questions helps you understand and remember important course concepts, which will help you study for the final exam.
+
+[ Quiz, Problem 9]
+
+Question (aguenane−stat6250): Why is sending a message to the Professor through Slack generally is the best  method of communication?
+
+[ Quiz, Problem 10]
+
+Question (aguenane−stat6250): Why should you check all of the course  daily? 
+
+[ Quiz, Problem 11]
+
+Question (aguenane−stat6250): What is the benefit of adding  comments  on your code when debugging?
+
+
