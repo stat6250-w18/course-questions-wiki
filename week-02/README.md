@@ -38,6 +38,7 @@ Question (dfei−stat6250): How many types of variable in the data set?
 [Course Textbook Chapter 1, Problem 4]
 
 Question (dfei−stat6250): what does numberic character mean?
+
 Answer (dfei−stat6250): A numeric character reference (NCR) is a common markup construct used in SGML and SGML-derived markup languages such as HTML and XML. It consists of a short sequence of characters that, in turn, represents a single character.
 
 
@@ -45,6 +46,7 @@ Answer (dfei−stat6250): A numeric character reference (NCR) is a common markup
 [Course Textbook Chapter 1, Problem 5]
 
 Question (dfei−stat6250): what are the variable name rules?
+
 Answer (dfei−stat6250): Variable name rules are as follows: SAS variable names can be up to 32 characters in length. The first character must begin with an English letter or an underscore. Subsequent characters can be English letters, numeric digits, or underscores.
 
 
@@ -52,6 +54,7 @@ Answer (dfei−stat6250): Variable name rules are as follows: SAS variable names
 [Course Textbook Chapter 1, Problem 8]
 
 Question (dfei−stat6250): In SAS, what is the default length of a numeric variable?
+
 Answer (dfei−stat6250): In SAS, the default length of a numeric variable is 8 bytes.
 
 
