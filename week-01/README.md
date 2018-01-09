@@ -18,18 +18,21 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 1]
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
-Answer (tbishaw-stat6250):I beleive this is common abbreviation.
+- Answer (tbishaw-stat6250):"Repository" as "Repo" is a common abbreviation. 
 
 
 [Course Structure Quiz, Problem 2]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 forum posts to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
 - Answer (ilankham−stat6250): Both; however, students are encouraged to complete all assignments as written, even if they have no impact on their course grade.
 
-Question (tbishaw-stat6250): How have students in the past that had little to no experience in SAS been able to adjust to this course?
+
+- Question (tbishaw-stat6250): How have students in the past that had little to no experience in SAS been able to adjust to this course?
+- Answer (tbishaw-stat6250): The more practice you get in SAS the better you will become. Just take your time and finish all the given homework and assignments which will help with your development of knowledge in this class. 
+
 
 [Course Structure Quiz, Problem 3]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
-Answer (tbishaw-stat6250): It is to accommodate students enrolled in the course late and give others a chance to improve their performance in the course.  
+- Answer (tbishaw-stat6250): It is to accommodate students enrolled in the course late and give others a chance to improve their performance in the course.  
 
 
 [Course Structure Quiz, Problem 4]
@@ -37,45 +40,44 @@ Answer (tbishaw-stat6250): It is to accommodate students enrolled in the course 
 - Answer (ilankham−stat6250): Both; Code Reviews will involve 1:1 meetings with the instructor held through Google Hangouts, during which project code will discussed and commented.
 
 
-
 [Course Structure Quiz, Problem 5]
 - Question (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
 - Answer (ilankham−stat6250): The best way to prepare for the Final Exam is to work through every assigned Weekly Quiz Problem and to develop an understanding of all concepts involved to the point that the problems can be thoroughly answered without consulting reference materials.
 
 
-
 [Course Structure Quiz, Problem 6]
 - Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
-Answer (tbishaw-stat6250): It is realted to the common employee rating scale, and it will help us become familiar with the level of work expected in the realworld.  
+- Answer (tbishaw-stat6250): It is realted to the common employee rating scale, and it will help us become familiar with the level of work expected in the realworld.  
 
 
 [Course Structure Quiz, Problem 7]
 - Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
-Answer (Bishaw-stat6250): This is to make sure that students actually understand what they are doing and to encourage students to give their best effort towards all the projects and assignments in this class. 
+- Answer (tbishaw-stat6250): This is to make sure that students actually understand what they are doing and to encourage students to give their best effort towards all the projects and assignments in this class. 
 
 
 [Course Structure Quiz, Problem 8]
 - Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
+- Answer (ilankham−stat6250): Extra credit is given to promote student and teaching accountablity. 
 
-Question (tbishaw-stat6250): How often is extra credit given? And is there extra credit in form of extra assignments that we can submit for this class?
 
 [Course Structure Quiz, Problem 9]
 - Question (ilankham−stat6250): Instead of a carrier pigeon, what about an unladen swallow?
 - Answer (ilankham−stat6250): An African swallow maybe, but not a European swallow.
-
-
+-Question (tbishaw-stat6250): When you are perfroming a 'fork' in Github, what is this action accomplishing?
 
 [Course Structure Quiz, Problem 10]
 - Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
-
+- Answer (tbishaw-stat6250): To check GitHub daily means to acess the class Github organizaiton daily and check on the status of the repos an make necessar adjustments. 
 
 
 [hello-world Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
 
-Question (tbishaw-stat6250): Are there any other platforms you would recommend to SAS beginners to help them get more familiar with the platform?
+- Question (tbishaw-stat6250): Are there any other platforms you would recommend to SAS beginners to help them get more familiar with the platform?
 
 [fizz-buzz Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is the mod function at all related to how clocks work, with hours counting from 1 to 12, and then starting back at 1 again?
+
+
 
 
