@@ -48,7 +48,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Structure Quiz, Problem 8]
-- *Question* (akrishnamurthy−stat6250): Do I have any option to earn extra credits ? If yes, briefly state the options and why does the instructor encourage contribution even after week 10 quiz?
+- *Question* (akrishnamurthy−stat6250): What are the options to earn extra credits and why does the instructor encourage contribution even after week 10 quiz?
 
 
 [Course Structure Quiz, Problem 9]
@@ -60,7 +60,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [hello-world Week 1 SAS Recipe]
-- *Question* (akrishnamurthy−stat6250): Breifly explain the skeleton of a SAS program with explanation of the steps involved.
+- *Question* (akrishnamurthy−stat6250): How is a SAS program defined and what are the steps involved ?
 
 
 [fizz-buzz Week 1 SAS Recipe]
