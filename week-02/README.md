@@ -55,7 +55,7 @@ Answer (dfei−stat6250): Variable name rules are as follows: SAS variable names
 
 Question (dfei−stat6250): In SAS, what is the default length of a numeric variable?
 
-Answer (dfei−stat6250): In SAS, the default length of a numeric variable is 8 bytes.
+Answer (dfei−stat6250): In SAS, the default length of a numeric variable is 8 bytes in all.
 
 
 
