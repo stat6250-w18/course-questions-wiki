@@ -18,49 +18,65 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 1, Problem 1]
+- Question (aamiri2-stat6250): Based on the table given in the textbook, what type of variable is age?
+- Answer (aamiri2-stat6250): Age is a numeric variable. This type contains only numeric values. 
 
 
 
 [Course Textbook Chapter 1, Problem 2]
+- Question (aamiri2-stat6250): From the example code, why is data.users combined with a period in between? For what reasons are these specific files used for?
 
 
 
 [Course Textbook Chapter 1, Problem 3]
+- Question (aamiri2-stat6250): In the given table there is a missing value in AcctNum 2451_2 for Gender, how common is this and what can we do to improve our dataset?
 
 
 
 [Course Textbook Chapter 1, Problem 4]
+- Question (aamiri2-stat6250): What type of variable is the variable Brand in the given table?
+- Answer (aamiri2-stat6250): The variable Brand is a character variable. This is commonly a Name such as ‘Brand’ and can contain any values.
 
 
 
 [Course Textbook Chapter 1, Problem 5]
+- Question (aamiri2-stat6250): What are some of the data rules associated with SAS variable names?
+- Answer (aamiri2-stat6250): A few of the rules for SAS variable names are that is can only be 1 to 32 characters long. It must begin with a letter between A-Z or an underscore and can continue afterwards with any combination of letters, numbers, or underscores.
 
 
 
 [Course Textbook Chapter 1, Problem 8]
+- Question (aamiri2-stat6250): How can you format the maximum width to have a width of 3 including 2 decimals places for the variable Balance?
 
 
 
 [Course Textbook Chapter 2, Problem 3]
+- Question (aamiri2-stat6250): What is the correct method of using the YEARCUTOFF= option with the date of 02march1955? What would be it’s time span?
 
 
 
 [Course Textbook Chapter 2, Problem 7]
+- Question (aamiri2-stat6250): What is the purpose of referencing a SAS file if it is already in the library?
 
 
 
 [Course Textbook Chapter 2, Problem 8]
+- Question (aamiri2-stat6250): What is the reason for using YEARCUTOFF= option and what are the benefits?
+- Answer (aamiri2-stat6250): This option helps specify which 100-year span is used to interpret two-digit year values. This usually needs to be specified such as YEARCUTOFF=1940 so the 100 year span dates would be 1940 – 2039
 
 
 
 [Course Textbook Chapter 2, Problem 9]
+- Question (aamiri2-stat6250): The textbook explains that once you end your SAS session then SAS no longer has access to the assigned libref files in the library. Is there any other way of accessing the contents of the libref file again?
 
 
 
 [basic_recipe_for_loading_data_from_remote_Excel_file Week 2 Recipe]
+- Question (aamiri2-stat6250): How can we transform an Excel file into a URL using Github? How long does this process take?
 
 
 
 [bonus_advanced_recipe_for_loading_data_from_remote_Excel_file Week 2 Recipe]
+- Question (aamiri2-stat6250):  Which character is used for the Macro command? How many different Macro commands are there?
 
 
