@@ -43,7 +43,7 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - *Question* (aacharya4−stat6250): If SAS, what is the criteria for a valid variable name?
 - *Answer* (aacharya4−stat6250): In SAS, for a variable name to valid, the following rules should be followed:
 1. The length of the variable name should not exceed 32 characters.
-2. Variable name has to start with A-Z(both upper and lower cases permitted) or an Underscore(_) followed by any combination of letters, numbers or Underscore(_).
+2. Variable name has to start with A-Z(both upper and lower cases permitted) or an Underscore followed by any combination of letters, numbers or Underscore.
 
 [Course Textbook Chapter 1, Problem 8]
 - *Question* (aacharya4−stat6250): In SAS, what are the properties of numeric variable?
@@ -59,9 +59,8 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 
 [Course Textbook Chapter 2, Problem 7]
 - *Question* (aacharya4−stat6250): What is the explanation of the SAS code given below :
-libname sales 'c:\Users\Name\sasuser';
-data sales.totalsales;
-run;
+![code_2](https://user-images.githubusercontent.com/35093776/34758544-cc757cb8-f58b-11e7-8c0f-dcd0b9d8a643.png)
+
 - *Answer* (aacharya4−stat6250): The first line of the code creates a new permanent SAS library called "sales". 
 The LIBNAME statement defines libref sales and gives SAS the physical location of the SAS library "sales".
 The second line of the code creates a new dataset called "totalsales". This dataset is permanently stored in the SAS library "sales".
