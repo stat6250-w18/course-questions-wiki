@@ -1,66 +1,67 @@
 
 ## Week 2 Quiz Questions and Answers
 
-In order to prepare your Week 2 Quiz submission, please edit ***this*** document to provide substantive questions for each Quiz Problem and SAS Recipe listed below, as well as answers to at least three questions raised.
-
-All edits should conform to GitHub Markdown specifications (https://guides.github.com/features/mastering-markdown/) and should be committed to a branch named "week-2" in your fork of this repo. Then, after all edits have been made/committed, your Week 2 Quiz should be submitted by initiating a pull request using
-
-- the master branch of the stat6250/course_questions_wiki repo as the base fork and
-
-- the week-2 branch of your version of the repo as the head fork.
-
-The instructor will then review the pull request and make comments should further revision be needed. Then, after the contents of the pull request have been finalized without any merge conflicts, the instructor will merge the pull request.
-
-
-
-********************************************************************************
-
-
-
 [Course Textbook Chapter 1, Problem 1]
 
+Question(rlopez31-stat6250): What does it mean to have SAS statements as free-format?
 
+Answer(rlopez31-stat6250): Free-format means that they can bein and end anywhere on a line, that one statement can continue over several lines, and several statements can be on the same line.
 
 [Course Textbook Chapter 1, Problem 2]
 
+Question(rlopez31-stat6250): In most situations, text that are enclosed in quotation marks ar case sensitive. Can one only specify SAS statements in uppercase, lowercase, or both?
 
+Answer(rlopez31-stat6250): SAS statements can be specified with both.
 
 [Course Textbook Chapter 1, Problem 3]
 
+Question(rlopez31-stat6250): The RUN statement is not always required between steps, but why is it highly suggested?
 
+Answer(rlopez31-stat6250): The RUN statement makes the SAS program easier to read and debug while also making the SAS log easier to read.
 
 [Course Textbook Chapter 1, Problem 4]
 
-
+Question(rlopez31-stat6250): What does the SAS programs usually invoke that create ouput in the form of a report?
 
 [Course Textbook Chapter 1, Problem 5]
 
+Question(rlopez31-stat6250): In the DATA step Output Example, What does the DATA step produce and message is produced in the SAS log?
 
+data sasuser.admit2;
+set sasuser.admit;
+where age>39;
+run;
 
 [Course Textbook Chapter 1, Problem 8]
 
-
+Question(rlopez31-stat6250): How can one refereance a permanent SAS data set in the SAS programs?
 
 [Course Textbook Chapter 2, Problem 3]
 
+Question(rlopez31-stat6250): What statement is used to define libraries in SAS?
 
+Answer(rlopez31-stat6250): You can store the LIBNAME statement, which can be done with any SAS program.
 
 [Course Textbook Chapter 2, Problem 7]
 
-
+Question(rlopez31-stat6250): Interface library engines support read-only access to what three types of files?
 
 [Course Textbook Chapter 2, Problem 8]
 
+Question(rlopez31-stat6250): Using the Programming Workspace explained that after you have assigned a libref, what can you view?
 
+Answer(rlopez31-stat6250): One can view details about the library that the libref references, the library's contents, and contents and properties of files in the library.
 
 [Course Textbook Chapter 2, Problem 9]
 
+Question(rlopez31-stat6250):Alternatively, how can you use the CONTENTS procedure to create SAS output that describes either of the following?
 
+Answer(rlopez31-stat6250):Can use the contents of a library and the descriptor information for an individual SAS data set.
 
 [basic_recipe_for_loading_data_from_remote_Excel_file Week 2 Recipe]
 
-
+Question(rlopez31-stat6250): How can one import data from excel files and what various methods can be used?
 
 [bonus_advanced_recipe_for_loading_data_from_remote_Excel_file Week 2 Recipe]
 
-
+Question(rlopez31-stat6250): Macro variables are used for what following reason?
