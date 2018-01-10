@@ -1,4 +1,3 @@
-
 ## Week 2 Quiz Questions and Answers
 
 In order to prepare your Week 2 Quiz submission, please edit ***this*** document to provide substantive questions for each Quiz Problem and SAS Recipe listed below, as well as answers to at least three questions raised.
@@ -26,7 +25,8 @@ What do you do when you want more than one heading category?
 [Course Textbook Chapter 1, Problem 2]
 - Question (mresendiz3-stat6250): What other steps outside of DATA and PROC can 
 execute discrete program sections/steps?
-
+- Answer (mresendiz3-stat6250): There are many other functions that can execute a
+discrete program sections/steps. There are descriptions in the TB glossary.
 
 [Course Textbook Chapter 1, Problem 3]
 - Question (mresendiz3-stat6250): Does SAS read the first couple of numbers at 
@@ -38,12 +38,13 @@ and then some letters at the end making it a character variable?
 [Course Textbook Chapter 1, Problem 4]
 - Question (mresendiz3-stat6250): Does the period hold a numeric value in itself 
 to indicate a null numeric value? What does it hold if it doesn't hold a 0/1.
-
+- Answer (mresendiz3-stat6250): A period is considered a radix point and has a value less than one. 
 
 [Course Textbook Chapter 1, Problem 5]
 - Question (mresendiz3-stat6250): If SAS is internationally used are different
 alphabets used to make variable names or is English standard across all programs?
-
+- Answer (mresendiz3-stat6250): Yes, in fact SAS has its own language-specific files 
+and varies between languages. 
 
 [Course Textbook Chapter 1, Problem 8]
 - Question (mresendiz3-stat6250): What if numeric variables exceed 8 bytes? Are 
