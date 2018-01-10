@@ -32,6 +32,7 @@ set sasuser.admit;
 where age>39;
 run;
 
+
 [Course Textbook Chapter 1, Problem 8]
 
 Question(rlopez31-stat6250): How can one refereance a permanent SAS data set in the SAS programs?
