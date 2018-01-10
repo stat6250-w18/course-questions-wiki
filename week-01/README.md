@@ -35,6 +35,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (xyin6-stat6250): How many possible achievenments in total can we accomplish towarding final grades? 
 - Answer (xyin6-stat6250): There are five achievements in total: Reading for Depth; Team-based Problem Solving; Reading for Breadth; Building General Knowledge; Initial Setup.
 
+- Question (lceballos-stat6250): Can we use Slack in the browser instead of installing it?
 
 
 [Course Structure Quiz, Problem 2]
@@ -58,7 +59,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (xyin6-stat6250): What are the essential components to be clearly labeled when we submitting the weekly forum post?
 - Answer (xyin6-stat6250): There are four components in each weekly forum post we submit: Title, Complete URL of the post, Synopsis/brief summary, and Explanation of article choice.
 
-
+- Question (lceballos-stat6250): Can we use articles that are about Python or R instead of SAS?
 
 [Course Structure Quiz, Problem 3]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
@@ -81,6 +82,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (xyin6-stat6250): Are the recipe questions supplemental to the weekly structure quiz questions or are they equally important?
 
 
+- Question (lceballos-stat6250): If multiple students submit the same questions on github, who gets credit?
+
 
 [Course Structure Quiz, Problem 4]
 - Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involve comments on code in GitHub, meetings with the instructor, or both?
@@ -99,7 +102,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7-stat6250): What are some of the most common mistake during SAS code writing?
 - Question (xyin6-stat6250): Do we work on our own for team based projects or we have to form actual teams?
 
-
+- Question (lceballos-stat6250): Are we assigned to teams or are teams self-selected?
 
 [Course Structure Quiz, Problem 5]
 - Question (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
@@ -119,7 +122,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (xyin6-stat6250): Does 70% or more final grade means we got the Building General Knowledge Achievement? Or are there other contents in this achievement besides final?
 
 
-
+- Question (lceballos-stat6250): What is the minimum score to pass the final exam?
+- Answer (lceballos-stat6250): 70%.
 [Course Structure Quiz, Problem 6]
 - Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
 - Question (jbettonville-stat6250): Based upon past offerings of this course, which, if any, of these achievements are students most likely to fail to earn?
@@ -135,6 +139,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7-stat6250): Based on your past experience, what is the average grade for students of this class?
 - Question (xyin6-stat6250): If a student earns A in this course, does he have the ability to pass the base SAS certification exam?
 
+
+- Question (lceballos-stat6250): What is the hardest achievement to earn based on prevous times this class has been taught?
 
 
 [Course Structure Quiz, Problem 7]
@@ -152,6 +158,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (xyin6-stat6250): Will reviesed submission of the quiz/project affect the final outcome of achievements?
 
 
+- Question (lceballos-stat6250): How many questions do we have to complete to receive credit in the weekly quizes?
 
 [Course Structure Quiz, Problem 8]
 - Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
@@ -170,6 +177,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7-stat6250): Besides catching mistakes in learning materials, what other ways are there to earn extra credits?
 - Question (xyin6-stat6250): Most of the tasks are graded by Met/revised towards final achievements, so in what format are the extra credit given, in points or ?
 
+
+- Question (lceballos-stat6250): Since we are graded on how many achievements that we get, how does extra-credit incorporated?
 
 
 [Course Structure Quiz, Problem 9]
@@ -192,6 +201,10 @@ The instructor will then review the pull request and make comments should furthe
 - Question (xyin6-stat6250): Is the 15 mins office hour held on Slack or Google Hangout?
 
 
+- Question (lceballos-stat6250): Is it possible to schedule a face-to-face appointment with the professor?
+
+
+
 
 [Course Structure Quiz, Problem 10]
 - Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
@@ -210,6 +223,9 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (who7-stat6250): There are many resources online to further understand github.  Besides the many blogs and the help section from github, there are also free online class to help people navigate github such as Udacity.
 - Question (xyin6-stat6250): Is there a way to open notifications from github? 
 
+
+- Question (lceballos-stat6250): What technology is used in this course?
+- Answer (lceballos-stat6250):CSUEB-provided email account/address, Slack, GitHub, and Blackboard site
 
 
 [hello-world Week 1 SAS Recipe]
@@ -231,10 +247,12 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7-stat6250): What would you say SAS programming language is most similar to?
 - Question (xyin6-stat6250): Is data _null_ always the start line of a new commend? What does word null represent?
 
-
+- Question (lceballos-stat6250): What types are steps are used in SAS?
+- Answer (lceballos-stat6250): DATA step and a PROC step
 
 [fizz-buzz Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is the mod function at all related to how clocks work, with hours counting from 1 to 12, and then starting back at 1 again?
+- Answer (lceballos-stat6250): The mod mod function is related to how a clock works in that there are only a fixed number of values that it could hold. There are about 8760 hours in a year so a clock works very similar to a mod function; mod(hour,12) would be the function of the clock. The 5000th hour of the year would show as 8 on the clock.
 - Question (jbettonville-stat6250): Can you recommend any other simple programming exercises for aspiring programmers to practice in multiple languages?
 - *Question* (cnguyen77-stat6250): What is the print out of numbers that are multiples of both three and five?
 - Question (ldeng11−stat6250): How many ways to do the loop in SAS?
@@ -251,3 +269,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (xyin6-stat6250): if we want to output 1 to 100 with incremented by 2, how should we set the increment amount in the command? 
 
 
+
+- Question (lceballos-stat6250): How do you do a for loop in SAS?
+- Answer (lceballos-stat6250): With the "do" command. Ie DO UNTIL, DO WHILE, DO i=1 to 100.
