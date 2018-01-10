@@ -17,60 +17,60 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Structure Quiz, Problem 1]
-- Question (Di Fei−stat6250): What's the main difference between SAS programming and R programming?
+- Question (dfei−stat6250): What's the main difference between SAS programming and R programming?
 
 
 
 [Course Structure Quiz, Problem 2]
-- Question (Di Fei−stat6250): How mang additional achevements are earned if students want to get an A in the final grade?
-- Answer (Di Fei−stat6250): Students can get an A if 4 possible achevements are earned.
+- Question (dfei−stat6250): How mang additional achevements are earned if students want to get an A in the final grade?
+- Answer (dfei−stat6250): Students can get an A if 4 possible achevements are earned.
 
 
 
 [Course Structure Quiz, Problem 3]
-- Question (Di Fei−stat6250): How many companies use SAS programming as usual in the world?
+- Question (dfei−stat6250): How many companies use SAS programming as usual in the world?
 
 
 
 [Course Structure Quiz, Problem 4]
-- Question (Di Fei−stat6250): Which softwares are required in the course?
-- Answer (Di Fei−stat6250): SAS 9.4,and Excel.
+- Question (dfei−stat6250): Which softwares are required in the course?
+- Answer (dfei−stat6250): SAS 9.4,and Excel.
 
 
 [Course Structure Quiz, Problem 5]
-- Question (Di Fei−stat6250): What date does final exam take place?
-- Answer (Di Fei−stat6250): March 17 2018 due by 11:59pm
+- Question (dfei−stat6250): What date does final exam take place?
+- Answer (dfei−stat6250): March 17 2018 due by 11:59pm
 
 
 
 [Course Structure Quiz, Problem 6]
-- Question (Di Fei−stat6250): What's the advantage of SAS programming in all programming languages?
+- Question (dfei−stat6250): What's the advantage of SAS programming in all programming languages?
 
 
 [Course Structure Quiz, Problem 7]
-- Question (Di Fei−stat6250): What's the history and development of SAS programming?
+- Question (dfei−stat6250): What's the history and development of SAS programming?
 
 
 [Course Structure Quiz, Problem 8]
-- Question (Di Fei−stat6250): Does the professor give students extra credits in the class?
+- Question (dfei−stat6250): Does the professor give students extra credits in the class?
 
 
 [Course Structure Quiz, Problem 9]
-- Question (Di Fei−stat6250): What's the text book required in the class?
-- Answer (Di Fei−stat6250): SAS Certification Prep Guide:Base Programming for SAS 9, 3rd Edition
+- Question (dfei−stat6250): What's the text book required in the class?
+- Answer (dfei−stat6250): SAS Certification Prep Guide:Base Programming for SAS 9, 3rd Edition
 
 
 
 [Course Structure Quiz, Problem 10]
-- Question (Di Fei−stat6250): What data is the due date for students to make appointments online with professor?
+- Question (dfei−stat6250): What data is the due date for students to make appointments online with professor?
 
 
 
 [hello-world Week 1 SAS Recipe]
-- Question (Di Fei−stat6250): How many types of steps is SAS programming organized and what are they?
+- Question (dfei−stat6250): How many types of steps is SAS programming organized and what are they?
 
 
 
 [fizz-buzz Week 1 SAS Recipe]
-- Question (Di Fei−stat6250): What does branching logic mean and how it works?
+- Question (dfei−stat6250): What does branching logic mean and how it works?
 
