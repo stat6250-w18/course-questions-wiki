@@ -45,7 +45,6 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (jcanfield3-stat6250): Post your greeting in the #classwide-discussion channel, and schedule a 15-minute office hour appoinment to be held by 11:59 PM on Jan 13th.
 
 
-
 [Course Structure Quiz, Problem 2]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 forum posts to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
 - Answer (ilankham−stat6250): Both; however, students are encouraged to complete all assignments as written, even if they have no impact on their course grade.
@@ -74,7 +73,6 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): How “Reading for Breadth” achievement can help students in learning analytics and SAS ? How many weekly forum posts students need to complete to earn this achievement?
 - *Answer* (aacharya4−stat6250): We need to complete at least 8 out of the 10 Weekly discussion posts to earn Reading for Breadth achievement. This helps the students to read about various topics in the world of analytics which is just not limited to SAS. Also, there are informative posts about using SAS more effectively aside from what is taught as part of the course objectives. Reading the discussion posts would improve the student’s breadth of knowledge in analytics about diverse topics.
 - *Question* (jcanfield3-stat6250): Do our chosen blogs have to include SAS code, or do articles that just refer to code ok to use?
-
 
 
 [Course Structure Quiz, Problem 3]
@@ -107,8 +105,6 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): How long does it take to feel comfortable using GitHub?
 - *Answer* (jcanfield3-stat6250): It depends on the amount of effort put into learning it.
 
-
-
 [Course Structure Quiz, Problem 4]
 - Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involve comments on code in GitHub, meetings with the instructor, or both?
 - Answer (ilankham−stat6250): Both; Code Reviews will involve 1:1 meetings with the instructor held through Google Hangouts, during which project code will discussed and commented.
@@ -132,8 +128,6 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (dfei−stat6250): SAS 9.4,and Excel.
 - *Question* (aacharya4−stat6250): What type of feedback is expected from instructor during code review? If there are any changes, will there be "revise" grade from instructor so that student can make required corrections and resubmit code?
 - *Question* (jcanfield3-stat6250): Why do we only have access to one step of a project at a time?
-
-
 
 [Course Structure Quiz, Problem 5]
 - Question (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
@@ -162,8 +156,6 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): The final exam would comprise of 65 questions to be completed in one go in a duration of 110 minutes.
 - *Question* (jcanfield3-stat6250): The final exam instructions state that the 65 questions are based on the SAS Certified Base Programmer exam, yet the Course Structure quiz gives the answer of the weekly quizzes.  Does this mean that the weekly quizzes are also based on the exam?
 
-
-
 [Course Structure Quiz, Problem 6]
 - Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
 - Answer (lsun20-stat6250): No. Like the Initial Setup achievement, it only one option, yes or no.
@@ -185,7 +177,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dfei−stat6250): What's the advantage of SAS programming in all programming languages?
 - *Question* (aacharya4−stat6250): If a student earns all 5 levels of achievement in this course, how would the students’ knowledge of SAS be evaluated as per industry standards?
 - *Question* (jcanfield3-stat6250): Is this achievement scale really parallel actual job/internship environments?
-
 
 
 [Course Structure Quiz, Problem 7]
@@ -211,8 +202,6 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): How much time would be the instructor provide the student to correct his/her assignments and resubmit the same?
 - *Question* (jcanfield3-stat6250): What is considered an incomplete submission, a non-finished or incorrect one?
 
-
-
 [Course Structure Quiz, Problem 8]
 - Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
 - Question (shatcher4−stat6250): For Project 1 Step 1, why does a SAS dataset need to contain at least 200 rows and 20 columns?
@@ -236,8 +225,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dfei−stat6250): Does the professor give students extra credits in the class?
 - *Question* (aacharya4−stat6250): How does the instructor evaluate extra credit for this course? What is the grading criteria/achievement for the extra credits?
 - *Question* (jcanfield3-stat6250): What makes extra credit useful, if everything is graded on a Met/Revise scale?
-
-
 
 [Course Structure Quiz, Problem 9]
 - Question (ilankham−stat6250): Instead of a carrier pigeon, what about an unladen swallow?
@@ -265,8 +252,6 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): Why does the instructor prefer slack for communication instead of email?
 - *Question* (jcanfield3-stat6250): Why is the Slack interface we use called a Slack team?
 
-
-
 [Course Structure Quiz, Problem 10]
 - Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
 - Answer (lsun20-stat6250): Professor will give the feedback on the GitHub. Checking it daily can help student get the feedback on time.
@@ -292,8 +277,6 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): In the past years, did students earn extra credits for contributing to projects of other students in GitHub?
 - *Question* (jcanfield3-stat6250): What as in an additional and highly useful technology for this course?
 - *Answer* (jcanfield3-stat6250): SAS 9.4
-
-
 
 [hello-world Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
@@ -335,7 +318,6 @@ In this case, everything between the “proc print” and the second “run” s
 - *Question* (jcanfield3-stat6250): What is the difference between real time and cpu time in the log outputs?
 
 
-
 [fizz-buzz Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is the mod function at all related to how clocks work, with hours counting from 1 to 12, and then starting back at 1 again?
 - Answer (lceballos-stat6250): The mod mod function is related to how a clock works in that there are only a fixed number of values that it could hold. There are about 8760 hours in a year so a clock works very similar to a mod function; mod(hour,12) would be the function of the clock. The 5000th hour of the year would show as 8 on the clock.
@@ -360,5 +342,3 @@ In this case, everything between the “proc print” and the second “run” s
 - Question (dfei−stat6250): What does branching logic mean and how it works?
 - *Question* (aacharya4−stat6250): On fizz-buzz, one of the issues mentioned with respect to software programmers is that most of them cannot write basic program code. What are the basic programming skills expected from a graduate level software programmer?
 - *Question* (jcanfield3-stat6250): Does putting an equal sign after a variable automatically print its value?
-
-
