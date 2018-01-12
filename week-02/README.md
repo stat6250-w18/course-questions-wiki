@@ -18,53 +18,53 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 1, Problem 1]
-*Question* (tbishaw-stat6250): Is the result of processing programs in SAS the same across all SAS programs?
-*Answer* (tbishaw-stat6250): The result of processing might vary across different SAS programs. For example, some SAS programs open interactive window so you can directly modify data, such as the REPORT window. 
+- *Question* (tbishaw-stat6250): Is the result of processing programs in SAS the same across all SAS programs?
+- *Answer* (tbishaw-stat6250): The result of processing might vary across different SAS programs. For example, some SAS programs open interactive window so you can directly modify data, such as the REPORT window. 
 
 
 [Course Textbook Chapter 1, Problem 2]
-*Question* (tbishaw-stat6250): Are there specific rules we need to follow in the file name poertion of a SAS data set name?
-*Answer* (tbishaw-stat6250): There are specific rules that apply in a SAS data set names and variable names. These rules include: can be between 1 to 32 characters long, it must begin with a letter (uppercase or lowercase) or an underscore(_) sign, and the following sequence can continue with any combination of numbers, letters, or underscores.  
+- *Question* (tbishaw-stat6250): Are there specific rules we need to follow in the file name poertion of a SAS data set name?
+- *Answer* (tbishaw-stat6250): There are specific rules that apply in a SAS data set names and variable names. These rules include: can be between 1 to 32 characters long, it must begin with a letter (uppercase or lowercase) or an underscore(_) sign, and the following sequence can continue with any combination of numbers, letters, or underscores.  
 
 
 [Course Textbook Chapter 1, Problem 3]
-*Question* (tbishaw-stat6250): How does a format (variable attributes) affect the way data values are written? And do SAS softwares offer variety of formats? If so what are those formats?
+- *Question* (tbishaw-stat6250): How does a format (variable attributes) affect the way data values are written? And do SAS softwares offer variety of formats? If so what are those formats?
 
 [Course Textbook Chapter 1, Problem 4]
-*Question* (tbishaw-stat6250):How are steps executed in SAS tracked and logged? And is the result of processing the same across different SAS programs?
-*Answer* (tbishaw-stat6250): Each time a step is executed, SAS generates a log to keep track of the processing activities and the result of the processing. And the result of processing varies across different SAS programs. While some SAS programs open an interactive window that creates output in the form of report other programs perform tasks such as sorting, wich have no visible results other than messages in the log. 
+- *Question* (tbishaw-stat6250):How are steps executed in SAS tracked and logged? And is the result of processing the same across different SAS programs?
+- *Answer* (tbishaw-stat6250): Each time a step is executed, SAS generates a log to keep track of the processing activities and the result of the processing. And the result of processing varies across different SAS programs. While some SAS programs open an interactive window that creates output in the form of report other programs perform tasks such as sorting, wich have no visible results other than messages in the log. 
 
 
 [Course Textbook Chapter 1, Problem 5]
-*Question* (tbishaw-stat6250): What is a major difference between referencing a temporry SAS file versus referencing a permanent SAS file?
+- *Question* (tbishaw-stat6250): What is a major difference between referencing a temporry SAS file versus referencing a permanent SAS file?
 
 
 [Course Textbook Chapter 1, Problem 8]
-*Question* (tbishaw-stat6250): What is the difference between the two parts a SAS data set, a descriptor portion and the data portion?
+- *Question* (tbishaw-stat6250): What is the difference between the two parts a SAS data set, a descriptor portion and the data portion?
 
 
 [Course Textbook Chapter 2, Problem 3]
-*Question* (tbishaw-stat6250): When setting up a SAS session, what is the first step in the process? Are there other ways to assign library names?
+- *Question* (tbishaw-stat6250): When setting up a SAS session, what is the first step in the process? Are there other ways to assign library names?
 
 
 [Course Textbook Chapter 2, Problem 7]
-*Question* (tbishaw-stat6250): If you are using other operating systems other than windows do you expect the platform-specific names and locations to be the same?
-*Answer* (tbishaw-stat6250): If you are running SAS within other operating systems other than windows the platform-specific names and locations will look different. Otherwise, SAS programming code will be the same across operating sytems and environments. 
+- *Question* (tbishaw-stat6250): If you are using other operating systems other than windows do you expect the platform-specific names and locations to be the same?
+- *Answer* (tbishaw-stat6250): If you are running SAS within other operating systems other than windows the platform-specific names and locations will look different. Otherwise, SAS programming code will be the same across operating sytems and environments. 
 
 
 [Course Textbook Chapter 2, Problem 8]
-*Question* (tbishaw-stat6250): When you end your SAS session or delete a libref, will you have another way of accessing the files in the library?
+- *Question* (tbishaw-stat6250): When you end your SAS session or delete a libref, will you have another way of accessing the files in the library?
 
 
 [Course Textbook Chapter 2, Problem 9]
-*Question* (tbishaw-stat6250): What are the capablities of a PROC DATASETS in terms of what tasks it allows users to perform?
+- *Question* (tbishaw-stat6250): What are the capablities of a PROC DATASETS in terms of what tasks it allows users to perform?
 
 
 [basic_recipe_for_loading_data_from_remote_Excel_file Week 2 Recipe]
-*Question* (tbishaw-stat6250): Is the recipe code capabale of reading through the data across all the excel sheets or do we need to specify which ones to look at?
+- *Question* (tbishaw-stat6250): Is the recipe code capabale of reading through the data across all the excel sheets or do we need to specify which ones to look at?
 
 
 [bonus_advanced_recipe_for_loading_data_from_remote_Excel_file Week 2 Recipe]
-*Question* (tbishaw-stat6250): How is a macro variable used? And is there a limit to how many time we can refer to a macro variable in a SAS program?
+- *Question* (tbishaw-stat6250): How is a macro variable used? And is there a limit to how many time we can refer to a macro variable in a SAS program?
 
 
