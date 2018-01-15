@@ -62,7 +62,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [basic_recipe_for_loading_data_from_remote_Excel_file Week 2 Recipe]
 - Question (kamirneni-stat6250):How to import data from excel file using FTP?
-- Answer (kamirneni-stat6250):Just mention link to the FTP with user, directory, host, password. 
+- Answer (kamirneni-stat6250):Just mention the link to the FTP with user, directory, host, password. 
 
 
 [bonus_advanced_recipe_for_loading_data_from_remote_Excel_file Week 2 Recipe]
