@@ -50,6 +50,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19−stat6250): How can we view a summary or overview of a dataset that includes the number of observations or the number of variables? 
 - *Answer* (cli19−stat6250): The PROC CONTENTS procedure in SAS can allow us a general overview of what we can expect to see in our dataset specified.
 - Question (dfei−stat6250): What does observation mean in programming?
+- *Question* (aguenane−stat6250): In the given data set, what is considered an observation and what is considered a variable?
+- *Answer* (aguenane-stat6250): An observation is a single row (Picker, M, 32) and a variable is a single column the one we have .
 
 
 
@@ -86,6 +88,8 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - *Question* (jbettonville-stat6250): Most programming languages have specific style standards when writing code that describe proper indentation, control structures, and use of whitespace; are there any common formatting conventions we should follow when creating SAS recipes?
 - *Question* (cli19−stat6250): Can procedures be combined to decrease the number of steps to be processed?
 - Question (dfei−stat6250): How to count program steps in SAS?
+- *Question* (aguenane−stat6250): When we run the given program, is it ok for  some of the lines in the code are indented?
+- *Answer* (aguenane-stat6250): Yes, SAS statements are free-format.
 
 
 
@@ -120,6 +124,8 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - *Question* (cli19−stat6250): What happens when a variable that contains a mix of character/numeric observations is formatted as numeric?
 - *Answer* (cli19−stat6250): The variable assumes null values for observations that are not completely numeric.
 - Question (dfei−stat6250): How many types of variable in the data set?
+- *Question* (aguenane−stat6250): Is it valid to change the variable name Brand to 10Brand? 
+- *Answer* (aguenane-stat6250): No, each variable name need  to begin with a letter or an underscore.
 
 
 
@@ -153,7 +159,7 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - *Question* (cli19−stat6250): Why are missing values different for character (' ') and numeric (.) variables?
 - Question (dfei−stat6250): what does numberic character mean?
 - Answer (dfei−stat6250): A numeric character reference (NCR) is a common markup construct used in SGML and SGML-derived markup languages such as HTML and XML. It consists of a short sequence of characters that, in turn, represents a single character.
-
+- *Question* (aguenane−stat6250): Can variable names have  a space?
 
 
 [Course Textbook Chapter 1, Problem 5]
@@ -191,7 +197,7 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - *Answer* (cli19−stat6250): No, SAS is not a case-sensitive program (e.g. variable Policy, POLICY, PolIcY, etc. are the same).
 - Question (dfei−stat6250): what are the variable name rules?
 - Answer (dfei−stat6250): Variable name rules are as follows: SAS variable names can be up to 32 characters in length. The first character must begin with an English letter or an underscore. Subsequent characters can be English letters, numeric digits, or underscores.
-  
+  - *Question* (aguenane−stat6250): Why in SAS does the variable Name have a longer length than Policy or Total?
 
 
 [Course Textbook Chapter 1, Problem 8]
@@ -228,7 +234,7 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - *Question* (cli19−stat6250): When is it appropriate to change variable length? Does SAS automatically adjust for where observations in a dataset have length greater than 8 bytes?
 - Question (dfei−stat6250): In SAS, what is the default length of a numeric variable?
 - Answer (dfei−stat6250): In SAS, the default length of a numeric variable is 8 bytes.
-
+- *Question* (aguenane−stat6250): What date would 4/4/17 be interpreted as if YEARCUTOFF = 2017?
 
 
 [Course Textbook Chapter 2, Problem 3]
@@ -260,6 +266,8 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - *Question* (jbettonville-stat6250): In several instances within SAS, it appears that the default format for writing dates is *DATE9.* (e.g. 08JAN2018); is there an historical reason behind the prevalence of this date format in SAS instead of format that could be more easily sorted, such as YYYYMMDD (e.g. 20180108)?
 - *Question* (cli19−stat6250): What are the benefits to specifying YEARCUTOFF?
 - Question (dfei−stat6250): How to setup data value appropriately?
+- *Question* (aguenane−stat6250): What are the steps to reference a permanent SAS file?
+
 
 
 
@@ -292,7 +300,7 @@ The second line of the code creates a new dataset called "totalsales". This data
 - *Question* (jbettonville-stat6250): What is the reasoning behind limiting the length of a libref to only eight characters?
 - *Question* (cli19−stat6250): Is it possible to reference multiple SAS data sets in a single data step? If so, how?
 - Question (dfei−stat6250): How to store dataset into SAS libraries?
-
+- *Question* (aguenane−stat6250): Is the value for YEARCUTOFF the first year of the 100-year span or the last year?
 
 
 [Course Textbook Chapter 2, Problem 8]
@@ -318,7 +326,7 @@ The second line of the code creates a new dataset called "totalsales". This data
 - *Question* (jbettonville-stat6250): As we approach the year 2020, has there been any discussion within the SAS community about when it would be appropriate to update the default YEARCUTOFF= option from 1920 to another year?
 - *Question* (cli19−stat6250): Does the YEARCUTOFF option have additional options to incease the time span to over 100 years?
 - Question (dfei−stat6250): How to interpret two-digit year values?
-
+- *Question* (aguenane−stat6250): Is the value for YEARCUTOFF the first year of the 100-year span or the last year?
 
 
 [Course Textbook Chapter 2, Problem 9]
@@ -348,7 +356,7 @@ command to delete the libref.
 - *Question* (jbettonville-stat6250): In some programming environments, it is possible to save the current session or workspace, including all variables and structures that are currently in use, so that work can be resumed at a later time and/or in another location with the same conditions; is there a way to do this within SAS, and if so, can it be automated?
 - *Question* (cli19−stat6250): How can we view the working directory or file path we would like our librefs to point to?
 - Question (dfei−stat6250): Can librefs last from more than one SAS session to another?
-
+- *Question* (aguenane−stat6250): What is the default libref for temporary SAS files?
 
 
 [basic_recipe_for_loading_data_from_remote_Excel_file Week 2 Recipe]
@@ -376,6 +384,8 @@ command to delete the libref.
 - *Answer* (jbettonville-stat6250): Regarding SAS's ability to read other file formats, this is discussed in the SAS Certification Prep Guide in chapter 2; page 50 has a listing of the various file formats that are supported by engines within SAS.
 - *Question* (cli19−stat6250): How does SAS know how to format data imported from external files?
 - Question (dfei−stat6250): What will happen if I forget to clear tempfile? Will it disappear after I restart my computer?
+- *Question* (aguenane-stat6250): How can we use mico and macros on SAS?
+
 
 
 
@@ -404,5 +414,4 @@ command to delete the libref.
 - *Question* (jbettonville-stat6250): Can macros be saved into external packages that can then be loaded and called without including the original SAS recipe in the text of the workspace?
 - *Question* (cli19−stat6250): Why do only some macro functions in SAS require a "%" to invoke a function? And when do built-in SAS functions need to be invoked with %sysfunc()?
 - Question (dfei−stat6250): There are two characters,"ampersand","percent" signs introducing in the video, anyother common characters should I know in SAS?
-
-
+- *Question* (aguenane−stat6250): What does it mean to assign TEMP to the file name tempfile?
