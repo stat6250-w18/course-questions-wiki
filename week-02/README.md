@@ -33,7 +33,6 @@ The instructor will then review the pull request and make comments should furthe
 *Question* (sbagdi-stat6250): What constitutes a numeric variable?
 *Answer* (sbagdi-stat6250):The numerals from 0-9, operators(‘+’, ‘-‘), ‘.’ ,and e (scientific notation).
 
-
 [Course Textbook Chapter 1, Problem 4]
 *Question* (sbagdi-stat6250): How to represent a missing value for a character type variable?
 *Answer* (sbagdi-stat6250): Missing value of character variable is represented by a “blank”.
