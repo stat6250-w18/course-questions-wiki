@@ -45,7 +45,7 @@ The instructor will then review the pull request and make comments should furthe
 3.	can continue with any combination of numbers, letters, or underscores.
 
 
-[Course Textbook Chapter 1, Problem 8] 
+
 *Question* (sbagdi-stat6250): What is the maximum memory allocation for a character variable?
 *Answer* (sbagdi-stat6250):The character variables can take up to 32,767 bytes, which is equivalent to 4000 characters. 
 
@@ -71,6 +71,5 @@ The above statement creates a library called test on a windows machine with the 
 *Question* (sbagdi-stat6250): What does the ‘RUN’ statement does apart from terminating proc http step?
 *Answer* (sbagdi-stat6250): The RUN statement causes the file to be loaded from the specified website. 
 
-[bonus_advanced_recipe_for_loading_data_from_remote_Excel_file Week 2 Recipe] 
 *Question* (sbagdi-stat6250): What is the character ‘&’ used for in SAS? Also, what does ‘%mend’ does?
 *Answer* (sbagdi-stat6250): The & character is used to reference a macro variable. And %mend is used to end the creation of the macro.
