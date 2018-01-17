@@ -50,7 +50,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Structure Quiz, Problem 7]
-- Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
+- Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating project that can be added to work-sample portfolios?
 
 - Answer (kamirneni−stat6250) : The intention is to make the students learn what they missed out by not completing the assignment. As an added bonus,it encourages students to focus on iteratively creating projects that can be added to work-sample portfolios.
 
