@@ -60,6 +60,11 @@ The instructor will then review the pull request and make comments should furthe
 
 -	*Question* (aguenane−stat6250): Why should you check all of the course technologies daily? 
 
-[Course Structure Quiz, Problem 11]
+[hello-world Week 1 SAS Recipe]
 
--	*Question* (aguenane−stat6250): What is the benefit of adding put statements to your code when debugging?
+- *Question* (aguenane-stat6250): what dose mean SAS recipe?
+
+[fizz-buzz Week 1 SAS Recipe]
+
+-*Question* (aguenane-stat6250): how can we use the function MOD?
+
