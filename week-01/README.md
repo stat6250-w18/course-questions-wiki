@@ -25,29 +25,34 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 forum posts to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
 - Answer (ilankham−stat6250): Both; however, students are encouraged to complete all assignments as written, even if they have no impact on their course grade.
 
-
+- Question (kamirneni−stat6250): How does posting weekly forums help in the SAS coursework?
+- Answer (kamirneni−stat6250): It helps inculcating the habit of learning regularly and reading up articles on upto date developments in SAS programming.
 
 [Course Structure Quiz, Problem 3]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
 - Answer (kamirneni−stat6250) : It allows to accomodate students enrolling in the course late.
+
+- Question (kamirneni−stat6250): Is it more efficient if instead one answers the questions raised in weekly quizes raised by others?
+- Answer (kamirneni−stat6250) : Yes, the questions raised would require the students to learn more and would promote learning more efficiently.
 
 
 [Course Structure Quiz, Problem 4]
 - Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involve comments on code in GitHub, meetings with the instructor, or both?
 - Answer (ilankham−stat6250): Both; Code Reviews will involve 1:1 meetings with the instructor held through Google Hangouts, during which project code will discussed and commented.
 
+- Question (kamirneni−stat6250): How would one decide the dataset to be fixed among several in group project?
 
 
 [Course Structure Quiz, Problem 5]
 - Question (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
 - Answer (ilankham−stat6250): The best way to prepare for the Final Exam is to work through every assigned Weekly Quiz Problem and to develop an understanding of all concepts involved to the point that the problems can be thoroughly answered without consulting reference materials.
 
-
+- Question (kamirneni−stat6250): If all the questions are raised by the students, what kind of questions should one expect in the exams?
 
 [Course Structure Quiz, Problem 6]
 - Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
 
-
+- Question (kamirneni−stat6250): If one does not achieve all 5 total achievements, does it affect one's grade?
 
 [Course Structure Quiz, Problem 7]
 - Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating project that can be added to work-sample portfolios?
@@ -58,31 +63,33 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
 - Answer (kamirneni−stat6250) : It is to reassure students that everyone makes mistakes and also to proofread course materials.
 
+- Question (kamirneni−stat6250): Are the mistakes to be caught too minute in detail, making it too difficult for them to find?
+- Answer (kamirneni−stat6250) : Yes, otherwise most of the students would catch it and get extra credits.
 
 [Course Structure Quiz, Problem 9]
 - Question (ilankham−stat6250): Instead of a carrier pigeon, what about an unladen swallow?
 - Answer (ilankham−stat6250): An African swallow maybe, but not a European swallow.
 
-
+- Question (kamirneni−stat6250) : Does using slack increase the efficiency of communication in the class.
+- Answer (kamirneni−stat6250) : Yes,manyfold. SInce it is an online class, using slack and creating channels is an effcient way to communicate. If one needs to talk to the professor, google hangouts is the best option since screensharing is possible.
 
 [Course Structure Quiz, Problem 10]
 - Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
 
 - Answer (kamirneni−stat6250) : Checking GitHUb daily provides one with newly created repos which might have efficient code and perform functions which might not have been performed before.
 
-- Question 1 (kamirneni−stat6250) : How can one work on SAS software using virtual box on personal Desktop?
+- Question (kamirneni−stat6250) : How can one work on SAS software using virtual box on personal Desktop?
 
+- Question (kamirneni−stat6250) : How much time investment and labour is required for projects?
 
-- Question 2 (kamirneni−stat6250) : How much time investment and labour is required for projects?
-
-
-- Question 3 (kamirneni−stat6250) : Are there any other ways of getting extra credit apart from the ones given in the instructions?
+- Question (kamirneni−stat6250) : Are there any other ways of getting extra credit apart from the ones given in the instructions?
 
 [hello-world Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
 
-
+- Question (kamirneni−stat6250) : How many data types and  functions are available in SAS programming?
 
 [fizz-buzz Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is the mod function related to how clocks work, with hours counting from 1 to 12, and then starting back at 1 again?
 
+- Question (kamirneni−stat6250): Is inheritance possible in SAS?
