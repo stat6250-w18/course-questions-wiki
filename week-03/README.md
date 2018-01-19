@@ -31,7 +31,7 @@ Question (who7−stat6250): Do we always have to rename data set everytime we ma
  
 
 [Course Textbook Chapter 3, Problem 4]
-+Question (who7−stat6250): Would there be an instance where program encounter a syntax error and continue running?
+Question (who7−stat6250): Would there be an instance where program encounter a syntax error and continue running?
 
 
 
