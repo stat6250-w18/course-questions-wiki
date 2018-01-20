@@ -51,6 +51,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
+
 [Course Textbook Chapter 3, Problem 2]
 - Question (ljiang11−stat6250): Why clear the log window?
 - *Question* (jcanfield3-stat6250): Are there a set number of mispellings that SAS can still run through? (Like dat is treated as data)
@@ -82,6 +83,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (xyin6-stat6250): you can recall submitted statements by issuing the RECALL command or by selecting **Run→Recall Last Submit**, or we can just edit them in the code editing window.
 - *Question* (tbishawstat6250): Is there a specific format to write a SAS statement or can you use any format and switch between different formats?
 - *Answer* (tbishawstat6250): Although there are multiple formats in which you can write SAS statements in, a consistent layout enhances readability and helps you and others understand the program’s purpose. It is recommended to begin DATA and PROC steps in column one, indent statements within step, being RUN statements in column one, and include RUN statement after every DATA step or PROC step. 
+
 
 
 
@@ -174,6 +176,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
+
 [Course Textbook Chapter 3, Problem 6]
 - Question (ljiang11−stat6250): In what situation a "PROC running" message would occur?
 - *Question* (jcanfield3-stat6250): Where can you find a list of possible options?
@@ -198,6 +201,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (ldai4-stat6250): Can a log message indicate spelling errors in addition to notifying the invalid option?
 - Question (xyin6-stat6250): When I remove or replace the invalid option, will SAS run the whole program over again or just start from the error statement I corrected?
 - *Question* (tbishawstat6250): What are some of the most common errors in SAS? Where can you review the messages to check for errors each time you submit a SAS program?
+
 
 
 
