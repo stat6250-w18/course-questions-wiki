@@ -20,7 +20,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 3, Problem 2]
--*Question*(kamirneni-stat6250): What is the advantage of using SAS enhanced editor?
+- *Question*(kamirneni-stat6250): What is the advantage of using SAS enhanced editor?
 
 -*Answer*(kamirneni-stat6250): One can use text formatting, indentation,  macros, keyboard shortcuts, bookmark codes, collapse and expand sections of SAS procedures.
 
