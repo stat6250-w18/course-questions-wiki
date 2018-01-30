@@ -14,13 +14,10 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-
 - *Question* (sbagdi-stat6250): With the VALUE statement, the format name should start with which special character? 
 
 
-
 - *Question* (sbagdi-stat6250): Which options are included in the PROC FORMAT statement? 
-
 
 
 - *Question* (sbagdi-stat6250): What is the value range for numeric values? Also, what is the maximum character length for numeric format name?
@@ -44,9 +41,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-
 - *Question* (sbagdi-stat6250): Which option in PROC MEANS statement is used to limit the decimal places? What is the need for using such option?
-
 
 
 - *Question* (sbagdi-stat6250): What are the key differences between the CLAS and BY statements in group processing? 
@@ -57,14 +52,14 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (sbagdi-stat6250): When there are a lot of variables in a data set, which statement is used to limit the appearance of variables in a PROC FREQ report? 
 - *Answer* (sbagdi-stat6250): To limit the appearance of variables in a PROC FREQ table as desired, TABLES statement is used.
 
-
 - *Question* (sbagdi-stat6250): Which statement is used to avoid the appearance of cumulative frequency in a frequency table? 
-
 
 
 
 - *Question* (sbagdi-stat6250): How to create a two-way table in PROF FREQ step?
 - *Answer* (sbagdi-stat6250): To create a two-way table, we should join variables with an asterisk (*) sign in the TABLES statement of a PROC FREQ step. 
+
+
 
 - *Question* (sbagdi-stat6250): What is the missing option in PROC MEANS statement used for?
 
@@ -72,8 +67,6 @@ The instructor will then review the pull request and make comments should furthe
 
 - *Question* (sbagdi-stat6250): What are the two ways to write column names to display columns in an output table?
 - *Answer* (sbagdi-stat6250): For columns to be displayed in separate tables, the column names are to be separated with a space in between. And for a cross tabulation format, an asterisk is used between column names. 
-
-
 
 - *Question* (sbagdi-stat6250): What difference does low and high options make for discrete and continuous quantitative variables? 
 - *Answer* (sbagdi-stat6250): The low and high options in general are used to avoid the edge cases. In particular, for discrete quant variables, the explicit ranges of variables are associated with bin values and for continuous variables, the ranges of variables is implicit.  
