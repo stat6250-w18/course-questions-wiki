@@ -55,6 +55,9 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (sbagdi-stat6250): When there are a lot of variables in a data set, which statement is used to limit the appearance of variables in a PROC FREQ report? 
 - *Answer* (sbagdi-stat6250): To limit the appearance of variables in a PROC FREQ table as desired, TABLES statement is used.
 
+
+
+
 - *Question* (sbagdi-stat6250): Which statement is used to avoid the appearance of cumulative frequency in a frequency table? 
 
 
