@@ -14,62 +14,64 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-[Course Textbook Chapter 7, Problem 3]
+
+- *Question* (sbagdi-stat6250): With the VALUE statement, the format name should start with which special character? 
 
 
 
-[Course Textbook Chapter 7, Problem 4]
+- *Question* (sbagdi-stat6250): Which options are included in the PROC FORMAT statement? 
 
 
 
-[Course Textbook Chapter 7, Problem 5]
+- *Question* (sbagdi-stat6250): What is the value range for numeric values? Also, what is the maximum character length for numeric format name?
+- *Answer* (sbagdi-stat6250):  The numeric VALUE range is – 0-1500. And, numeric format names can be up to 36 characters in length.
+
+
+- *Question* (sbagdi-stat6250): How many quotation marks should be used to makes the apostrophe to appear in a label?
 
 
 
-[Course Textbook Chapter 7, Problem 6]
+- *Question* (sbagdi-stat6250): For which type of format (character or numeric) the keyword LOW includes missing values?
 
 
 
-[Course Textbook Chapter 7, Problem 7]
+- *Question* (sbagdi-stat6250): Where are the formats created in the PROC FORMAT steps stored?  
 
 
 
-[Course Textbook Chapter 7, Problem 8]
+- *Question* (sbagdi-stat6250): What should be done to produce specific statistics in PROC MEANS statement?
+- *Answer* (sbagdi-stat6250): In order to produce specific statistics and not the default ones, statistic keywords should be used in the PROC MEANS statements. 
+
+
+- *Question* (sbagdi-stat6250): Which option in PROC MEANS statement is used to limit the decimal places? What is the need for using such option?
 
 
 
-[Course Textbook Chapter 8, Problem 1]
+- *Question* (sbagdi-stat6250): What are the key differences between the CLAS and BY statements in group processing? 
 
 
 
-[Course Textbook Chapter 8, Problem 2]
+- *Question* (sbagdi-stat6250): When there are a lot of variables in a data set, which statement is used to limit the appearance of variables in a PROC FREQ report? 
+- *Answer* (sbagdi-stat6250): To limit the appearance of variables in a PROC FREQ table as desired, TABLES statement is used.
+
+
+- *Question* (sbagdi-stat6250): Which statement is used to avoid the appearance of cumulative frequency in a frequency table? 
 
 
 
-[Course Textbook Chapter 8, Problem 4]
+- *Question* (sbagdi-stat6250): How to create a two-way table in PROF FREQ step?
+- *Answer* (sbagdi-stat6250): To create a two-way table, we should join variables with an asterisk (*) sign in the TABLES statement of a PROC FREQ step. 
+
+
+- *Question* (sbagdi-stat6250): What is the missing option in PROC MEANS statement used for?
 
 
 
-[Course Textbook Chapter 8, Problem 7]
+- *Question* (sbagdi-stat6250): What are the two ways to write column names to display columns in an output table?
+- *Answer* (sbagdi-stat6250): For columns to be displayed in separate tables, the column names are to be separated with a space in between. And for a cross tabulation format, an asterisk is used between column names. 
 
 
-
-[Course Textbook Chapter 8, Problem 8]
-
-
-
-[Course Textbook Chapter 8, Problem 10]
-
-
-
-[recipe_for_summarizing_quantitative_values Week 4 Recipe]
-
-
-
-[recipe_for_summarizing_qualitative_values Week 4 Recipe]
-
-
-
-[recipe_for_temporarily_binning_values Week 4 Recipe]
+- *Question* (sbagdi-stat6250): What difference does low and high options make for discrete and continuous quantitative variables? 
+- *Answer* (sbagdi-stat6250): The low and high options in general are used to avoid the edge cases. In particular, for discrete quant variables, the explicit ranges of variables are associated with bin values and for continuous variables, the ranges of variables is implicit.  
 
 
