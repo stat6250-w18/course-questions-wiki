@@ -11,9 +11,6 @@ All edits should conform to GitHub Markdown specifications (https://guides.githu
 The instructor will then review the pull request and make comments should further revision be needed. Then, after the contents of the pull request have been finalized without any merge conflicts, the instructor will merge the pull request.
 
 ********************************************************************************
-
-
-
 [Course Textbook Chapter 7, Problem 3]
 - *Question* (shatcher4-stat6250): What is the VALUE statement used for?
 - *Answer* (shatcher4-stat6250): The VALUE statement is used to define a format for displaying one or more values.
@@ -32,7 +29,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ldeng11−stat6250): When you use VALUR statement, does the format saved permanently to the dataset?
 - *Question* (jcanfield3-stat6250): Who do character variables require a '$' to be assigned formats?
 
-
+- *Question* (ldai4-stat6250): What is the name of a format with a VALUE statement?
+- *Answer* (ldai4-stat6250): The name of a format with a VALUE statement must begin with a dollar sign ($) if it applies to a character variable.
 
 [Course Textbook Chapter 7, Problem 4]
 - *Question* (shatcher4-stat6250): How do you define several formats?
@@ -50,7 +48,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): How do you define a permanent format?
 - *Answer* (jcanfield3-stat6250): You assign a permanent library using the lib= command.
 
-
+- *Question* (ldai4-stat6250): How do we use VALUE statement to display one or more values?
+- *Answer* (ldai4-stat6250): The statement begins with the keyword VALUE and ends with a semicolon after all the labels have been defined.
 
 [Course Textbook Chapter 7, Problem 5]
 - *Question* (shatcher4-stat6250): How do you specify a range of character values with the VALUE statement?
@@ -67,7 +66,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ldeng11−stat6250): What is the VALUE range used for?
 - *Question* (jcanfield3-stat6250): If i'm using number and letters both as characters, would I just add quotes to the numbers as well?
 
-
+- *Question* (ldai4-stat6250): In the VALUE statement, can a combined list of numeric and character be used?   
 
 [Course Textbook Chapter 7, Problem 6]
 - *Question* (shatcher4-stat6250): What do you have to remember when specifying a label for displaying each range?
@@ -83,7 +82,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ldeng11−stat6250): When you add label to your dataset, how many character can you use?
 - *Question* (jcanfield3-stat6250): Why is 256 the character limit of a label?
 
-
+- *Question* (ldai4-stat6250): How can a label be specified in VALUE statement?
+- *Answer* (ldai4-stat6250): Enclose the label in quotation marks; limit the label to 256 characters; and use two single quotation marks if you want an apostrophe to appear in the label.
 
 [Course Textbook Chapter 7, Problem 7]
 - *Question* (shatcher4-stat6250): What does the keyword LOW do when applied to a character format?
@@ -100,7 +100,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): Wouldn't having Miss/Missing as a key word be useful when separating missing and other values?
 - *Answer* (jcanfield3-stat6250): This is because a . or ' ' can be used instead.
 
-
+- *Question* (ldai4-stat6250): Can the keyword OTHER be used in the label missing character values?
 
 [Course Textbook Chapter 7, Problem 8]
 - *Question* (shatcher4-stat6250): What do you have to do when associating a format with a variable?
@@ -118,7 +118,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): Does formatting replace original data?
 - *Answer* (jcanfield3-stat6250): No it does not, it merely transforms the look of the data, but the original data remains intact.
 
-
+- *Question* (ldai4-stat6250): What happens when placing the FORMAT statement in a DATA step?
 
 [Course Textbook Chapter 8, Problem 1]
 - *Question* (shatcher4-stat6250): What does PROC means do in its simplest form?
@@ -142,7 +142,7 @@ run;
 - Answer (ldeng11−stat6250): mean, minimum, maximum, n-count, standard deviation.
 - *Question* (jcanfield3-stat6250): Why is standard deviation a default statistic instead of variance?
 
-
+- *Question* (ldai4-stat6250): Which descriptive statistics can be displayed by using PROC MEANS? How to limit statistics?
 
 [Course Textbook Chapter 8, Problem 2]
 - *Question* (shatcher4-stat6250): What happens when a statistic is specified in the PROC MEANS statement?
@@ -159,7 +159,7 @@ run;
 - Question (ldeng11−stat6250): What you should do if you only want to do the analysis on some specific variables?
 - *Question* (jcanfield3-stat6250): What is the difference between using var and keep?
 
-
+- *Question* (ldai4-stat6250): What happens if using VAR statement in the PROC MEANS statement?
 
 [Course Textbook Chapter 8, Problem 4]
 - *Question* (shatcher4-stat6250): What is the difference between the BY and CLASS statements?
@@ -175,7 +175,7 @@ run;
 - Question (ldeng11−stat6250): What would happen when you add BY group.
 - *Question* (jcanfield3-stat6250): Why do by variables have to be pre-sorted?
 
-
+- *Question* (ldai4-stat6250): What is CLASS statement and BY statement? What is the BY statement different from the CLASS statement?
 
 [Course Textbook Chapter 8, Problem 7]
 - *Question* (shatcher4-stat6250): What can the FREQ procedure be used for?
@@ -192,7 +192,8 @@ run;
 - Question (ldeng11−stat6250): Can you use PROC FREQ on character variables?
 - *Question* (jcanfield3-stat6250): Is having a frequency table for numeric variables useful?
 
-
+- *Question* (ldai4-stat6250): What is PROC FREQ statement?
+- *Answer* (ldai4-stat6250): The PROC FREQ produces one-way and n-way frequency tables, and it concisely describes your data by reporting the distribution of variable values.
 
 [Course Textbook Chapter 8, Problem 8]
 - *Question* (shatcher4-stat6250): How do you specify varirables to be processed by the FREQ procedure?
@@ -206,7 +207,7 @@ run;
 - Question (ldeng11−stat6250): What kind of variables are the best to use frequency distributions?
 - *Question* (jcanfield3-stat6250): Are discrete numerical variables more useful than continuous ones when it comes to frequency tables?
 
-
+- *Question* (ldai4-stat6250): what variables are unsuitable for PROC FREQ processing? Why?
 
 [Course Textbook Chapter 8, Problem 10]
 - *Question* (shatcher4-stat6250): How do you create a two-way frequency table?
@@ -222,7 +223,7 @@ run;
 - Question (ldeng11−stat6250): How can you change the table format?
 - *Question* (jcanfield3-stat6250): Can all options of a table be suppressed?
 
-
+- *Question* (ldai4-stat6250): How does PROC FREQ produce two-way tables?
 
 [recipe_for_summarizing_quantitative_values Week 4 Recipe]
 - *Question* (shatcher4-stat6250): What is the purpose of the Output Delivery System (ODS) in SAS?
@@ -238,7 +239,7 @@ run;
 - Question (ldeng11−stat6250): What is the “missing” statement doing here? What happen if you don’t include “missing” statement here?
 - *Question* (jcanfield3-stat6250): Can I save a mean as a variable in a dataset?
 
-
+- *Question* (ldai4-stat6250): What is the NOCUM and NOPERCENT options in the TABLES statement?
 
 [recipe_for_summarizing_qualitative_values Week 4 Recipe]
 - *Question* (shatcher4-stat6250): Why should you use the nlevels options?
@@ -254,7 +255,7 @@ run;
 - Question (ldeng11−stat6250): What is “nlevels” statement doing here?
 - *Question* (jcanfield3-stat6250): How long has SAS been around for?
 
-
+- *Question* (ldai4-stat6250): How do we use a LENGTH statement in our DATA step to explicitly define the length of a character variable?
 
 [recipe_for_temporarily_binning_values Week 4 Recipe]
 - *Question* (shatcher4-stat6250): What is the difference between the discrete quantitative variable and the continuous quantitative variable?
@@ -272,4 +273,6 @@ run;
 - *Question* (jcanfield3-stat6250): Can I format formats?
 
 
+- *Question* (ldai4-stat6250): Can we use PROC FORMAT statement to bin numerical variables?
+- *Answer* (ldai4-stat6250): Yes, we can use PROC FORMAT to bin a numerical variable into categories.
 
