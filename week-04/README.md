@@ -68,6 +68,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(nshrivastava2-stat6250): The FREQ procedure can also be used to validate a data set. A one-way frequency table, which displays all discrete values for a variable and reports on missing values, easily identifies the existence of invalid or missing values. You can use the ORDER=FREQ and NLEVELS options to identify duplicate values. After you've identified invalid values, you can use PROC PRINT to display the corresponding observations. 
 
 
+
 [Course Textbook Chapter 8, Problem 8]
 - Question (nshrivastava2-stat6250): While using the SAS Output Delivery System, Can we open the file on the destination without closing the ODS with an appropriate file type?
 - Answer(nshrivastava2-stat6250): No, <ods pdf file="Path/folder/xyz.pdf"> is accompanied by <ods pdf close>, in oder to open the file at the destination. 
