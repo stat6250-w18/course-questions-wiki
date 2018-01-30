@@ -68,11 +68,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 - *Question* (sbagdi-stat6250): What is the missing option in PROC MEANS statement used for?
-
-
 - *Question* (sbagdi-stat6250): What are the two ways to write column names to display columns in an output table?
 - *Answer* (sbagdi-stat6250): For columns to be displayed in separate tables, the column names are to be separated with a space in between. And for a cross tabulation format, an asterisk is used between column names. 
-
-
 - *Question* (sbagdi-stat6250): What difference does low and high options make for discrete and continuous quantitative variables? 
 - *Answer* (sbagdi-stat6250): The low and high options in general are used to avoid the edge cases. In particular, for discrete quant variables, the explicit ranges of variables are associated with bin values and for continuous variables, the ranges of variables is implicit.  
