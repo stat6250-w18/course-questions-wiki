@@ -18,6 +18,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 1]
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
+
 - Answer (kamirneni−stat6250) : It is common but usually depends on one's preferences.
 
 
@@ -26,9 +27,9 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ilankham−stat6250): Both; however, students are encouraged to complete all assignments as written, even if they have no impact on their course grade.
 
 
-
 [Course Structure Quiz, Problem 3]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
+
 - Answer (kamirneni−stat6250) : It allows to accomodate students enrolling in the course late.
 
 
@@ -36,17 +37,13 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involve comments on code in GitHub, meetings with the instructor, or both?
 - Answer (ilankham−stat6250): Both; Code Reviews will involve 1:1 meetings with the instructor held through Google Hangouts, during which project code will discussed and commented.
 
-
-
 [Course Structure Quiz, Problem 5]
 - Question (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
 - Answer (ilankham−stat6250): The best way to prepare for the Final Exam is to work through every assigned Weekly Quiz Problem and to develop an understanding of all concepts involved to the point that the problems can be thoroughly answered without consulting reference materials.
 
 
-
 [Course Structure Quiz, Problem 6]
 - Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
-
 
 
 [Course Structure Quiz, Problem 7]
@@ -56,13 +53,13 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 8]
 - Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
+
 - Answer (kamirneni−stat6250) : It is to reassure students that everyone makes mistakes and also to proofread course materials.
 
 
 [Course Structure Quiz, Problem 9]
 - Question (ilankham−stat6250): Instead of a carrier pigeon, what about an unladen swallow?
 - Answer (ilankham−stat6250): An African swallow maybe, but not a European swallow.
-
 
 
 [Course Structure Quiz, Problem 10]
@@ -84,5 +81,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [fizz-buzz Week 1 SAS Recipe]
+
 - Question (ilankham−stat6250): Is the mod function related to how clocks work, with hours counting from 1 to 12, and then starting back at 1 again?
+
 
