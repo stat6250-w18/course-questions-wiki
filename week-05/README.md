@@ -19,9 +19,11 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250):Location of the external file, name of new SAS data set, reference to locate external file, description of data values.
 
 
+
 [Course Textbook Chapter 5, Problem 2]
 - *Question* (aacharya4−stat6250): Are LIBNAME and FILNENAME statements global in SAS?
 - *Answer* (aacharya4−stat6250): Yes, LIBNAME and FILNENAME statements are global in SAS.
+
 
 
 [Course Textbook Chapter 5, Problem 6]
@@ -29,9 +31,11 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): The input statement creates variables in the SAS dataset as per the names, types and number of fields as mentioned in the INPUT statement.
 
 
+
 [Course Textbook Chapter 5, Problem 7]
 - *Question* (aacharya4−stat6250): How can we distinguish between a character variable and numeric variable in INPUT statement?
 - *Answer* (aacharya4−stat6250): The character variables are followed by a '$' in INPUT statements while numeric variables are not.
+
 
 
 [Course Textbook Chapter 5, Problem 8]
@@ -39,8 +43,10 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): The '=' is used as an assignment operator in SAS.
 
 
+
 [Course Textbook Chapter 6, Problem 1]
 - *Question* (aacharya4−stat6250): What are the automatic variables of Program Data Vector (PDV)?
+
 
 
 [Course Textbook Chapter 6, Problem 2]
@@ -48,9 +54,11 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): Synatax error include invalid variable names/options, missing or invalid punctuation, missing or misspelled words.
 
 
+
 [Course Textbook Chapter 6, Problem 3]
 - *Question* (aacharya4−stat6250): What is the difference when DATA step reads data raw data as compared to reading from a SAS dataset?
 - *Answer* (aacharya4−stat6250): When DATA step reads data raw data, SAS reads each record of the data in an input buffer as compared to SAS dataset, in that case SAS reads directly into Program Data Vector.
+
 
 
 [Course Textbook Chapter 6, Problem 4]
@@ -58,18 +66,22 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): With each iteration of the DATA step, the automatic variable 'N' is increamented by 1.
 
 
+
 [Course Textbook Chapter 6, Problem 5]
 - *Question* (aacharya4−stat6250): What is the default value of automatic variable 'ERROR' of Program Data Vector(PDV)? 
 - *Answer* (aacharya4−stat6250): The default value of 'ERROR' variable of PDV is 0. This indicates no error, which changes to 1 in case error occurs in data execution.
+
 
 
 [Course Textbook Chapter 6, Problem 6]
 - *Question* (aacharya4−stat6250): When is descriptor information created during compilation phase of SAS program?
 
 
+
 [basic_recipe_for_creating_analytic_datasets Week 5 Recipe]
 - *Question* (aacharya4−stat6250): What is the purpose of keeping the same set of columns in the retain and keep statement?
  
+
 
 [adv_recipe_for_creating_analytic_datasets Week 5 Recipe]
 - *Question* (aacharya4−stat6250): What is the difference between loading data using PROC SQL statement instead of using DATA step using RETAIN and KEEP statements?
