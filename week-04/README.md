@@ -37,10 +37,9 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-
 [Course Textbook Chapter 7, Problem 4]
 - Question (nshrivastava2-stat6250): How can we use the format procedure to create the formats? 
-- Answer(nshrivastava2-stat6250): The name of a character format must begin with a dollar sign, followed by a letter or underscore, followed by letters, numbers, and underscores. Names for numeric formats must begin with a letter or underscore, followed by letters, numbers, and underscores. A format name cannot end in a number and cannot be the name of a SAS format. 
+- Answer (nshrivastava2-stat6250): The name of a character format must begin with a dollar sign, followed by a letter or underscore, followed by letters, numbers, and underscores. Names for numeric formats must begin with a letter or underscore, followed by letters, numbers, and underscores. A format name cannot end in a number and cannot be the name of a SAS format. 
 - *Question* (shatcher4-stat6250): How do you define several formats?
 - Question(pcheng14-stat6250): How many FORMAT procedures we always used it?
 - *Question* (cli19−stat6250): In regards to processing speed and programming efficiency, is specifying the variable format better than  using IF-THEN logic to recode a variable?
@@ -57,7 +56,6 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (jcanfield3-stat6250): You assign a permanent library using the lib= command.
 - *Question* (akrishnamurthy-stat6250): What is the syntax of VALUE statement while defining multiple labels in PROC FORMAT? 
 - Question (lceballos-stat6250): Can the semicolon be placed in a new line after the 3='Blue' to make it more readable?
-
 
 
 
@@ -83,10 +81,9 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-
 [Course Textbook Chapter 7, Problem 6]
 - Question (nshrivastava2-stat6250): Why we use Value Statement in PROC FORMAT step?  
-- Answer(nshrivastava2-stat6250): You use a VALUE statement in a PROC FORMAT step to specify the way that you want the data values to appear in your output. You define value-range sets to specify the values to be formatted and the formatted values to display instead of the stored value or values. The value portion of a value-range set can include an indiv idual value, a range of values, a list of values, or a keyword. The keyword OTHER is used to define a value to display if the stored data value does not match any of the defined value-ranges.
+- Answer (nshrivastava2-stat6250): You use a VALUE statement in a PROC FORMAT step to specify the way that you want the data values to appear in your output. You define value-range sets to specify the values to be formatted and the formatted values to display instead of the stored value or values. The value portion of a value-range set can include an indiv idual value, a range of values, a list of values, or a keyword. The keyword OTHER is used to define a value to display if the stored data value does not match any of the defined value-ranges.
 - *Question* (shatcher4-stat6250): What do you have to remember when specifying a label for displaying each range?
 - Question(pcheng14-stat6250): What the lowest number of characters can be used in a label?
 - Answer(pcheng14-stat6250): One
@@ -105,10 +102,9 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-
 [Course Textbook Chapter 7, Problem 7]
 - Question (nshrivastava2-stat6250): The LOW and HIGH keywords are used to define a continuous range when the lowest and highest values are not known. How does the LOW meant for character value and numeric values? 
-- Answer(nshrivastava2-stat6250):  For character values, the LOW keyword treats missing values as the lowest possible values. However, for numeric values, LOW does not include missing values.
+- Answer (nshrivastava2-stat6250):  For character values, the LOW keyword treats missing values as the lowest possible values. However, for numeric values, LOW does not include missing values.
 - *Question* (shatcher4-stat6250): What does the keyword LOW do when applied to a character format?
 - Question(pcheng14-stat6250): What is the meaning of “OTHER” in keyword?
 - *Question* (cli19−stat6250): The book provides an example for a numeric variable, but can "OTHER" also be applied to missing character values?
@@ -125,7 +121,6 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy-stat6250): While specifying range, how are the out of bound or missing values identified ? Is it necessary to specify a seperate label for such values?
 - Question (lceballos-stat6250): What is LOW used for?
 - Answer (lceballos-stat6250): To set a lower limit of a variable range you use the LOW keyword.
-
 
 
 
@@ -147,7 +142,6 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (jcanfield3-stat6250): No it does not, it merely transforms the look of the data, but the original data remains intact.
 - *Question* (akrishnamurthy-stat6250): What is the difference of using the format statement in PROC or DATA step?
 - Question (lceballos-stat6250): What happens when you place a FORMAT statement in a PROC step?
-
 
 
 
@@ -202,10 +196,9 @@ run;
 
 
 
-
 [Course Textbook Chapter 8, Problem 4]
 - Question (nshrivastava2-stat6250): List the PROC MEANS step creates the statistics?
-- Answer(nshrivastava2-stat6250): You can use PROC MEANS to produce summary reports with descriptive statistics. By default, it reports the number of nonmissing values, the mean, the standard dev iation, the minimum, and the maximum value of every numeric variable in a data set.
+- Answer (nshrivastava2-stat6250): You can use PROC MEANS to produce summary reports with descriptive statistics. By default, it reports the number of nonmissing values, the mean, the standard dev iation, the minimum, and the maximum value of every numeric variable in a data set.
 - *Question* (shatcher4-stat6250): What is the difference between the BY and CLASS statements?
 - Question(pcheng14-stat6250): What is meaning of BY-group processing?
 - *Question* (cli19−stat6250): By which variables should the data set be sorted prior to using the BY statement in PROC MEANS?
@@ -223,10 +216,9 @@ run;
 
 
 
-
 [Course Textbook Chapter 8, Problem 7]
 - Question (nshrivastava2-stat6250): How PROC FREQ Validate the dataset?  
-- Answer(nshrivastava2-stat6250): The FREQ procedure can also be used to validate a data set. A one-way frequency table, which displays all discrete values for a variable and reports on missing values, easily identifies the existence of invalid or missing values. You can use the ORDER=FREQ and NLEVELS options to identify duplicate values. After you've identified invalid values, you can use PROC PRINT to display the corresponding observations. 
+- Answer (nshrivastava2-stat6250): The FREQ procedure can also be used to validate a data set. A one-way frequency table, which displays all discrete values for a variable and reports on missing values, easily identifies the existence of invalid or missing values. You can use the ORDER=FREQ and NLEVELS options to identify duplicate values. After you've identified invalid values, you can use PROC PRINT to display the corresponding observations. 
 - *Question* (shatcher4-stat6250): What can the FREQ procedure be used for?
 - Question(pcheng14-stat6250):Besides PROC FREQ, do we have other ways to create a table of frequencies and percentages?
 - *Question* (cli19−stat6250): Does PROC FREQ also count the number and percent of missing values?
@@ -246,10 +238,9 @@ run;
 
 
 
-
 [Course Textbook Chapter 8, Problem 8]
 - Question (nshrivastava2-stat6250): While using the SAS Output Delivery System, Can we open the file on the destination without closing the ODS with an appropriate file type?
-- Answer(nshrivastava2-stat6250): No, <ods pdf file="Path/folder/xyz.pdf"> is accompanied by <ods pdf close>, in oder to open the file at the destination. 
+- Answer (nshrivastava2-stat6250): No, <ods pdf file="Path/folder/xyz.pdf"> is accompanied by <ods pdf close>, in oder to open the file at the destination. 
 - *Question* (shatcher4-stat6250): How do you specify varirables to be processed by the FREQ procedure?
 - Question(pcheng14-stat6250): When should we use the frequency distributions in SAS?
 - *Question* (cli19−stat6250): Aside from PROC FREQ or PROC MEANS, what would be an alternative way for examining the distribution for numeric values?
@@ -265,10 +256,9 @@ run;
 
 
 
-
 [Course Textbook Chapter 8, Problem 10]
 - Question (nshrivastava2-stat6250): Why and How  PROC UNIVARIATE is useful?
-- Answer(nshrivastava2-stat6250): PROC UNIVARIATE can be more useful because it displays the extreme observations, or outliers. By default, it displays the five highest and five lowest values of the analysis variable, and the number of the observation with each extreme value. You can use the NEXTROBS= option to display a different number of extreme observations.
+- Answer (nshrivastava2-stat6250): PROC UNIVARIATE can be more useful because it displays the extreme observations, or outliers. By default, it displays the five highest and five lowest values of the analysis variable, and the number of the observation with each extreme value. You can use the NEXTROBS= option to display a different number of extreme observations.
 - *Question* (shatcher4-stat6250): How do you create a two-way frequency table?
 - *Answer* (shatcher4-stat6250): Join two variables with an asterisk in the TABLES statement of a PROC FREQ step.
 - Question(pcheng14-stat6250): Is PROC FREQ the best step to create or produce the table in Figure 8.28 in textbook?
@@ -287,10 +277,9 @@ run;
 
 
 
-
 [recipe_for_summarizing_quantitative_values Week 4 Recipe]
 - Question (nshrivastava2-stat6250):  How the CLASS and BY Statements works when included in a PROC MEANS?
-- Answer(nshrivastava2-stat6250):  CLASS statement options are also available in the PROC MEANS statement. They affect all CLASS variables. It specifies one or more variables that the procedure uses to group the data. Variables in a CLASS statement are referred to as class variables. Class variables are numeric or character.
+- Answer (nshrivastava2-stat6250):  CLASS statement options are also available in the PROC MEANS statement. They affect all CLASS variables. It specifies one or more variables that the procedure uses to group the data. Variables in a CLASS statement are referred to as class variables. Class variables are numeric or character.
 - *Question* (shatcher4-stat6250): What is the purpose of the Output Delivery System (ODS) in SAS?
 - Question(pcheng14-stat6250): When should we use “Output Delivery System” in SAS?
 - *Question* (cli19−stat6250): Is it possible to subset data in PROC MEANS (i.e. summarizing for x number of observations)?
@@ -308,10 +297,9 @@ run;
 
 
 
-
 [recipe_for_summarizing_qualitative_values Week 4 Recipe]
 - Question (nshrivastava2-stat6250): What is Cross-tabulation in SAS ?
-- Answer(nshrivastava2-stat6250): Cross tabulation involves producing cross tables also called contingent tables using all possible combinations of two or more variables. In SAS it is created using PROC FREQ along with the TABLES option.
+- Answer (nshrivastava2-stat6250): Cross tabulation involves producing cross tables also called contingent tables using all possible combinations of two or more variables. In SAS it is created using PROC FREQ along with the TABLES option.
 - *Question* (shatcher4-stat6250): Why should you use the nlevels options?
 - Question(pcheng14-stat6250): Have any better way can we summarize the qualitative data in SAS?
 - *Question* (cli19−stat6250): Is there a limit on how many levels per variable can be cross-tabulated?
@@ -329,10 +317,9 @@ run;
 
 
 
-
 [recipe_for_temporarily_binning_values Week 4 Recipe]
 - Question (nshrivastava2-stat6250):  How binning works?
-- Answer(nshrivastava2-stat6250): Statistical data binning is a way to group a number of more or less continuous values into a smaller number of "bins". For example, if you have data about a group of people, you might want to arrange their ages into a smaller number of age intervals.PROC HPBIN does not allow empty bins. If an empty bin is detected because of an insufficient number of nonmissing observations, PROC HPBIN issues an error and exits.
+- Answer (nshrivastava2-stat6250): Statistical data binning is a way to group a number of more or less continuous values into a smaller number of "bins". For example, if you have data about a group of people, you might want to arrange their ages into a smaller number of age intervals.PROC HPBIN does not allow empty bins. If an empty bin is detected because of an insufficient number of nonmissing observations, PROC HPBIN issues an error and exits.
 - *Question* (shatcher4-stat6250): What is the difference between the discrete quantitative variable and the continuous quantitative variable?
 - Question(pcheng14-stat6250): When should we have to temporarily binning values in SAS?
 - *Question* (cli19−stat6250): Does the order of the statements within PROC FREQ matter? That is, can the "format" statement precede the "table" statement?
