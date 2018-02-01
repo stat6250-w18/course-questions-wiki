@@ -88,4 +88,3 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): When PROC SQL statement is used to load data, it loads all records of a dataset into the memory from the memory at one go. In case of DATA step, records are loaded into the memory one by one from disk.
 
 
-
