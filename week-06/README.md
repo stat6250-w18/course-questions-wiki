@@ -70,4 +70,3 @@ Question (asharda-stat6250): Why do many SAS programmers rely on proc sql for th
 Answer(asharda-stat6250):Many SAS programmers rely on proc sql for the bulk of their data manipulation tasks, especially 
 since it's a more flexible tool for combining datasets while requiring significantly less code.
 
-
