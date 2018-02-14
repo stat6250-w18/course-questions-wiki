@@ -16,8 +16,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 10, Problem 2]
 - *Question*(kamirneni-stat6250): What is the advantage of RETAIN statement used in initializing SUM variables? 
-- *Answer*(kamirneni-stat6250): The RETAIN statements assigns an initial value to the retained variable and prevents variables from being initialized each time
-the DATA step executes.
+- *Answer*(kamirneni-stat6250): The RETAIN statements assigns an initial value to the retained variable and prevents variables from being initialized each time the DATA step executes.
 
 
 
@@ -48,8 +47,7 @@ the DATA step executes.
 
 [Course Textbook Chapter 11, Problem 1]
 - *Question*(kamirneni-stat6250): What is the difference in procedure of referencing a variable from original dataset? 
-- *Answer*(kamirneni-stat6250): Use DROP/KEEP in SET statement to not reference variables and not let them appear in new dataset. If one needs to reference a variable 
-in the original dataset, use DROP/KEEP statement in DATA statement.
+- *Answer*(kamirneni-stat6250): Use DROP/KEEP in SET statement to not reference variables and not let them appear in new dataset. If one needs to reference a variable in the original dataset, use DROP/KEEP statement in DATA statement.
 
 
 
@@ -80,7 +78,6 @@ in the original dataset, use DROP/KEEP statement in DATA statement.
 
 [adv_recipe_for_combining_data_vertically Week 7 Recipe]
 - *Question*(kamirneni-stat6250): What are the trade-offs for combining datasets using SQL in SAS? 
-- *Answer*(kamirneni-stat6250): It loads all data into memory before performing set theory operations, RAM has limitations 
-and takes longer time to create datasets comparatively.
+- *Answer*(kamirneni-stat6250): It loads all data into memory before performing set theory operations, RAM has limitations and takes longer time to create datasets comparatively.
 
 
