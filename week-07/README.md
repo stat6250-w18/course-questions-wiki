@@ -60,6 +60,7 @@ The instructor will then review the pull request and make comments should furthe
 *Answer* (sbagdi-stat6250)- To access observations directly by their observation number
 
 
+
 [Course Textbook Chapter 11, Problem 8]
 *Question* (sbagdi-stat6250)- How is data set process different in raw dataset and exisitng dataset?
 
