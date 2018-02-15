@@ -471,4 +471,3 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lsun20-stat6250): What is the usage of the " * " in the SELECT statement?
 
 
-
