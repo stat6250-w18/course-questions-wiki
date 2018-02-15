@@ -78,4 +78,4 @@ The instructor will then review the pull request and make comments should furthe
 
 [adv_recipe_for_combining_data_vertically Week 7 Recipe]
 *Question* (sbagdi-stat6250)- What is the difference between oprators UNION, INTERSECT and EXCEPT?
-*Answer* (sbagdi-stat6250)- The three operatos are different from each other in terms of the set-theoretic rules they implement, yet their mechanics is similar. 
+*Answer* (sbagdi-stat6250)- The three operatos are different from each other in terms of the set-theoretic rules they implement, yet their mechanics is similar 
