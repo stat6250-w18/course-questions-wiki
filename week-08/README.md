@@ -15,41 +15,54 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 13, Problem 1]
+- *Question*(kamirneni-stat6250): Can the arguments of mean function be imported by some other way apart from a variable list?
+- *Answer*(kamirneni-stat6250): Yes, the variables can be referenced by an array.
 
 
 
 [Course Textbook Chapter 13, Problem 2]
+- *Question*(kamirneni-stat6250): Under what circumstances, does SAS convert character into numeric value?
 
 
 
 [Course Textbook Chapter 13, Problem 3]
+- *Question*(kamirneni-stat6250): When converting data, what is the result if one forgets to skip the INPUT function?
+- *Answer*(kamirneni-stat6250): SAS detects the mismatched variables and tries an automatic character to numeric conversion or vice versa. This process is not always successful. It is recommended to include INPUT and PUT function.
 
 
 
 [Course Textbook Chapter 13, Problem 4]
+- *Question*(kamirneni-stat6250): What happens if one creates a variable in the PUT function?
+- *Answer*(kamirneni-stat6250): It creates a character variable whose length is equal to the format width.
 
 
 
 [Course Textbook Chapter 13, Problem 5]
+- *Question*(kamirneni-stat6250): How is the MDY function efficient?
 
 
 
 [Course Textbook Chapter 13, Problem 6]
+- *Question*(kamirneni-stat6250): What are the specifications of INTNX function?
+ 
 
-
-
+ 
 [Course Textbook Chapter 13, Problem 7]
+- *Question*(kamirneni-stat6250): What is the maximum number of delimiters that can be used in a SCAN function?
 
 
 
 [Course Textbook Chapter 13, Problem 10]
+- *Question*(kamirneni-stat6250): What is the criteria of using the pre-defined functions in nested functions?
 
 
 
 [recipe_for_isolating_all_duplicates Week 8 Recipe]
+- *Question*(kamirneni-stat6250): How is isolating the duplicates more efficient from PROC SORT function?
 
 
 
 [recipe_for_drop_and_swap Week 8 Recipe]
+- *Question*(kamirneni-stat6250): What are the implications of removing all characters from values of a variable?
 
 
