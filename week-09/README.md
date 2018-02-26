@@ -63,7 +63,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 14, Problem 10]
-- Question (aguenae-stat6250): Is there any disadvantages by using DO loops statement?
+- Question (aguenae-stat6250): Is  there any disadvantages by using DO loops statement?
 
 
 
