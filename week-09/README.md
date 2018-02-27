@@ -117,11 +117,12 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [recipe_to_create_unique_record_id Week 9 Recipe]
-- *Question* (cli19−stat6250): 
+- *Question* (cli19−stat6250): How are values concatenated?
+- *Answer* (cli19−stat6250): Values can be contatenated using two pipe symbols (||). 
 
 
 
 [recipe_to_disaggregate_counts_data Week 9 Recipe]
-- *Question* (cli19−stat6250): 
+- *Question* (cli19−stat6250): Can a single RETAIN statements be used to specify order of variables and to preserve variable values between DATA step iterations?
 
 
