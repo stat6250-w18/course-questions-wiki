@@ -69,47 +69,50 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 15, Problem 1]
-- *Question* (cli19−stat6250): 
+- *Question* (cli19−stat6250): What is the purpose in first defining an array?
 
 
 
 [Course Textbook Chapter 15, Problem 2]
-- *Question* (cli19−stat6250): 
+- *Question* (cli19−stat6250): Is there a way for an array to automatically detect the number of elements?
 
 
 
 [Course Textbook Chapter 15, Problem 3]
-- *Question* (cli19−stat6250): 
+- *Question* (cli19−stat6250): What does the number in curly brackets of an array represent?
+- *Answer* (cli19−stat6250): It represents the position of the array elements.
 
 
 
 [Course Textbook Chapter 15, Problem 4]
-- *Question* (cli19−stat6250): 
+- *Question* (cli19−stat6250): At what value does SAS begin its index count?
+- *Answer* (cli19−stat6250): SAS starts its count at 1.
 
 
 
 [Course Textbook Chapter 15, Problem 5]
-- *Question* (cli19−stat6250): 
+- *Question* (cli19−stat6250): What does the DIM function do? Can this function be used outside of an array?
 
 
 
 [Course Textbook Chapter 15, Problem 6]
-- *Question* (cli19−stat6250): 
+- *Question* (cli19−stat6250): Do varaibles need to be identified as either numeric or character before they are created in an array?
 
 
 
 [Course Textbook Chapter 15, Problem 7]
-- *Question* (cli19−stat6250): 
+- *Question* (cli19−stat6250): Is the output from an array written out to the final data set immediately?
 
 
 
 [Course Textbook Chapter 15, Problem 8]
-- *Question* (cli19−stat6250): 
+- *Question* (cli19−stat6250): How are values in a temporary array delimited?
+- *Answer* (cli19−stat6250): Values are delimited by commas or spaces.
 
 
 
 [Course Textbook Chapter 15, Problem 9]
-- *Question* (cli19−stat6250): 
+- *Question* (cli19−stat6250): When utilizing arrays to transpose data, when does it have an upperhand over PROC TRANSPOSE?
 
 
 
