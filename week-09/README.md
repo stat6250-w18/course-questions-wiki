@@ -127,6 +127,6 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [recipe_to_disaggregate_counts_data Week 9 Recipe]
-- Question (nshrivastava2-stat6250): For what purpose would be use the RETAIN statement in a Do Loops?
+- Question (nshrivastava2-stat6250): Why is the initianlzation process relevant when no retain statement is involved?
 
 
