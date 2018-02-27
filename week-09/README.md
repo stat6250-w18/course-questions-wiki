@@ -121,7 +121,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [recipe_to_create_unique_record_id Week 9 Recipe]
-- Question (nshrivastava2-stat6250): how to pad character variable with leading zeroes?
+- Question (nshrivastava2-stat6250): How to pad character variable with leading zeroes?
 - Answer(nshrivastava2-stat6250): We can do so by uising Z4. format to add leading zeroes.
 
 
