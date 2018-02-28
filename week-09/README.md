@@ -15,113 +15,113 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 14, Problem 1]
-- Question(Stat6250-tchan49):Can you use Proc Print statement for DO loops?
-- Answer(Stat6250-tchan49):No, DO loops cannot be used for Proc steps. 
+- Question(tchan49-stat6250):Can you use Proc Print statement for DO loops?
+- Answer(tchan49-stat6250):No, DO loops cannot be used for Proc steps. 
 
 
 
 [Course Textbook Chapter 14, Problem 2]
-- Question(Stat6250-tchan49):What is the number of iterations determined by?
-- Answer(Stat6250-tchan49):It is determined by the DO statement's stop value. 
+- Question(tchan49-stat6250):What is the number of iterations determined by?
+- Answer(tchan49-stat6250):It is determined by the DO statement's stop value. 
 
 
 
 [Course Textbook Chapter 14, Problem 3]
-- Question(Stat6250-tchan49):Are there any rules to define the index-variable? 
+- Question(tchan49-stat6250):Are there any rules to define the index-variable? 
 
 
 
 [Course Textbook Chapter 14, Problem 4]
-- Question(Stat6250-tchan49):If the iteration is 1-12, after the twelfth execution of DO loop, what is the value that is incremented to?
-- Answer(Stat6250-tchan49):13, however, the DO loop only executes 12 times. 
+- Question(tchan49-stat6250):If the iteration is 1-12, after the twelfth execution of DO loop, what is the value that is incremented to?
+- Answer(tchan49-stat6250):13, however, the DO loop only executes 12 times. 
 
 
 
 [Course Textbook Chapter 14, Problem 5]
-- Question(Stat6250-tchan49):What is the function of OUTPUT in DO Loop?
+- Question(tchan49-stat6250):What is the function of OUTPUT in DO Loop?
 
 
 
 [Course Textbook Chapter 14, Problem 6]
-- Question(Stat6250-tchan49):What is the number of observations determined by? 
+- Question(tchan49-stat6250):What is the number of observations determined by? 
 
 
 
 [Course Textbook Chapter 14, Problem 7]
-- Question(Stat6250-tchan49):Can you have DO loops within another DO loops? 
+- Question(tchan49-stat6250):Can you have DO loops within another DO loops? 
 
 
 
 [Course Textbook Chapter 14, Problem 8]
-- Question(Stat6250-tchan49):Where would the DO UNTIL start being evaluated?
-- Answer(Stat6250-tchan49):The bottom of the loop so that a DO UNTIL loop executes at least once. 
+- Question(tchan49-stat6250):Where would the DO UNTIL start being evaluated?
+- Answer(tchan49-stat6250):The bottom of the loop so that a DO UNTIL loop executes at least once. 
 
 
 
 [Course Textbook Chapter 14, Problem 9]
-- Question(Stat6250-tchan49):Where would the DO WHILE start being evaluated?
+- Question(tchan49-stat6250):Where would the DO WHILE start being evaluated?
 
 
 
 [Course Textbook Chapter 14, Problem 10]
-- Question(Stat6250-tchan49):If you want to know how many years it takes to earn $10,000 if you deposit $10,000 each year with 10% interest, would you use DO WHILE or DO UNTIL?
+- Question(tchan49-stat6250):If you want to know how many years it takes to earn $10,000 if you deposit $10,000 each year with 10% interest, would you use DO WHILE or DO UNTIL?
 
 
 
 
 [Course Textbook Chapter 15, Problem 1]
-- Question(Stat6250-tchan49):Can you execute an ARRAY statement? 
+- Question(tchan49-stat6250):Can you execute an ARRAY statement? 
 
 
 
 [Course Textbook Chapter 15, Problem 2]
-- Question(Stat6250-tchan49):How do you define the value in the parenthese of an ARRAY statement? 
+- Question(tchan49-stat6250):How do you define the value in the parenthese of an ARRAY statement? 
 
 
 
 [Course Textbook Chapter 15, Problem 3]
-- Question(Stat6250-tchan49):Do you need to specify the start and stop positions of the array elements in DO statement?
+- Question(tchan49-stat6250):Do you need to specify the start and stop positions of the array elements in DO statement?
 
 
 
 [Course Textbook Chapter 15, Problem 4]
-- Question(Stat6250-tchan49):Is the index vaule for the first array element 0 or 1? 
+- Question(tchan49-stat6250):Is the index vaule for the first array element 0 or 1? 
 
 
 
 [Course Textbook Chapter 15, Problem 5]
-- Question(Stat6250-tchan49):When you use DIM function, do you put the name of the array in the parenthese? 
+- Question(tchan49-stat6250):When you use DIM function, do you put the name of the array in the parenthese? 
 
 
 
 [Course Textbook Chapter 15, Problem 6]
-- Question(Stat6250-tchan49):Can you create numeric variable using arrrays?
-- Answer(Stat6250-tchan49): Yes and characters as well. 
+- Question(tchan49-stat6250):Can you create numeric variable using arrrays?
+- Answer(tchan49-stat6250): Yes and characters as well. 
 
 
 
 [Course Textbook Chapter 15, Problem 7]
-- Question(Stat6250-tchan49):How do you count the value for the i in diff{i}? 
+- Question(tchan49-stat6250):How do you count the value for the i in diff{i}? 
 
 
 
 [Course Textbook Chapter 15, Problem 8]
-- Question(Stat6250-tchan49):Is parenthese necessary to enclose all the temporary vaule using _temporary_ function?
+- Question(tchan49-stat6250):Is parenthese necessary to enclose all the temporary vaule using _temporary_ function?
 
 
 
 [Course Textbook Chapter 15, Problem 9]
-- Question(Stat6250-tchan49):How do you create a multidimensional array with two rows and 5 columns? 
+- Question(tchan49-stat6250):How do you create a multidimensional array with two rows and 5 columns? 
 
 
 
 [recipe_to_create_unique_record_id Week 9 Recipe]
-- Question(Stat6250-tchan49):Why do we need to create unique ID? 
+- Question(tchan49-stat6250):Why do we need to create unique ID? 
 
 
 
 [recipe_to_disaggregate_counts_data Week 9 Recipe]
-- Question(Stat6250-tchan49):What statement you might want to use when you don't want to count missing values? 
+- Question(tchan49-stat6250):What statement you might want to use when you don't want to count missing values? 
 
 
 
