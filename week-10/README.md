@@ -80,11 +80,12 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [basic_recipe_to_load_remote_delimited_file Week 10 Recipe]
-- *Question* (cli19−stat6250): 
+- *Question* (cli19−stat6250): How can you increase the number of values SAS uses to determine the variable type?
+- *Answer* (cli19−stat6250): The GUESSINGROWS= option can be used to specify the number of values SAS uses to determine variable type.
 
 
 
 [adv_recipe_to_load_remote_delimited_file Week 10 Recipe]
-- *Question* (cli19−stat6250): 
+- *Question* (cli19−stat6250): When are DATA steps preferred over PROC SQL?
 
 
