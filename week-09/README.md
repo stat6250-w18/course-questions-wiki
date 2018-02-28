@@ -119,8 +119,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [recipe_to_disaggregate_counts_data Week 9 Recipe]
-- Question (ljiang11−stat6250): 
-
+- Question (ljiang11−stat6250): What is the purpose to disaggregate data?
 
 
 
