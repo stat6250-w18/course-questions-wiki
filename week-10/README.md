@@ -25,6 +25,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (cli19−stat6250): Delimiters can be specified to detect the start/end of variable values.
 
 
+
 [Course Textbook Chapter 16, Problem 7]
 - *Question* (cli19−stat6250): How can the "+" and "@" symbols be used to move the input column pointer?
 
