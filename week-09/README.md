@@ -114,12 +114,12 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [recipe_to_create_unique_record_id Week 9 Recipe]
-- *Question* (sbagdi-stat6250): WHat is the dounble pipe operartor's purpose in SAS?
+- *Question* (sbagdi-stat6250): WHat is the double pipe operartor's purpose in SAS?
 
 
 
 [recipe_to_disaggregate_counts_data Week 9 Recipe]
 - *Question* (sbagdi-stat6250): How to pad character variable with the leading zeroes?
-- *Answer* (sbagdi-stat6250): We can pad character variable with the leading zeroes by making use of Z4. format, whch adds the leading zeroes.
+- *Answer* (sbagdi-stat6250): We can pad character variable with the leading zeroes by making use of Z4. format, which adds the leading zeroes.
 
 
