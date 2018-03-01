@@ -38,6 +38,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(tchan49-stat6250):Can you use Proc Print statement for DO loops?
 - Answer(tchan49-stat6250):No, DO loops cannot be used for Proc steps. 
 - Question (who7−stat6250): Is there any special occasion where the Do loop can be used in the PROC step?
+- *Question* (jcanfield3-stat6250): Are there any types of statements that can be use both data and proc steps?
 
 
 
@@ -63,6 +64,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(tchan49-stat6250):It is determined by the DO statement's stop value. 
 - Question (who7−stat6250): Can the DO loop be consider similar to a FOR loop in R?
 - Answer (who7-stat6250): It is very similar.  The way it goes through their iteration are very similar.
+- *Question* (jcanfield3-stat6250): Why does the do loop resolve at the top rather than at the end?
 
 
 
@@ -84,6 +86,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(tchan49-stat6250):Are there any rules to define the index-variable? 
 - Question (who7−stat6250): Does the increment in the DO loop have a minimum?
 - Answer (who7-stat6250): The default increment is 1 unless otherise specified.
+- *Question* (jcanfield3-stat6250): Can you use a statement like "do count=1 to (x*n)", or would x*n need to be pre-defined first?
 
 
 
@@ -107,6 +110,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(tchan49-stat6250):If the iteration is 1-12, after the twelfth execution of DO loop, what is the value that is incremented to?
 - Answer(tchan49-stat6250):13, however, the DO loop only executes 12 times. 
 - Question (who7−stat6250): Can we set arbituary variable for the count in a DO loop?
+- *Question* (jcanfield3-stat6250): Can SAS detect an infinite loop, or does it get stuck iterating it until manually stopped?
 
 
 
@@ -127,6 +131,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ttruong59-stat6250): The OUTPUT statement writes the current observations to a SAS dataset immediately, not a the end of the DATA step. But the observation will be written to the dataset listed if no dataset name is specified.
 - Question(tchan49-stat6250):What is the function of OUTPUT in DO Loop?
 - Question (who7−stat6250): What will happen if we did not include end after the DO loop?
+- *Question* (jcanfield3-stat6250): Does the year variable get deleted at the end of the data step (Does it still = 2005 after)?
 
 
 
@@ -149,6 +154,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ttruong59-stat6250): Yes. The number of observations is based on the number of times the OUTPUT statement executes
 - Question(tchan49-stat6250):What is the number of observations determined by? 
 - Question (who7−stat6250): Can we set output equal to new dataset name like when we create new dataset from before?
+- *Question* (jcanfield3-stat6250): What value is year at the end of the loop?
+- *Answer* (jcanfield3-stat6250): Year is 21, since it has to resolve at the top of the loop.
 
 
 
@@ -170,6 +177,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(tchan49-stat6250):Can you have DO loops within another DO loops? 
 - Question (who7−stat6250): What are the main difference between DO WHILE and a DO UNTIL loop?
 - Answer (who7-stat6250): DO WHILE loop can skil over some observation while DO UNTIL will go through each observation.
+- *Question* (jcanfield3-stat6250): How many different "do" statements are there in SAS?
 
 
 
@@ -192,6 +200,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question(tchan49-stat6250):Where would the DO UNTIL start being evaluated?
 - Answer(tchan49-stat6250):The bottom of the loop so that a DO UNTIL loop executes at least once. 
 - Question (who7−stat6250): In what scenerio would the DO UNTIL loop does not execute the enclosed statement at all.
+- *Question* (jcanfield3-stat6250): What happens if the until value is reached before the loop begins?
+- *Answer* (jcanfield3-stat6250): The loop iterates only once then, since the loop is always executed at least once.
 
 
 
@@ -212,6 +222,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ttruong59-stat6250): DO WHILE is evaluated at the top of the DO loops and if the expression is initially false, DO loop never executes. On the other hand, DO UNTIL is not evaluated until the end of the loop so DO UNTIL executes at least once. 
 - Question(tchan49-stat6250):Where would the DO WHILE start being evaluated?
 - Question (who7−stat6250): Would the variable need to be sorted before we can use DO UNTIL loop?
+- *Question* (jcanfield3-stat6250): Because it should in "do until(Capital gt 500000)", why does the do while(Capital le 500000) iterate when capital=500000?
 
 
 
@@ -231,6 +242,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ttruong59-stat6250): Yes. DO WHILE statements can be used within iterative DO loops to combine conditional and unconditional execution
 - Question(tchan49-stat6250):If you want to know how many years it takes to earn $10,000 if you deposit $10,000 each year with 10% interest, would you use DO WHILE or DO UNTIL?
 - Question (who7−stat6250): Are there other DO statement besides UNTIL and WHILE?
+- *Question* (jcanfield3-stat6250): Can you have multiple while conditions in a single do loop?
 
 
 
@@ -253,6 +265,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ttruong59-stat6250): An ARRAY is a temp grouping of SAS variables under a single name and is not an executable statement.
 - Question(tchan49-stat6250):Can you execute an ARRAY statement? 
 - Question (who7−stat6250): Can ARRAY be considered a list of matrix in R term?
+- *Question* (jcanfield3-stat6250): Why cannot i not mix numeric and character elements?
 
 
 
@@ -273,6 +286,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ttruong59-stat6250): There are a few ways to do this. One way is to simply specify the number of array elements in term of a one-dimensional array. Typically array elements are the variables users want to reference and process elsewhere in the DATA step.
 - Question(tchan49-stat6250):How do you define the value in the parenthese of an ARRAY statement? 
 - Question (who7−stat6250): Waht would happen if the number within the bracket is different from the number f variables listed in the ARRAY statement?
+- *Question* (jcanfield3-stat6250): What error if any is produced if an incorrect number is placed in parantheses?
 
 
 
@@ -296,6 +310,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ttruong59-stat6250): Yes. In the DO statement, we need to specify the index variable to represents the values of the array elements, then specify the start and stop positions of the array elements.
 - Question(tchan49-stat6250):Do you need to specify the start and stop positions of the array elements in DO statement?
 - Question (who7−stat6250): Can we use DO WHILE or DO UNTIL for the array?
+- *Question* (jcanfield3-stat6250): What error if any is produced if i try to access a nonexistent array element?
 
 
 
@@ -316,6 +331,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): How to specify the range of variables in the array?
 - Question(tchan49-stat6250):Is the index vaule for the first array element 0 or 1? 
 - Question (who7−stat6250): Is there a way to write a shorter code if we want to include all months besides listing all of them in the array?
+- *Question* (jcanfield3-stat6250): Can a variable be used instead of a number in the parantheses when defining an array?
+- *Answer* (jcanfield3-stat6250): Yes it can, as long as its value is numeric.
 
 
 
@@ -335,6 +352,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): Is it true that the variables must be numbered consecutively?
 - Question(tchan49-stat6250):When you use DIM function, do you put the name of the array in the parenthese? 
 - Question (who7−stat6250): Can we create a two-dimensional array?
+- *Question* (jcanfield3-stat6250): Can you add elements to a pre-defined array with already maxed elements?
 
 
 
@@ -354,6 +372,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(tchan49-stat6250):Can you create numeric variable using arrrays?
 - Answer(tchan49-stat6250): Yes and characters as well. 
 - Question (who7−stat6250): Why was the length of character variable set at 8?
+- *Question* (jcanfield3-stat6250): What is the default numeric variable length?
 
 
 
@@ -374,6 +393,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): Based on the solution in the textbook, the correct answer is 15 which is the value of diff{i} at the end second iteration of the DO loop as diff{2}=215-200. What happens if the second iteration of the DO loop is a missing blank? 
 - Question(tchan49-stat6250):How do you count the value for the i in diff{i}? 
 - Question (who7−stat6250): How do we rotate the dataset if we have a 3D dataset like an olap cube?
+- *Question* (jcanfield3-stat6250): Are the 2nd and 3rd rows of weight1,2,3 even in the array?
 
 
 
@@ -395,6 +415,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): Is it possible to assign initial values to an array without specifying each array elements?
 - Question(tchan49-stat6250):Is parenthese necessary to enclose all the temporary vaule using _temporary_ function?
 - Question (who7−stat6250): Can we achieve the same effect to creating temporary values by creating an new varaible in the dataset?
+- *Question* (jcanfield3-stat6250): Why do special words in SAS need the underscores on both sides like in "_temporary_"?
 
 
 
@@ -414,6 +435,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): What is a major reason to create temp array elements?
 - Question(tchan49-stat6250):How do you create a multidimensional array with two rows and 5 columns? 
 - Question (who7−stat6250): What would happen if we select something out of the array?
+- *Question* (jcanfield3-stat6250): Since I cannot find it in the chapter, does {3, 25} specify a 2-D array with 3 rows and 25 columns?
 
 
 
@@ -433,6 +455,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): Assuming school_record_ID is defined as char e.g. school_record-AB0001, how do we set a unique school ID with the string “school_record-AB” if _N_=42?
 - Question(tchan49-stat6250):Why do we need to create unique ID? 
 - Question (who7−stat6250): What are other format beside z6?
+- *Question* (jcanfield3-stat6250): What would happen if i used input instead of put?
 
 
 
@@ -450,5 +473,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): Why do we use RETAIN statements in the DO loop for this recipe? Is it mainly because we like to override the default values? 
 - Question(tchan49-stat6250):What statement you might want to use when you don't want to count missing values? 
 - Question (who7−stat6250): How is the second example different from the first example besides removing all missing value?
+- *Question* (jcanfield3-stat6250): So the code just creates repeated lines of each record based on the value of Enrollment_K12 right?
 
 
