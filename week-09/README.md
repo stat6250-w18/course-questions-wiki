@@ -22,13 +22,13 @@ Answer(pcheng14-stat6250):DATA step statements.
 
 [Course Textbook Chapter 14, Problem 2]
 Question(pcheng14-stat6250):What is the number of iterations determined by?
-Answer(pcheng14-stat6250): It is DO statement's stop value.
+Answer(pcheng14-stat6250):It is DO statement's stop value.
 
 
 
 [Course Textbook Chapter 14, Problem 3]
 Question(pcheng14-stat6250):When should we Use a DO loop to perform repetitive calculations?
-Answer(pcheng14-stat6250): Depneds on the question, for example, we can use a DO loop to perform repetitive calculations starting at 1 and looping 15 times.
+Answer(pcheng14-stat6250):Depneds on the question, for example, we can use a DO loop to perform repetitive calculations starting at 1 and looping 15 times.
 
 
 
@@ -73,7 +73,7 @@ Question(pcheng14-stat6250):Why an ARRAY statement is not an executable statemen
 
 
 [Course Textbook Chapter 15, Problem 2]
-Question(pcheng14-stat6250):What kind of the value indicates the number of elements in the array?
+Question(pcheng14-stat6250):What kinds of the value indicates the number of elements in the array?
 
 
 
