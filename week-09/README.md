@@ -41,6 +41,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): Are there any types of statements that can be use both data and proc steps?
 - Question (ldeng11−stat6250): What is DO loop using for?
 - Answer (ldeng11−stat6250): DO loops can process a group of statement for any number of times rather than only one time. This can greatly reduce the number of statements for the repetitive calculation.
+- Question (ljiang11−stat6250): Can DO loops be used in PROC steps?
 
 
 
@@ -68,6 +69,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (who7-stat6250): It is very similar.  The way it goes through their iteration are very similar.
 - *Question* (jcanfield3-stat6250): Why does the do loop resolve at the top rather than at the end?
 - Question (ldeng11−stat6250): How do you know how many times of excution of the statements in the DO loop? 
+- Question (ljiang11−stat6250): How to determine how many times DO loop executed?
+- Answer (ljiang11−stat6250): By looking at the stoping value after DO statement.
 
 
 
@@ -91,6 +94,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (who7-stat6250): The default increment is 1 unless otherise specified.
 - *Question* (jcanfield3-stat6250): Can you use a statement like "do count=1 to (x*n)", or would x*n need to be pre-defined first?
 - Question (ldeng11−stat6250): What is the syntax of DO loop?
+- Question (ljiang11−stat6250): Can DO loops followed by a variable that has assigned value?
 
 
 
@@ -116,6 +120,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7−stat6250): Can we set arbituary variable for the count in a DO loop?
 - *Question* (jcanfield3-stat6250): Can SAS detect an infinite loop, or does it get stuck iterating it until manually stopped?
 - Question (ldeng11−stat6250): What is the value of the index variable after the last step of the DO loop?
+- Question (ljiang11−stat6250): How would DO loop execute after it reaches the maximum set value?
+- Answer (ljiang11−stat6250): It will increment one more step and ends after it finds the condition doesn't suffice.
 
 
 
@@ -139,6 +145,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): Does the year variable get deleted at the end of the data step (Does it still = 2005 after)?
 - Question (ldeng11−stat6250): What is the OUTPUT statement doing?
 - Answer (ldeng11−stat6250): The OUTPUT statement is used to overwrite the automatic output, so the DATA step will write the obversation for each step.
+- Question (ljiang11−stat6250): Is the 15th loop stored in the dataset?
 
 
 
@@ -164,6 +171,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): What value is year at the end of the loop?
 - *Answer* (jcanfield3-stat6250): Year is 21, since it has to resolve at the top of the loop.
 - Question (ldeng11−stat6250): How do you know the number of steps in the DO loop?
+- Question (ljiang11−stat6250): Where is value+interest stored?
 
 
 
@@ -187,6 +195,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (who7-stat6250): DO WHILE loop can skil over some observation while DO UNTIL will go through each observation.
 - *Question* (jcanfield3-stat6250): How many different "do" statements are there in SAS?
 - Question (ldeng11−stat6250): Can you nested DO loop? Or use other statement in the DO loop?
+- Question (ljiang11−stat6250): How many DO loops do we need?
+- Answer (ljiang11−stat6250): 2. One for month, the other for year.
 
 
 
@@ -212,6 +222,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): What happens if the until value is reached before the loop begins?
 - *Answer* (jcanfield3-stat6250): The loop iterates only once then, since the loop is always executed at least once.
 - Question (ldeng11−stat6250): What is DO UNTIL statement using for?
+- Question (ljiang11−stat6250): When is the condition stop being evaluated?
 
 
 
@@ -234,6 +245,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7−stat6250): Would the variable need to be sorted before we can use DO UNTIL loop?
 - *Question* (jcanfield3-stat6250): Because it should in "do until(Capital gt 500000)", why does the do while(Capital le 500000) iterate when capital=500000?
 - Question (ldeng11−stat6250): Whst is DO WHILE statement using for?
+- Question (ljiang11−stat6250): What is the difference between DO WHILE and DO UNTIL?
 
 
 
@@ -255,6 +267,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7−stat6250): Are there other DO statement besides UNTIL and WHILE?
 - *Question* (jcanfield3-stat6250): Can you have multiple while conditions in a single do loop?
 - Question (ldeng11−stat6250): What are the differences between DO UNTIL and DO WHILE statements?
+- Question (ljiang11−stat6250): Can DO loop contain conditional clause?
 
 
 
@@ -279,6 +292,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7−stat6250): Can ARRAY be considered a list of matrix in R term?
 - *Question* (jcanfield3-stat6250): Why cannot i not mix numeric and character elements?
 - Question (ldeng11−stat6250): What is SAS array?
+- Question (ljiang11−stat6250): Is ARRAY statement executable?
 
 
 
@@ -301,6 +315,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7−stat6250): Waht would happen if the number within the bracket is different from the number f variables listed in the ARRAY statement?
 - *Question* (jcanfield3-stat6250): What error if any is produced if an incorrect number is placed in parantheses?
 - Question (ldeng11−stat6250): What is the array statement?
+- Question (ljiang11−stat6250): Can a variable be inside the parenthesis?
 
 
 
@@ -326,6 +341,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7−stat6250): Can we use DO WHILE or DO UNTIL for the array?
 - *Question* (jcanfield3-stat6250): What error if any is produced if i try to access a nonexistent array element?
 - Question (ldeng11−stat6250): How do you specify the dimension in the array?
+- Question (ljiang11−stat6250): Can a DO loop conjugate with an ARRAY statement?
 
 
 
@@ -349,6 +365,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): Can a variable be used instead of a number in the parantheses when defining an array?
 - *Answer* (jcanfield3-stat6250): Yes it can, as long as its value is numeric.
 - Question (ldeng11−stat6250): How do you reference the elements of the array?
+- Question (ljiang11−stat6250): How is an array element's position expressed in the ARRAY statement?
 
 
 
@@ -371,6 +388,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): Can you add elements to a pre-defined array with already maxed elements?
 - Question (ldeng11−stat6250): How DIM function work?
 - Answer (ldeng11−stat6250): The DIM fuction return the number of elements in the array.
+- Question (ljiang11−stat6250): What is the function dim{}?
 
 
 
@@ -392,6 +410,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7−stat6250): Why was the length of character variable set at 8?
 - *Question* (jcanfield3-stat6250): What is the default numeric variable length?
 - Question (ldeng11−stat6250): How do you use array to create variables?
+- Question (ljiang11−stat6250): Can numeric variable be created in ARRAY statement?
+- Answer (ljiang11−stat6250): Yes, both numeric and character variables can be created in ARRAY statement.
 
 
 
@@ -414,6 +434,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7−stat6250): How do we rotate the dataset if we have a 3D dataset like an olap cube?
 - *Question* (jcanfield3-stat6250): Are the 2nd and 3rd rows of weight1,2,3 even in the array?
 - Question (ldeng11−stat6250): How many ways you can use to create the array?
+- Question (ljiang11−stat6250): How to create an array?
 
 
 
@@ -437,6 +458,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7−stat6250): Can we achieve the same effect to creating temporary values by creating an new varaible in the dataset?
 - *Question* (jcanfield3-stat6250): Why do special words in SAS need the underscores on both sides like in "_temporary_"?
 - Question (ldeng11−stat6250): What is temporary array?
+- Question (ljiang11−stat6250): What is the format to create temporary array elements?
 
 
 
@@ -458,6 +480,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7−stat6250): What would happen if we select something out of the array?
 - *Question* (jcanfield3-stat6250): Since I cannot find it in the chapter, does {3, 25} specify a 2-D array with 3 rows and 25 columns?
 - Question (ldeng11−stat6250): How do you refrence the elements in the array?
+- Question (ljiang11−stat6250): How many rows and columns does ARRAY ques{3, 25} q1-q75 have?
 
 
 
@@ -479,6 +502,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7−stat6250): What are other format beside z6?
 - *Question* (jcanfield3-stat6250): What would happen if i used input instead of put?
 - Question (ldeng11−stat6250): Where is the automatic variable _N_ from?
+- Question (ljiang11−stat6250): How does _N_ work?
 
 
 
@@ -498,5 +522,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7−stat6250): How is the second example different from the first example besides removing all missing value?
 - *Question* (jcanfield3-stat6250): So the code just creates repeated lines of each record based on the value of Enrollment_K12 right?
 - Question (ldeng11−stat6250): Why we should retain the student_record_counter as 0?
+- Question (ljiang11−stat6250): What is the purpose to disaggregate data?
 
 
