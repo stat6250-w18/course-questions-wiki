@@ -15,57 +15,74 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 16, Problem 1]
+- *Question* (shatcher4-stat6250): What order do the variables appear when using column input?
+- *Answer* (shatcher4-stat6250): The variables are printed in a report in the order they were listed in. 
 
 
 
 [Course Textbook Chapter 16, Problem 5]
+- *Question* (shatcher4-stat6250): What are informats?
 
 
 
 [Course Textbook Chapter 16, Problem 7]
+- *Question* (shatcher4-stat6250): What informat is used to read character data and what informat is used to read standard numeric data?
 
 
 
 [Course Textbook Chapter 16, Problem 8]
+- *Question* (shatcher4-stat6250): How do you read nonstandard numeric data?
 
 
 
 [Course Textbook Chapter 16, Problem 9]
+- *Question* (shatcher4-stat6250): Explain the three parts of the COMMAw.d informat.
 
 
 
 [Course Textbook Chapter 17, Problem 1]
+- *Question* (shatcher4-stat6250): What is free-format data?
 
 
 
 [Course Textbook Chapter 17, Problem 2]
+- *Question* (shatcher4-stat6250): What must you remember when using list input?
+- *Answer* (shatcher4-stat6250): List input, by default, does not specify column locations; therefore, all fields must be separated by at least one blank or other delimiter, fields must be read in order from left to right, and you cannot skip or re-read fields.
 
 
 
 [Course Textbook Chapter 17, Problem 4]
+- *Question* (shatcher4-stat6250): How do you specify a range of variables in the INPUT statement?
 
 
 
 [Course Textbook Chapter 17, Problem 5]
+- *Question* (shatcher4-stat6250): What does the MISSOVER option do?
+- *Answer* (shatcher4-stat6250): The MISSOVER option prevents SAS from reading the next record if, when using list input, it does not find values in the current line for all the INPUT statement variables.
 
 
 
 [Course Textbook Chapter 17, Problem 7]
+- *Question* (shatcher4-stat6250): What happens when list input is used to read character variables whose values are longer than the default length?
 
 
 
 [Course Textbook Chapter 17, Problem 8]
+- *Question* (shatcher4-stat6250): What is free-format data?
 
 
 
 [Course Textbook Chapter 17, Problem 10]
+- *Question* (shatcher4-stat6250): What are the differences between the different input styles?
 
 
 
 [basic_recipe_to_load_remote_delimited_file Week 10 Recipe]
+- *Question* (shatcher4-stat6250): How does excluding the replace option prevent a pre-existing dataset from being overwritten?
 
 
 
 [adv_recipe_to_load_remote_delimited_file Week 10 Recipe]
+- *Question* (shatcher4-stat6250): What does the truncover option do?
 
 
