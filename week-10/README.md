@@ -15,57 +15,75 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 16, Problem 1]
+- *Question*(kamirneni-stat6250): How does one convert non-standard data in external data to standard one while importing? 
 
 
 
 [Course Textbook Chapter 16, Problem 5]
+- *Question*(kamirneni-stat6250): What is considered to be non-standard data?
+- *Answer*(kamirneni-stat6250): Data which includes values containing fractions, $ sign, % sign and commas.
 
 
 
 [Course Textbook Chapter 16, Problem 7]
+- *Question*(kamirneni-stat6250): What is @n column pointer control?
+- *Answer*(kamirneni-stat6250): It is an absolute pointer control that moves the input pointer to a specific column number.
 
 
 
 [Course Textbook Chapter 16, Problem 8]
+- *Question*(kamirneni-stat6250): How does SAS store numeric values?
+- *Answer*(kamirneni-stat6250): By default,SAS stores numeric values as floating point numbers in 8 bytes of storage.
 
 
 
 [Course Textbook Chapter 16, Problem 9]
+- *Question*(kamirneni-stat6250): What does PAD function do?
+- *Answer*(kamirneni-stat6250): It pads each record with blanks so that all data lines have same length.
 
 
 
 [Course Textbook Chapter 17, Problem 1]
+- *Question*(kamirneni-stat6250): What is the rule of field delimiter?
+- *Answer*(kamirneni-stat6250): It must not be a character that occurs in a data value.
 
 
 
 [Course Textbook Chapter 17, Problem 2]
+- *Question*(kamirneni-stat6250): Can range of variables be specified using formatted input?
 
 
 
 [Course Textbook Chapter 17, Problem 4]
+- *Question*(kamirneni-stat6250): What is the function of MISSOVER?
 
 
 
 [Course Textbook Chapter 17, Problem 5]
+- *Question*(kamirneni-stat6250): Where is DSD used and why?
 
 
 
 [Course Textbook Chapter 17, Problem 7]
+- *Question*(kamirneni-stat6250): What is the order of the variable in the INPUT statement?
 
 
 
 [Course Textbook Chapter 17, Problem 8]
+- *Question*(kamirneni-stat6250): What must one follow while mentioning the and modifier?
 
 
 
 [Course Textbook Chapter 17, Problem 10]
+- *Question*(kamirneni-stat6250): How does one determine to chose appropriate style for evaluating raw data?
 
 
 
 [basic_recipe_to_load_remote_delimited_file Week 10 Recipe]
+- *Question*(kamirneni-stat6250): When do errors occur while reading a SAS file?
 
 
 
 [adv_recipe_to_load_remote_delimited_file Week 10 Recipe]
-
+- *Question*(kamirneni-stat6250): What does the input statement specifies?
 
