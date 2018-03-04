@@ -17,54 +17,66 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Structure Quiz, Problem 1]
+- Question (aguenane−stat6250):What is the five professional practices will be used to promote a growth in this course?  
+- Answer (aguenane-stat6250): 1-Reading For Depth ,2-Team-based  Problem Solving ,3- Reading For Breadth4- Building General Knowledge and Initial  Setup
 
--	*Question* (aguenane−stat6250): What must you do if your Horizon email address is already associated with a GitHub account?
--	*Answer* (aguenane-stat6250)*: You can change the username on the account or you can change the account's email address which allows you to create a new account. This way, you have a GitHub account solely for STAT 6250.
+
 
 [Course Structure Quiz, Problem 2]
+- Question (aguenane−stat6250):How many quizzes and forum posts need to complete to get achievement? 
+- Answer (aguenane-state6250): To get an achievement you must finish 8 of 10, but is better to complete 10/10  
 
--	*Question* (aguenane−stat6250): What is the benefit of using a news aggregator service like feedly.com to look for recent articles relating to SAS?
--	*Answer* (aguenane-stat6250): Using a news aggregator service lets you look at recent article posts from all of the sources that you want. In this way, all of the articles from different websites are in one place so you don't have to search through many websites.
+
 
 [Course Structure Quiz, Problem 3]
+- Question (aguenane−stat6250):Can I use more sources than the book?
+- Answer (aguenane-stat6250): Yes, you can use sources than the book, just make sure that is a good source 
 
--	*Question* (aguenane−stat6250): When you submit your Weekly quiz, will the Professor automatically merge your pull request? 
+
 
 [Course Structure Quiz, Problem 4]
+- Question (aguenane−stat6250):How can we do to contact the professor?
 
--	*Question* (aguenane−stat6250): What are the goals of the two team projects (besides getting good grades on them)?
--	*Answer* (aguenane-stat6250): To collaboratively work toward creative solutions and adding value to each team-member's work-sample portfolio. If your code doesn't work, someone else can take a look with fresh eyes and see if they can come up with a solution. This fosters teamwork and communication.
+
 
 [Course Structure Quiz, Problem 5]
+- Question (aguenane−stat6250):What is the minimum percentage you can get to pass the final exam? 
+- Answer (aguenane-stat6850): To pass the final exam you need to get minimum 70%.  
 
--	*Question* (aguenane−stat6250): Which chapters do you need to study out of the course textbook for the final exam and what should you focus on?
+
 
 [Course Structure Quiz, Problem 6]
+- Question (aguenane−stat6250):Can we ask the professor for extra credits? 
 
--	*Question* (aguenane−stat6250): How can you use the five professional practices to get more out of this class than just a letter grade? Basically, what can they teach you outside of the classroom?
+
 
 [Course Structure Quiz, Problem 7]
+- Question (aguenane−stat6250):What is going to happen to student grades, if his/she submit assignment late?
 
--	*Question* (aguenane−stat6250): If you find yourself not meeting assignment expectations or deadlines, what can you do so that you can succeed in this course?
+
 
 [Course Structure Quiz, Problem 8]
+- Question (aguenane−stat6250):Can I get an extra credit by doing all 10 weeks quizzes and posts?   
 
--	*Question* (aguenane−stat6250): What is the benefit of continuing to contribute to the Course Questions Wiki when preparing for the final exam?
--	*Answer* (aguenane-stat6250): Asking and answering substantive questions helps you understand and remember important course concepts, which will help you study for the final exam.
+
 
 [Course Structure Quiz, Problem 9]
+- Question (aguenane−stat6250):What is the best way to contact the professor if you need a quick respond? 
 
--	*Question* (aguenane−stat6250): Why is sending a message to the Professor through Slack generally the preferred method of communication?
+
 
 [Course Structure Quiz, Problem 10]
+- Question (aguenane−stat6250):How often we will get announcement for this class and how can we see this announcement?
 
--	*Question* (aguenane−stat6250): Why should you check all of the course technologies daily? 
+
 
 [hello-world Week 1 SAS Recipe]
+- Question (aguenane−stat6250):Do we have another program like Sass?  
 
-- *Question* (aguenane-stat6250): what dose mean SAS recipe?
+
 
 [fizz-buzz Week 1 SAS Recipe]
+- Question (aguenane-stat6250):How can we use branching logic?
 
--*Question* (aguenane-stat6250): how can we use the function MOD?
+
 
