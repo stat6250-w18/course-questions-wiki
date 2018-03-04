@@ -15,57 +15,76 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 16, Problem 1]
+- Question(pcheng14-stat6250):What kind of input specifies the variable's name？
+- Answer(pcheng14-stat6250):Column input
 
 
 
 [Course Textbook Chapter 16, Problem 5]
+- Question(pcheng14-stat6250): Is the part number of columns that contain the raw data field.
+- Answer(pcheng14-stat6250):No, the correct is the total number of columns that contain the raw data field.
 
 
 
 [Course Textbook Chapter 16, Problem 7]
+- Question(pcheng14-stat6250):When should we use INPUT statement correctly read the values for ModelNumber?
 
 
 
 [Course Textbook Chapter 16, Problem 8]
+- Question(pcheng14-stat6250):Do we must use the COMMAw.d informat when the values for Cost contain dollar signs and commas?
+- Answer(pcheng14-stat6250):Yes, we do.
 
 
 
 [Course Textbook Chapter 16, Problem 9]
+- Question(pcheng14-stat6250):How to set up the default location of the column pointer control is column 2?
 
 
 
 [Course Textbook Chapter 17, Problem 1]
+- Question(pcheng14-stat6250):When the raw data file contains data that is free-format?
 
 
 
 [Course Textbook Chapter 17, Problem 2]
+- Question(pcheng14-stat6250):When the raw data file contains data that is free-format?
 
 
 
 [Course Textbook Chapter 17, Problem 4]
+- Question(pcheng14-stat6250):When should list input be used to read data that is free-format?
 
 
 
 [Course Textbook Chapter 17, Problem 5]
+- Question(pcheng14-stat6250):When should the INFILE statement identifies the location of the external data file?
 
 
 
 [Course Textbook Chapter 17, Problem 7]
+- Question(pcheng14-stat6250):Why the LENGTH statement should precede the INPUT statement?
 
 
 
 [Course Textbook Chapter 17, Problem 8]
+- Question(pcheng14-stat6250):Why modified list input can be used to read the values that contain embedded blanks and nonstandard values?
 
 
 
 [Course Textbook Chapter 17, Problem 10]
+- Question(pcheng14-stat6250):What kind of the data will contain embedded blanks or nonstandard values?
 
 
 
 [basic_recipe_to_load_remote_delimited_file Week 10 Recipe]
+- Question(pcheng14-stat6250):What kind of situation will result the numerous erroes displayed in system log?
 
 
 
 [adv_recipe_to_load_remote_delimited_file Week 10 Recipe]
+- Question(pcheng14-stat6250):What kind of the data steps can be thought of like a Swiss army knife?
+
+
 
 
