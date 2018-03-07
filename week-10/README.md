@@ -15,57 +15,75 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 16, Problem 1]
+- Question (ljiang11−stat6250): What is column input?
 
 
 
 [Course Textbook Chapter 16, Problem 5]
+- Question (ljiang11−stat6250): What does the informat $w. stand for?
 
 
 
 [Course Textbook Chapter 16, Problem 7]
+- Question (ljiang11−stat6250): What does + mean here?
 
 
 
 [Course Textbook Chapter 16, Problem 8]
+- Question (ljiang11−stat6250): What does @ mean here?
+- Answer (ljiang11−stat6250): It stands for start from the specified column.
 
 
 
 [Course Textbook Chapter 16, Problem 9]
+- Question (ljiang11−stat6250): Where to put the new variable's name?
+- Answer (ljiang11−stat6250): Right after INPUT.
 
 
 
 [Course Textbook Chapter 17, Problem 1]
+- Question (ljiang11−stat6250): What is free-format data?
+- Answer (ljiang11−stat6250): Data is not arranged in columns or fixed fields.
 
 
 
 [Course Textbook Chapter 17, Problem 2]
+- Question (ljiang11−stat6250): How many kind of input style are there in SAS?
 
 
 
 [Course Textbook Chapter 17, Problem 4]
+- Question (ljiang11−stat6250): What is list input?
 
 
 
 [Course Textbook Chapter 17, Problem 5]
+- Question (ljiang11−stat6250): Can INFILE also import excel file?
 
 
 
 [Course Textbook Chapter 17, Problem 7]
+- Question (ljiang11−stat6250): Where do we specify the length of a variable? 
 
 
 
 [Course Textbook Chapter 17, Problem 8]
+- Question (ljiang11−stat6250): How is modified list input different from list input?
 
 
 
 [Course Textbook Chapter 17, Problem 10]
+- Question (ljiang11−stat6250): Can modified list input read nonstandard values?
 
 
 
 [basic_recipe_to_load_remote_delimited_file Week 10 Recipe]
+- Question (ljiang11−stat6250): Can PROC IMPORT import .R file or .py file?
 
 
 
 [adv_recipe_to_load_remote_delimited_file Week 10 Recipe]
+- Question (ljiang11−stat6250): How can PROC SQL import files?
+
 
 
