@@ -46,8 +46,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (mresendiz3-stat6250): Is there another way to saving and commiting files without the use of a repo?
 - *Question* (akrishnamurthy−stat6250): what are the components to be completed to earn an Initial Setup achievement award? 
 - Question (nshrivastava2-stat6250):Since, we are using GitHub web interface as well Github desktop. What is the benefit of using GitHub desktop over GitHub web?
-- Question (aguenane−stat6250):What is the five professional   practices will be used to promote a growth in this course? 
-- Answer (aguenane−stat6250):there are  1-Reading For Depth ,2-Team-based  Problem Solving ,3- Reading For Breadth4- Building General Knowledge and Initial  Setup .
+- Question (aguenane−stat6250) :What is the five professional   practices will be used to promote a growth in this course? 
+- Answer (aguenane−stat6250): there are  1-Reading For Depth ,2-Team-based  Problem Solving ,3- Reading For Breadth4- Building General Knowledge and Initial  Setup.
 
 
 
@@ -123,8 +123,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy−stat6250): What is the requirement to earn Reading for depth Achievement award? 
 - Question (nshrivastava2-stat6250):Why we have the course structured having weekly quizzes ?
 - Answer   (nshrivastava2-stat6250):Since this is an online course and  in order to develop substantive questions whose answers would better help you understand the concepts in course textbook problems.
-- Question (aguenane−stat6250):Can we use more sources than the book?
-- Answer (aguenane -6250): yes, you can use sources than the book, just make sure that is a good source
+- Question (aguenane−stat6250):Can I use more sources than the book?
+- Answer aguenane -6250) :yes, you can use sources than the book, just make sure that is a good source
 
 
 
@@ -154,7 +154,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (mresendiz3-stat6250): Will there be any group google hangouts in the interest of collaboration?
 - *Question* (akrishnamurthy−stat6250): What are the steps in a team project and what is the professional practice award issued on completion of all steps of the two projects? 
 - Question (nshrivastava2-stat6250):Is the project consist of individual based or team based? If project is team based then how many students are in one team? 
-- Question (aguenane−stat6250):how can we do to contact the professor?
+- Question (aguenane−stat6250):Can I use more sources than the book?
+- Answer (aguenane -6250):yes you can use sources than the book, just make sure that is a good source
 
 
 
@@ -188,8 +189,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy−stat6250): What is the pattern and duration of final exam? How to prepare for the finals and what professional practice is accomplished on completion of finals ? 
 - *Answer* (akrishnamurthy-stat6250): Final exam wil include 65 multiple choice questions with a time limit of 110 minutes. Review the SAS Certified base programmer process and example problems in <http://www.sas.com> website with additional emphasis on chapters 1-8,10-17, and 19-20 in course textbook. In particular, pay more attention to all the weekly quizes and review them thoroughly as the finals will mostly be similar to the weekly quizes.  
 - Question (nshrivastava2-stat6250):Is the final exam is from all the chapters of text book or cumulative? 
-- Question (aguenane−stat6250): What is the minimum percentage you can get to pass the final exam?
-- Answer (guenane-6250): to pass the final exam you need to get minimum 70%.
+- Question (aguenane−stat6250):how can we do to contact the professor?
 
 
 
@@ -218,7 +218,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy−stat6250): What acheivement awards are necessary to earn grade A in this course?  
 - *Answer* (akrishnamurthy-stat6250): As per course grading criteria, Team-based problem solving achievement award is mandatory. The other additional course achivement awards earned determine the grade. To earn grade A, student should earn all possible achievement awards which includes the Initial setup award, Reading for Depth award, Reading for Breadth award, Building General Knowledge award in addition to the Team-based problem solving award.  
 - Question (nshrivastava2-stat6250):What is the difference in all possible achievements and additional achievements to earn grades?
-- Question (aguenane−stat6250):Can we ask the professor for extra credits? 
+- Question (aguenane−stat6250): What is the minimum percentage you can get to pass the final exam?
+- Answer (guenane-6250): to pass the final exam you need to get minimum 70%. 
 
 
 
@@ -248,7 +249,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (mresendiz3-stat6250): What percentage of students on average resubmit incomplete assignments? Does the percentage increase or decrease as the class moves forward?
 - *Question* (akrishnamurthy−stat6250): How are late and incomplete submissions handled ? Why incomplete submissions are given a chance for follow-up evaluation with instructor's permission? 
 - Question (nshrivastava2-stat6250):Likewise WeekQuiz1, is the instructor will allow student to review on his comments and resubmit on web GitHub for all weekly quizes?
-- Question (aguenane−stat6250): What is going to happen to student grades, if his/she submit assignment late?
+- Question (aguenane−stat6250):Can we ask the professor for extra credits? 
 
 
 
@@ -279,7 +280,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (mresendiz3-stat6250): Don't punctuation marks at the ends of sentences belong within the quotation marks (referrring to Question 1?)
 - *Question* (akrishnamurthy−stat6250): What are the options to earn extra credits and why does the instructor encourage contribution even after week 10 quiz? 
 - Question (nshrivastava2-stat6250): What is the maximum limit of earning extra credit?
-- Question (aguenane−stat6250):Can I get an extra credit by doing all 10 weeks quizzes and posts?
+- Question (aguenane−stat6250): What is going to happen to student grades, if his/she submit assignment late?
 
 
 
@@ -312,7 +313,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy−stat6250): How do i contact the instructor for an immediate response? 
 - Question (nshrivastava2-stat6250):How many times students can have one on one online meeting with instructor in case they  need to discuss on any issue by sharing desktop ?
 - Answer   (nshrivastava2-stat6250):Students can always use horizonmail, prefer direct message to slack  but in case of savior issue for which student need help from instructor, can be setup one to one online meeting for not more than 3 times in the duration of the course.
-- Question (aguenane−stat6250):What is the best way to contact the professor if you need a quick respond?
+- Question (aguenane−stat6250): Can I get an extra credit by doing all 10 weeks quizzes and posts?  
 
 
 
@@ -345,7 +346,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy−stat6250): What technologies are essential for this course and why should these be checked daily? 
 - Question (nshrivastava2-stat6250):What could be the challenges of using CSUEB-Horizon email technology?
 - Answer   (nshrivastava2-stat6250):Since CSUEB-Horizon is Google based, while making an online appointment with instructor, if student  logged in with Google account other than horizon account, he/she will not able to sync the calendar with an instructor.
-- Question (aguenane−stat6250):How often we will have  announcement for this class? and how can we see this announcement?
+- Question (aguenane−stat6250): What is the best way to contact the professor if you need a quick respond?
 
 
 
@@ -391,7 +392,7 @@ In this case, everything between the “proc print” and the second “run” s
 - *Question* (akrishnamurthy−stat6250): How is a SAS program defined and what are the steps involved ? 
 - Question (nshrivastava2-stat6250): What is the rules while creating datasets name or variables name?
 - Answer   (nshrivastava2-stat6250): 1) It should start with either with any letter or underscore,2)                             Should NOT use any number at the very first place,3) Should NOT use special character except _(underscore) and 4)             Should 32 character long.
-- Question (aguenane−stat6250):Do we have another program like Sass? 
+- Question (aguenane−stat6250): Do we have another program like Sass?
 
 
 
