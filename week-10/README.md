@@ -15,57 +15,75 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 16, Problem 1]
+- Question (aguenane−stat6250): What variable values makes the data non standard?
+- Answer (aguenane−stat6250): If the values include $ sign, the data becomes non standard
 
 
 
 [Course Textbook Chapter 16, Problem 5]
+- Question (aguenane−stat6250): If the data is arranged in columns and although it is in sequence,is it required that values begin and end in same column for it to be classified as standard data?
 
 
 
 [Course Textbook Chapter 16, Problem 7]
+- Question (aguenane−stat6250): What are features of column input?
 
 
 
 [Course Textbook Chapter 16, Problem 8]
+- Question (aguenane−stat6250): What are the 2 input styles which can be used on nonstandard data values?
+- Answer (aguenane−stat6250): Column input which can be used to read standard data and formatted input to read both standard and non-standard data.
 
 
 
 [Course Textbook Chapter 16, Problem 9]
+- Question (aguenane−stat6250): Like +n, is there any pointer which moves the pointer control in reverse direction?
 
 
 
 [Course Textbook Chapter 17, Problem 1]
+- Question (aguenane−stat6250): What is the $ sign in list input used for?
+- Answer (aguenane−stat6250): It used to specify that the character is a variable.
 
 
 
 [Course Textbook Chapter 17, Problem 2]
+- Question (aguenane−stat6250): What should be specified in list input?
+- Answer (aguenane−stat6250): All fields must be separated by blank/delimiter, traverse from left to right and can't skip or re-read fields.
 
 
 
 [Course Textbook Chapter 17, Problem 4]
+- Question (aguenane−stat6250): How does SAS input process the dataset?
 
 
 
 [Course Textbook Chapter 17, Problem 5]
+- Question (aguenane−stat6250): Will there be any error if field limiter is a character that occurs in data value?
 
 
 
 [Course Textbook Chapter 17, Problem 7]
+- Question (aguenane−stat6250): What is the condition for specifying a range of character variables?
 
 
 
 [Course Textbook Chapter 17, Problem 8]
+- Question (aguenane−stat6250): What are the limitations of list input?
 
 
 
 [Course Textbook Chapter 17, Problem 10]
+- Question (aguenane−stat6250): What is the condition for MISSOVER option to be working?
 
 
 
 [basic_recipe_to_load_remote_delimited_file Week 10 Recipe]
+- Question (aguenane−stat6250): In what parts of SAS, can delimiters be used?
 
 
 
 [adv_recipe_to_load_remote_delimited_file Week 10 Recipe]
+- Question (aguenane−stat6250):Where is truncover applicable?
 
 
