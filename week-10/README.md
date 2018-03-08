@@ -34,6 +34,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ttruong59-stat6250): Yes, the column input the ability to read fields in any order. Column input needs to specify the variable’s name followed by the $ sign if the values are character values.
 - *Question* (ldai4-stat6250): How does the column input read the values in raw data file?
 - *Answer* (ldai4-stat6250): Column input specifies the variables'name, followed by a dollar($) sigh if the values are character values, and the beginning and ending column locations of the raw data values.
+- *Question* (sbagdi-stat6250): Which input style in SAS can read data fields in any order? How is a blank field taken care of in a column input style?
+- *Answer* (sbagdi-stat6250): The column input allows fields to be read in any order. And the blank fields are considered as missing data, and it doesn’t create any problem for any other fields.
 
 
 
@@ -58,6 +60,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ttruong59-stat6250): The $w. Informat enables users to read character data. The w represents the field width of the data value or the total number of columns that contain the raw data field.
 - *Question* (ldai4-stat6250): What does the $w mean?
 - *Answer* (ldai4-stat6250): The $w informat enables you to read character data. the w represents the field width of the data value or the total number of columns that contain the raw data field.
+- *Question* (sbagdi-stat6250): What is the difference between standard numeric and non-standard numeric data?
 
 
 
@@ -77,6 +80,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): The pointer control is used to move the input pointer from the beginning column to the column whose data field is read from raw data file.
 - Question (ttruong59-stat6250): What is a major difference between @n and +n pointer control in the INPUT statements?
 - *Question* (ldai4-stat6250): Which INPUT statement can read character values?
+- *Question* (sbagdi-stat6250): What are the two types of column control pointers? What do they do?
+- *Answer* (sbagdi-stat6250): The to column control pointers are- @n and +n the @n moves the input pointer to a specific column number and +n moves the input pointer to the column number relative to the current position.
 
 
 
@@ -100,6 +105,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): What does the COMMAw.d informat do in the INPUT statements?
 - Answer (ttruong59-stat6250): The COMMAw.d informat is used to read the raw data values. It also will remove any special characters such as commas from numeric data and store only numeric values in a dataset.
 - *Question* (ldai4-stat6250): How does the COMMAw.d informat read the variables with dollar signs and commas? 
+- *Question* (sbagdi-stat6250): What is an informat? What is the informat to read standard numeric data and what does that informat stands for?
+- *Answer* (sbagdi-stat6250): An informat is an instruction that tells SAS how to read raw data, which could be both, standard and non-standard data values. “w.d” informat reads the standard numeric data, where w stands for field width of raw data values, the period as the delimeter, and the d, the number of implied decimals for the data value.
 
 
 
@@ -114,13 +121,14 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(nshrivastava2-stat6250): The +n pointer control moves the input pointer forward to a column number that is relative to the current position. The + moves the pointer forward n columns. 
 - Question(tchan49-stat6250):What is the default location of the column pointer?
 - *Question* (asharda-stat6250): When is PAD option useful ?
-- *Answer* (asharda-stat6250): The PAD option is useful only when missing data occurs at the end of a record or when SAS
-encounters an end-of-record marker before all fields are completely read
+- *Answer* (asharda-stat6250): The PAD option is useful only when missing data occurs at the end of a record or when SAS encounters an end-of-record marker before all fields are completely read
 - *Question* (aacharya4−stat6250): What is the default location of the column pointer control while reading data from raw data file?
 - *Answer* (aacharya4−stat6250): The default location of the column pointer control is column 1, while it reads data from the raw data file.
 - Question (ttruong59-stat6250): What is a default location of the column pointer control?
 - Answer (ttruong59-stat6250): The default location of the column pointer control is column 1 and a column pointer control is optional for reading the first field.
 - *Question* (ldai4-stat6250): What is the column pointer control?
+- *Question* (sbagdi-stat6250): Why is it important to specify the actual field width of raw data in an input statement?
+- *Answer* (sbagdi-stat6250): If the exact field width is missing, and we specify a default field width of 8 for all numeric values, SAS will read inappropriate variable values when program executes.
 
 
 
@@ -142,6 +150,8 @@ encounters an end-of-record marker before all fields are completely read
 - Question (ttruong59-stat6250): What is a free-format data?
 - Answer (ttruong59-stat6250): Raw data can be organized in several ways and free-format typically is not arranged in fixed fields. The fields are often separated by blanks or by some delimiters.
 - *Question* (ldai4-stat6250): If the rae file contains free-format data, does the data need to arrange in columns or fixed fields?
+- *Question* (sbagdi-stat6250): How can a free formatted data be read from a raw data file?
+- *Answer* (sbagdi-stat6250): The LIST INPUT option is used to read free formatted data from the raw data file, where we do not need to specify the column location of the data field.
 
 
 
@@ -164,6 +174,7 @@ encounters an end-of-record marker before all fields are completely read
 - Answer (ttruong59-stat6250): No, it is not necessary.
 - *Question* (ldai4-stat6250): What should be used to read the free-format data?
 - *Answer* (ldai4-stat6250): List input should be used to read data that is free-format because you do not need to specify the column locations of the data.
+- *Question* (sbagdi-stat6250): What are some of the limitations of LIST input?
 
 
 
@@ -182,6 +193,8 @@ encounters an end-of-record marker before all fields are completely read
 - Question (ttruong59-stat6250): Is it necessary to list the variable names in the same order when using a list input statement?
 - Answer (ttruong59-stat6250): It is required to list the variable names in the same order corresponding to raw data fields and fields can’t be skipped or re-read.
 - *Question* (ldai4-stat6250): How does the list input read the values with free-format?
+- *Question* (sbagdi-stat6250): When should we specify the range of variables in SAS? Does it make a difference if we specify the range in VAR statement with PROC PRINT step rather than in the INPUT statement?
+- *Answer* (sbagdi-stat6250): When the variable values in the raw data file are sequential (specially, if the variables are similar) and are separated by a blank or any other delimiter, we can specify a range of variables in the INPUT statement. When the range is specified with PROC PRINT sep, it is done to list a range of specific variables. 
 
 
 
@@ -203,6 +216,8 @@ encounters an end-of-record marker before all fields are completely read
 - Answer (ttruong59-stat6250): We need to use the DLM= option in the INFILE statement to specify a delimiter other than a blank.
 - *Question* (ldai4-stat6250): How does the INFILE statement work?
 - *Answer* (ldai4-stat6250): The INFILE statement identifies the location of the external data file. The DLM=option specifies the colon(:) as the delimiter that separates each field.
+- *Question* (sbagdi-stat6250): Why is a DLM= option used in SAS?
+- *Answer* (sbagdi-stat6250): Sometimes, in free format data, characters other than blanks are used to separate data values in SAS. In such cases, the DLM= option is used in th INFILE statements.
 
 
 
@@ -221,6 +236,7 @@ encounters an end-of-record marker before all fields are completely read
 - *Answer* (aacharya4−stat6250): The LENGTH statement is used to increase the length of a character variable so that character values having length greater than 8 charcaters are not truncated.
 - Question (ttruong59-stat6250): What is the default length of character variables when using list input to read raw data?
 - *Question* (ldai4-stat6250): Should the LENGTH statement precede the INPUT statement?
+- *Question* (sbagdi-stat6250): What does DSD= option stand for? Why does SAS need this option? Is there a difference between MISSOVER option and DSD option?
 
 
 
@@ -237,6 +253,8 @@ encounters an end-of-record marker before all fields are completely read
 - *Answer* (aacharya4−stat6250): Modified list input is used to read data that contain embedded blanks and nonstandard values from a raw data file.
 - Question (ttruong59-stat6250): What is a major difference between “&” modifier and “:” modifier when using modified list input?
 - *Question* (ldai4-stat6250): Can modified list input be used to read the values that contain embedded blanks and nonstandard values?
+- *Question* (sbagdi-stat6250): What are the two types of modifiers used with list INPUT?
+- *Answer* (sbagdi-stat6250): To make the list input more versatile, the modifiers are used. The two types are: The ampersand (&)- To read character values that contain embedded blanks, and the colon (:) modifier- To red non-standard data values and character values, which are longer than 8 characters and do not contain embedded blanks.
 
 
 
@@ -256,6 +274,8 @@ encounters an end-of-record marker before all fields are completely read
 - Question (ttruong59-stat6250): What kind of data can contain embedded blanks or nonstandard values?
 - Answer (ttruong59-stat6250): free-format data
 - *Question* (ldai4-stat6250): Which input can be used to read the values for year?
+- *Question* (sbagdi-stat6250): What does a LENGTH statement in SAS used for?
+- *Answer* (sbagdi-stat6250): LENGTH statement in SAS is used to increase the character length of the variables, whose character lengths are greater than 8, so that they do not get truncated.
 
 
 
@@ -274,6 +294,8 @@ encounters an end-of-record marker before all fields are completely read
 - *Answer* (aacharya4−stat6250): The delimiter option in proc import step should have been specified as "09"x, which is a hexadecimal representation of a tab character if a .tsv file was used.
 - Question (ttruong59-stat6250): Why is “dlm” assigned for DBMS= option in proc import?
 - *Question* (ldai4-stat6250): How do we use INFILE to load a exteral file? 
+- *Question* (sbagdi-stat6250): What is the delimiter if instead of a .csv file, the file is .tsv or for a pipe separated value file? What does .tsv stand for?
+- *Answer* (sbagdi-stat6250): The .tsv stands for tab separated value file with “09”x, which is the ASCII hexadecimal representation for a tab character as its delimiter. For a pipe separated value file, a ‘|’ is used as its delimiter.
 
 
 
@@ -293,5 +315,7 @@ encounters an end-of-record marker before all fields are completely read
 - Question (ttruong59-stat6250): What is an advantage of using a data step rather than using proc import in the basic version of the recipe to load remote delimited file?
 - Answer (ttruong59-stat6250): Users can add do-loops and if-then statement with a data step as needed when loading remote delimited file.
 - *Question* (ldai4-stat6250): Can the PROC IMPORT read a Specific Delimited File?
+- *Question* (sbagdi-stat6250): What does a ‘lrecl’ option do in SAS?
+- *Answer* (sbagdi-stat6250): The ‘lrecl’ option is used to specify the maximum possible line length (logical record length), which is 256 by default, but is too short for most real-world file. 
 
 
