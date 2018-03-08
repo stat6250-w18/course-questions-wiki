@@ -32,6 +32,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): When we use column input to read values, we specify the variable name(followed by $ sign in case of character variable) and the start and end location of raw data values.
 - Question (ttruong59-stat6250): Does the column input have the ability to read fields in any order? 
 - Answer (ttruong59-stat6250): Yes, the column input the ability to read fields in any order. Column input needs to specify the variable’s name followed by the $ sign if the values are character values.
+- *Question* (ldai4-stat6250): How does the column input read the values in raw data file?
+- *Answer* (ldai4-stat6250): Column input specifies the variables'name, followed by a dollar($) sigh if the values are character values, and the beginning and ending column locations of the raw data values.
 
 
 
@@ -54,6 +56,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): $w informat is used to read character data. 'w' represents the width of the data field, i.e. the number of columns in the raw data field.
 - Question (ttruong59-stat6250): What does $w. informat do for reading data?
 - Answer (ttruong59-stat6250): The $w. Informat enables users to read character data. The w represents the field width of the data value or the total number of columns that contain the raw data field.
+- *Question* (ldai4-stat6250): What does the $w mean?
+- *Answer* (ldai4-stat6250): The $w informat enables you to read character data. the w represents the field width of the data value or the total number of columns that contain the raw data field.
 
 
 
@@ -72,6 +76,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): what is the use of pointer control in column input to read data from raw data file?
 - *Answer* (aacharya4−stat6250): The pointer control is used to move the input pointer from the beginning column to the column whose data field is read from raw data file.
 - Question (ttruong59-stat6250): What is a major difference between @n and +n pointer control in the INPUT statements?
+- *Question* (ldai4-stat6250): Which INPUT statement can read character values?
 
 
 
@@ -94,6 +99,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): COMMAw.d informat is to be used in INPUT statement when the data field read from raw data file contains commas and dollar signs.
 - Question (ttruong59-stat6250): What does the COMMAw.d informat do in the INPUT statements?
 - Answer (ttruong59-stat6250): The COMMAw.d informat is used to read the raw data values. It also will remove any special characters such as commas from numeric data and store only numeric values in a dataset.
+- *Question* (ldai4-stat6250): How does the COMMAw.d informat read the variables with dollar signs and commas? 
 
 
 
@@ -114,6 +120,7 @@ encounters an end-of-record marker before all fields are completely read
 - *Answer* (aacharya4−stat6250): The default location of the column pointer control is column 1, while it reads data from the raw data file.
 - Question (ttruong59-stat6250): What is a default location of the column pointer control?
 - Answer (ttruong59-stat6250): The default location of the column pointer control is column 1 and a column pointer control is optional for reading the first field.
+- *Question* (ldai4-stat6250): What is the column pointer control?
 
 
 
@@ -134,6 +141,7 @@ encounters an end-of-record marker before all fields are completely read
 - *Answer* (aacharya4−stat6250): The data contained in a raw data file is called free format data when the data is not arranged in columns of fixed width.
 - Question (ttruong59-stat6250): What is a free-format data?
 - Answer (ttruong59-stat6250): Raw data can be organized in several ways and free-format typically is not arranged in fixed fields. The fields are often separated by blanks or by some delimiters.
+- *Question* (ldai4-stat6250): If the rae file contains free-format data, does the data need to arrange in columns or fixed fields?
 
 
 
@@ -154,6 +162,8 @@ encounters an end-of-record marker before all fields are completely read
 - *Answer* (aacharya4−stat6250): List input is used to read free format data from a raw data file where we do not need to give column location of data fields.
 - Question (ttruong59-stat6250): Do users need to specify the column locations of the data with list input?
 - Answer (ttruong59-stat6250): No, it is not necessary.
+- *Question* (ldai4-stat6250): What should be used to read the free-format data?
+- *Answer* (ldai4-stat6250): List input should be used to read data that is free-format because you do not need to specify the column locations of the data.
 
 
 
@@ -171,6 +181,7 @@ encounters an end-of-record marker before all fields are completely read
 - *Answer* (aacharya4−stat6250): While using list input, the data fields should be seperated by at least a blank space or delimiter and also data fields are read from left to right where we cannot skip or re-read data fields.
 - Question (ttruong59-stat6250): Is it necessary to list the variable names in the same order when using a list input statement?
 - Answer (ttruong59-stat6250): It is required to list the variable names in the same order corresponding to raw data fields and fields can’t be skipped or re-read.
+- *Question* (ldai4-stat6250): How does the list input read the values with free-format?
 
 
 
@@ -190,6 +201,8 @@ encounters an end-of-record marker before all fields are completely read
 - *Answer* (aacharya4−stat6250): The DLM option in the INFILE statement is used to specify the delimiter that seperates the data fields.
 - Question (ttruong59-stat6250): What is a significant reason users need to use the DLM= option in the INFILE statement?
 - Answer (ttruong59-stat6250): We need to use the DLM= option in the INFILE statement to specify a delimiter other than a blank.
+- *Question* (ldai4-stat6250): How does the INFILE statement work?
+- *Answer* (ldai4-stat6250): The INFILE statement identifies the location of the external data file. The DLM=option specifies the colon(:) as the delimiter that separates each field.
 
 
 
@@ -207,6 +220,7 @@ encounters an end-of-record marker before all fields are completely read
 - *Question* (aacharya4−stat6250): What is the use of LENGTH statement in SAS?
 - *Answer* (aacharya4−stat6250): The LENGTH statement is used to increase the length of a character variable so that character values having length greater than 8 charcaters are not truncated.
 - Question (ttruong59-stat6250): What is the default length of character variables when using list input to read raw data?
+- *Question* (ldai4-stat6250): Should the LENGTH statement precede the INPUT statement?
 
 
 
@@ -222,6 +236,7 @@ encounters an end-of-record marker before all fields are completely read
 - *Question* (aacharya4−stat6250): How can we read data that contain embedded blanks and nonstandard values from a raw data file?
 - *Answer* (aacharya4−stat6250): Modified list input is used to read data that contain embedded blanks and nonstandard values from a raw data file.
 - Question (ttruong59-stat6250): What is a major difference between “&” modifier and “:” modifier when using modified list input?
+- *Question* (ldai4-stat6250): Can modified list input be used to read the values that contain embedded blanks and nonstandard values?
 
 
 
@@ -240,6 +255,7 @@ encounters an end-of-record marker before all fields are completely read
 - *Answer* (aacharya4−stat6250): We can use formatted input while reading data from a raw data file when the same number of coulmns have to read for each record in the raw data file.
 - Question (ttruong59-stat6250): What kind of data can contain embedded blanks or nonstandard values?
 - Answer (ttruong59-stat6250): free-format data
+- *Question* (ldai4-stat6250): Which input can be used to read the values for year?
 
 
 
@@ -257,6 +273,7 @@ encounters an end-of-record marker before all fields are completely read
 - *Question* (aacharya4−stat6250): What would have been the value for the delimiter option in the proc import step in case a .tsv file i.e tab seperated file was used?
 - *Answer* (aacharya4−stat6250): The delimiter option in proc import step should have been specified as "09"x, which is a hexadecimal representation of a tab character if a .tsv file was used.
 - Question (ttruong59-stat6250): Why is “dlm” assigned for DBMS= option in proc import?
+- *Question* (ldai4-stat6250): How do we use INFILE to load a exteral file? 
 
 
 
@@ -275,5 +292,6 @@ encounters an end-of-record marker before all fields are completely read
 - *Answer* (aacharya4−stat6250): The "lrcel" option is used to set the maximum possible length of each record in the as 32767, otherwise for SAS, the default length of each record is 256 which is very less for real world data.
 - Question (ttruong59-stat6250): What is an advantage of using a data step rather than using proc import in the basic version of the recipe to load remote delimited file?
 - Answer (ttruong59-stat6250): Users can add do-loops and if-then statement with a data step as needed when loading remote delimited file.
+- *Question* (ldai4-stat6250): Can the PROC IMPORT read a Specific Delimited File?
 
 
