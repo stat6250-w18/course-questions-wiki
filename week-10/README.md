@@ -42,8 +42,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ljiang11−stat6250): What is column input?
 - Question (aguenane−stat6250): What variable values makes the data non standard?
 - Answer (aguenane−stat6250): If the values include $ sign, the data becomes non standard
-− ∗Question∗ (ldeng11−stat6250): Can you read the column in custom order other than the sequential order (start from column 1)?
-− ∗Answer∗ (ldeng11−stat6250): Yes, you can. You just need to write the column you want to read in the first place in your input statement.
+- *Question* (ldeng11−stat6250): Can you read the column in custom order other than the sequential order (start from column 1)?
+- *Answer* (ldeng11−stat6250): Yes, you can. You just need to write the column you want to read in the first place in your input statement.
 
 
 
@@ -73,7 +73,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy-stat6250): What is an informat in INPUT statement ? What are the informats available in SAS ?
 - Question (ljiang11−stat6250): What does the informat $w. stand for?
 - Question (aguenane−stat6250): If the data is arranged in columns and although it is in sequence,is it required that values begin and end in same column for it to be classified as standard data?
-− ∗Question∗ (ldeng11−stat6250): How do you read the column if the column contain both number and letter?
+- *Question* (ldeng11−stat6250): How do you read the column if the column contain both number and letter?
 
 
 
@@ -100,8 +100,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (akrishnamurthy-stat6250): The "$w." informat is used to read character data. $ indicates that the variable is a character followed by width of the variable and period indicates end of informat. "w.d" is the informat for reading numeric data. "w" specifies width of the field, period is the delimiter and "d" optionally specifies the number of implied decimal places. 
 - Question (ljiang11−stat6250): What does + mean here?
 - Question (aguenane−stat6250): What are features of column input?
-− ∗Question∗ (ldeng11−stat6250): How do you read the first field after you read the follow fields first?
-− ∗Answer∗ (ldeng11−stat6250): You can use "@1" to move the pointer back to the first field.
+- *Question* (ldeng11−stat6250): How do you read the first field after you read the follow fields first?
+- *Answer* (ldeng11−stat6250): You can use "@1" to move the pointer back to the first field.
 
 
 
@@ -134,7 +134,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ljiang11−stat6250): It stands for start from the specified column.
 - Question (aguenane−stat6250): What are the 2 input styles which can be used on nonstandard data values?
 - Answer (aguenane−stat6250): Column input which can be used to read standard data and formatted input to read both standard and non-standard data.
-− ∗Question∗ (ldeng11−stat6250): How do you read the field if it contains special signs like dollar sign, or the comma?
+- *Question* (ldeng11−stat6250): How do you read the field if it contains special signs like dollar sign, or the comma?
 
 
 
@@ -162,7 +162,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ljiang11−stat6250): Where to put the new variable's name?
 - Answer (ljiang11−stat6250): Right after INPUT.
 - Question (aguenane−stat6250): Like +n, is there any pointer which moves the pointer control in reverse direction?
-− ∗Question∗ (ldeng11−stat6250): How many ways you can use to move the pointer back and forward when you read the fileds?
+- *Question* (ldeng11−stat6250): How many ways you can use to move the pointer back and forward when you read the fileds?
 
 
 
@@ -192,7 +192,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ljiang11−stat6250): Data is not arranged in columns or fixed fields.
 - Question (aguenane−stat6250): What is the $ sign in list input used for?
 - Answer (aguenane−stat6250): It used to specify that the character is a variable.
-− ∗Question∗ (ldeng11−stat6250): What does free format data mean?
+- *Question* (ldeng11−stat6250): What does free format data mean?
 
 
 
@@ -222,7 +222,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ljiang11−stat6250): How many kind of input style are there in SAS?
 - Question (aguenane−stat6250): What should be specified in list input?
 - Answer (aguenane−stat6250): All fields must be separated by blank/delimiter, traverse from left to right and can't skip or re-read fields.
-− ∗Question∗ (ldeng11−stat6250): How do you choose the correct way to read different format input data?
+- *Question* (ldeng11−stat6250): How do you choose the correct way to read different format input data?
 
 
 
@@ -247,8 +247,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy-stat6250): what is the DSD option used for in FILE statement?
 - Question (ljiang11−stat6250): What is list input?
 - Question (aguenane−stat6250): How does SAS input process the dataset?
-− ∗Question∗ (ldeng11−stat6250): How do you read the fields contain character value?
-− ∗Answer∗ (ldeng11−stat6250): You use "$" to indicate that this field contain character value.
+- *Question* (ldeng11−stat6250): How do you read the fields contain character value?
+- *Answer* (ldeng11−stat6250): You use "$" to indicate that this field contain character value.
 
 
 
@@ -276,7 +276,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy-stat6250): Can free format data be seperated by a delimiter other than blanks?
 - Question (ljiang11−stat6250): Can INFILE also import excel file?
 - Question (aguenane−stat6250): Will there be any error if field limiter is a character that occurs in data value?
-− ∗Question∗ (ldeng11−stat6250): How do you read the data file use other format like comma, -, other than the blank to seperate each fields?
+- *Question* (ldeng11−stat6250): How do you read the data file use other format like comma, -, other than the blank to seperate each fields?
 
 
 
@@ -300,7 +300,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy-stat6250): Can the order of variables be defined along with LENGTH overrides?
 - Question (ljiang11−stat6250): Where do we specify the length of a variable? 
 - Question (aguenane−stat6250): What is the condition for specifying a range of character variables?
-− ∗Question∗ (ldeng11−stat6250): How do you read the data if all fields have different length, and start in different location?
+- *Question* (ldeng11−stat6250): How do you read the data if all fields have different length, and start in different location?
 
 
 
@@ -324,7 +324,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (akrishnamurthy-stat6250): The ampersand (&) modifier is used to read character values with embedded blanks. The colon(:) modifier is used to read variables greater than 8 characters without any embedded blanks.
 - Question (ljiang11−stat6250): How is modified list input different from list input?
 - Question (aguenane−stat6250): What are the limitations of list input?
-− ∗Question∗ (ldeng11−stat6250): How do you read the data if the data in one single field have different format, like some have blanks, some don't?
+- *Question* (ldeng11−stat6250): How do you read the data if the data in one single field have different format, like some have blanks, some don't?
 
 
 
@@ -350,7 +350,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy-stat6250): Can mixed input styles be used in same INPUT statement ?
 - Question (ljiang11−stat6250): Can modified list input read nonstandard values?
 - Question (aguenane−stat6250): What is the condition for MISSOVER option to be working?
-− ∗Question∗ (ldeng11−stat6250): How do you handle if the length of the data in the single field are different?
+- *Question* (ldeng11−stat6250): How do you handle if the length of the data in the single field are different?
 
 
 
@@ -376,7 +376,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy-stat6250): How does PROC import behave for delimited text files ?
 - Question (ljiang11−stat6250): Can PROC IMPORT import .R file or .py file?
 - Question (aguenane−stat6250): In what parts of SAS, can delimiters be used?
-− ∗Question∗ (ldeng11−stat6250): What is "%sysfunc(getoption(work))/tempfile.txt" doing here?
+- *Question* (ldeng11−stat6250): What is "%sysfunc(getoption(work))/tempfile.txt" doing here?
 
 
 
@@ -402,6 +402,6 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy-stat6250): Will a data step to transform text file into SAS dataset be better than a PROC sql 
 - Question (ljiang11−stat6250): How can PROC SQL import files?
 - Question (aguenane−stat6250):Where is truncover applicable?
-− ∗Question∗ (ldeng11−stat6250): Can we use the column headers in the orginal file as the file column header in the output file, instead of just simply skipping it over when reading?
+- *Question* (ldeng11−stat6250): Can we use the column headers in the orginal file as the file column header in the output file, instead of just simply skipping it over when reading?
 
 
