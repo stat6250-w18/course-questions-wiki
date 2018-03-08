@@ -38,6 +38,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (sbagdi-stat6250): The column input allows fields to be read in any order. And the blank fields are considered as missing data, and it doesn’t create any problem for any other fields.
 - *Question* (who7-stat6250): Could we have read the data using column pointer?
 - *Answer* (who7-stat6250): Yes, you can.  Either with @n or +n would work.
+- *Question* (akrishnamurthy-stat6250): What is the use of INPUT statement?
 
 
 
@@ -64,6 +65,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (ldai4-stat6250): The $w informat enables you to read character data. the w represents the field width of the data value or the total number of columns that contain the raw data field.
 - *Question* (sbagdi-stat6250): What is the difference between standard numeric and non-standard numeric data?
 - *Question* (who7-stat6250): Can we use normal column input to read character value?
+- *Question* (akrishnamurthy-stat6250): What is an informat in INPUT statement ? What are the informats available in SAS ?
 
 
 
@@ -86,6 +88,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (sbagdi-stat6250): What are the two types of column control pointers? What do they do?
 - *Answer* (sbagdi-stat6250): The to column control pointers are- @n and +n the @n moves the input pointer to a specific column number and +n moves the input pointer to the column number relative to the current position.
 - *Question* (who7-stat6250):Is +n equilavent to @n when we go backward?
+- *Question* (akrishnamurthy-stat6250): How to read character and standard numeric data with INPUT statement?
+- *Answer* (akrishnamurthy-stat6250): The "$w." informat is used to read character data. $ indicates that the variable is a character followed by width of the variable and period indicates end of informat. "w.d" is the informat for reading numeric data. "w" specifies width of the field, period is the delimiter and "d" optionally specifies the number of implied decimal places. 
 
 
 
@@ -112,6 +116,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (sbagdi-stat6250): What is an informat? What is the informat to read standard numeric data and what does that informat stands for?
 - *Answer* (sbagdi-stat6250): An informat is an instruction that tells SAS how to read raw data, which could be both, standard and non-standard data values. “w.d” informat reads the standard numeric data, where w stands for field width of raw data values, the period as the delimeter, and the d, the number of implied decimals for the data value.
 - *Question* (who7-stat6250): Is there an informat we can use to exclude the dollar sign when reading the data?
+- *Question* (akrishnamurthy-stat6250): What is the difference between +n and @n pointer controls?
+- *Answer* (akrishnamurthy-stat6250): The @n pointer control moves the input pointer to specific column number. The +n pointer control moves the pointer forward to a column number that is relative to the current position.
 
 
 
@@ -135,6 +141,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (sbagdi-stat6250): Why is it important to specify the actual field width of raw data in an input statement?
 - *Answer* (sbagdi-stat6250): If the exact field width is missing, and we specify a default field width of 8 for all numeric values, SAS will read inappropriate variable values when program executes.
 - *Question* (who7-stat6250): It seems there are multiple ways to ready data, which is the most common?
+- *Question* (akrishnamurthy-stat6250): How to read variable length records in SAS ?
 
 
 
@@ -159,6 +166,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (sbagdi-stat6250): How can a free formatted data be read from a raw data file?
 - *Answer* (sbagdi-stat6250): The LIST INPUT option is used to read free formatted data from the raw data file, where we do not need to specify the column location of the data field.
 - *Question* (who7-stat6250): How to use dlm when i was the seperator is be two spaces?
+- *Question* (akrishnamurthy-stat6250): How to read free format data in SAS ? Can variables from free format file be read in different orders?
 
 
 
@@ -184,6 +192,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (sbagdi-stat6250): What are some of the limitations of LIST input?
 - *Question* (who7-stat6250):How can i include the space without it being counted as a seperator?
 - *Answer* (who7-stat6250): You can use the modifier &.
+- *Question* (akrishnamurthy-stat6250): Can range of variables be specified using formatted input?
 
 
 
@@ -205,6 +214,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (sbagdi-stat6250): When should we specify the range of variables in SAS? Does it make a difference if we specify the range in VAR statement with PROC PRINT step rather than in the INPUT statement?
 - *Answer* (sbagdi-stat6250): When the variable values in the raw data file are sequential (specially, if the variables are similar) and are separated by a blank or any other delimiter, we can specify a range of variables in the INPUT statement. When the range is specified with PROC PRINT sep, it is done to list a range of specific variables. 
 - *Question* (who7-stat6250): Is there a limit how long a variable can be?
+- *Question* (akrishnamurthy-stat6250): what is the DSD option used for in FILE statement?
 
 
 
@@ -229,6 +239,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (sbagdi-stat6250): Why is a DLM= option used in SAS?
 - *Answer* (sbagdi-stat6250): Sometimes, in free format data, characters other than blanks are used to separate data values in SAS. In such cases, the DLM= option is used in th INFILE statements.
 - *Question* (who7-stat6250): What are the common delimiter?
+- *Question* (akrishnamurthy-stat6250): Can free format data be seperated by a delimiter other than blanks?
 
 
 
@@ -249,6 +260,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (ldai4-stat6250): Should the LENGTH statement precede the INPUT statement?
 - *Question* (sbagdi-stat6250): What does DSD= option stand for? Why does SAS need this option? Is there a difference between MISSOVER option and DSD option?
 - *Question* (who7-stat6250): What would happen if the length of varialbe part is after the input part?
+- *Question* (akrishnamurthy-stat6250): Can the order of variables be defined along with LENGTH overrides?
 
 
 
@@ -268,6 +280,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (sbagdi-stat6250): What are the two types of modifiers used with list INPUT?
 - *Answer* (sbagdi-stat6250): To make the list input more versatile, the modifiers are used. The two types are: The ampersand (&)- To read character values that contain embedded blanks, and the colon (:) modifier- To red non-standard data values and character values, which are longer than 8 characters and do not contain embedded blanks.
 - *Question* (who7-stat6250): How can we avoid free format data?
+- *Question* (akrishnamurthy-stat6250): what is the use of '&' and ':' modifiers in list input?
+- *Answer* (akrishnamurthy-stat6250): The ampersand (&) modifier is used to read character values with embedded blanks. The colon(:) modifier is used to read variables greater than 8 characters without any embedded blanks.
 
 
 
@@ -290,6 +304,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (sbagdi-stat6250): What does a LENGTH statement in SAS used for?
 - *Answer* (sbagdi-stat6250): LENGTH statement in SAS is used to increase the character length of the variables, whose character lengths are greater than 8, so that they do not get truncated.
 - *Question* (who7-stat6250): Would it cause an error if i put & and dlm = " " in the same step?
+- *Question* (akrishnamurthy-stat6250): Can mixed input styles be used in same INPUT statement ?
 
 
 
@@ -312,6 +327,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (sbagdi-stat6250): The .tsv stands for tab separated value file with “09”x, which is the ASCII hexadecimal representation for a tab character as its delimiter. For a pipe separated value file, a ‘|’ is used as its delimiter.
 - *Question* (who7-stat6250): How do we use tab as a limiter?
 - *Answer* (who7-stat6250): we can use dlm = "09"x
+- *Question* (akrishnamurthy-stat6250): How does PROC import behave for delimited text files ?
 
 
 
@@ -334,5 +350,6 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (sbagdi-stat6250): What does a ‘lrecl’ option do in SAS?
 - *Answer* (sbagdi-stat6250): The ‘lrecl’ option is used to specify the maximum possible line length (logical record length), which is 256 by default, but is too short for most real-world file. 
 - *Question* (who7-stat6250): How do we determine the value of lrecl?
+- *Question* (akrishnamurthy-stat6250): Will a data step to transform text file into SAS dataset be better than a PROC sql 
 
 
