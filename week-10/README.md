@@ -53,7 +53,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 17, Problem 4]
 − ∗Question∗ (ldeng11−stat6250): How do you read the fields contain character value?
-A− ∗Answer∗ (ldeng11−stat6250): You use "$" to indicate that this field contain character value.
+− ∗Answer∗ (ldeng11−stat6250): You use "$" to indicate that this field contain character value.
 
 
 
