@@ -22,6 +22,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250): What order do the variables appear when using column input?
 - *Answer* (shatcher4-stat6250): The variables are printed in a report in the order they were listed in. 
 - *Question*(kamirneni-stat6250): How does one convert non-standard data in external data to standard one while importing? 
+- Question(pcheng14-stat6250):What kind of input specifies the variable's name？
+- Answer(pcheng14-stat6250):Column input
 
 
 
@@ -33,6 +35,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250): What are informats?
 - *Question*(kamirneni-stat6250): What is considered to be non-standard data?
 - *Answer*(kamirneni-stat6250): Data which includes values containing fractions, $ sign, % sign and commas.
+- Question(pcheng14-stat6250): Is the part number of columns that contain the raw data field.
+- Answer(pcheng14-stat6250):No, the correct is the total number of columns that contain the raw data field.
 
 
 
@@ -42,6 +46,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250): What informat is used to read character data and what informat is used to read standard numeric data?
 - *Question*(kamirneni-stat6250): What is @n column pointer control?
 - *Answer*(kamirneni-stat6250): It is an absolute pointer control that moves the input pointer to a specific column number.
+- Question(pcheng14-stat6250):When should we use INPUT statement correctly read the values for ModelNumber?
 
 
 
@@ -52,6 +57,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250): How do you read nonstandard numeric data?
 - *Question*(kamirneni-stat6250): How does SAS store numeric values?
 - *Answer*(kamirneni-stat6250): By default,SAS stores numeric values as floating point numbers in 8 bytes of storage.
+- Question(pcheng14-stat6250):Do we must use the COMMAw.d informat when the values for Cost contain dollar signs and commas?
+- Answer(pcheng14-stat6250):Yes, we do.
 
 
 
@@ -61,6 +68,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250): Explain the three parts of the COMMAw.d informat.
 - *Question*(kamirneni-stat6250): What does PAD function do?
 - *Answer*(kamirneni-stat6250): It pads each record with blanks so that all data lines have same length.
+- Question(pcheng14-stat6250):How to set up the default location of the column pointer control is column 2?
 
 
 
@@ -71,6 +79,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250): What is free-format data?
 - *Question*(kamirneni-stat6250): What is the rule of field delimiter?
 - *Answer*(kamirneni-stat6250): It must not be a character that occurs in a data value.
+- Question(pcheng14-stat6250):When the raw data file contains data that is free-format?
 
 
 
@@ -81,6 +90,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250): What must you remember when using list input?
 - *Answer* (shatcher4-stat6250): List input, by default, does not specify column locations; therefore, all fields must be separated by at least one blank or other delimiter, fields must be read in order from left to right, and you cannot skip or re-read fields.
 - *Question*(kamirneni-stat6250): Can range of variables be specified using formatted input?
+- Question(pcheng14-stat6250):When the raw data file contains data that is free-format?
 
 
 
@@ -90,6 +100,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(dfei-stat6250): Do I have to put some special signal when reading the raw data values in order?
 - *Question* (shatcher4-stat6250): How do you specify a range of variables in the INPUT statement?
 - *Question*(kamirneni-stat6250): What is the function of MISSOVER?
+- Question(pcheng14-stat6250):When should list input be used to read data that is free-format?
 
 
 
@@ -100,6 +111,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250): What does the MISSOVER option do?
 - *Answer* (shatcher4-stat6250): The MISSOVER option prevents SAS from reading the next record if, when using list input, it does not find values in the current line for all the INPUT statement variables.
 - *Question*(kamirneni-stat6250): Where is DSD used and why?
+- Question(pcheng14-stat6250):When should the INFILE statement identifies the location of the external data file?
 
 
 
@@ -108,6 +120,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(dfei-stat6250): How to read the data in the raw data file when meeting some speical types of values?
 - *Question* (shatcher4-stat6250): What happens when list input is used to read character variables whose values are longer than the default length?
 - *Question*(kamirneni-stat6250): What is the order of the variable in the INPUT statement?
+- Question(pcheng14-stat6250):Why the LENGTH statement should precede the INPUT statement?
 
 
 
@@ -116,6 +129,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(dfei-stat6250): Can I change values when reading the values in the raw data file?
 - *Question* (shatcher4-stat6250): What is free-format data?
 - *Question*(kamirneni-stat6250): What must one follow while mentioning the and modifier?
+- Question(pcheng14-stat6250):Why modified list input can be used to read the values that contain embedded blanks and nonstandard values?
 
 
 
@@ -124,6 +138,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(dfei-stat6250): When reading the raw data values in order, can I change the oders of attributes?  
 - *Question* (shatcher4-stat6250): What are the differences between the different input styles?
 - *Question*(kamirneni-stat6250): How does one determine to chose appropriate style for evaluating raw data?
+- Question(pcheng14-stat6250):What kind of the data will contain embedded blanks or nonstandard values?
 
 
 
@@ -133,6 +148,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(dfei-stat6250): What's the best way to deal with hacker mindset?
 - *Question* (shatcher4-stat6250): How does excluding the replace option prevent a pre-existing dataset from being overwritten?
 - *Question*(kamirneni-stat6250): When do errors occur while reading a SAS file?
+- Question(pcheng14-stat6250):What kind of situation will result the numerous erroes displayed in system log?
 
 
 
@@ -141,5 +157,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question(dfei-stat6250): Is L rec L option commonly used in SAS programming?
 - *Question* (shatcher4-stat6250): What does the truncover option do?
 - *Question*(kamirneni-stat6250): What does the input statement specifies?
+- Question(pcheng14-stat6250):What kind of the data steps can be thought of like a Swiss army knife?
 
 
