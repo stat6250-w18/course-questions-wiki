@@ -25,6 +25,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250):What kind of input specifies the variable's name？
 - Answer(pcheng14-stat6250):Column input
 - Question (nshrivastava2-stat6250): What happen when input variable contain embedded blank values?
+- Question(tchan49-stat6250):Why some variables' names specified by column input followed by a dollar($) sign?
+- Answer(tchan49-stat6250):If the variables are character values, and the beginning and ending column locations of the raw data values
 
 
 
@@ -39,6 +41,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250): Is the part number of columns that contain the raw data field.
 - Answer(pcheng14-stat6250):No, the correct is the total number of columns that contain the raw data field.
 - Question (nshrivastava2-stat6250): How one can identify difference betwee Standard Numeric Data and Nonstandard Numeric Data ?
+- Question(tchan49-stat6250):What does 'w' represent in $w. informat?
+- Answer(tchan49-stat6250):The w represents the field width of the data value or the total number of columns that contain the data field.
 
 
 
@@ -51,6 +55,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250):When should we use INPUT statement correctly read the values for ModelNumber?
 - Question (nshrivastava2-stat6250): What is the funtion of INPUT statement?
 - Answer(nshrivastava2-stat6250): INPUT statement lists the variables with their corresponding column locations in order from left to right. However, one of the features of column input is the ability to read fields in any order. 
+- Question(tchan49-stat6250):How do you reade the values the second field after the forth field? 
 
 
 
@@ -65,6 +70,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(pcheng14-stat6250):Yes, we do.
 - Question (nshrivastava2-stat6250): What is @n Column Pointer Control and how it is useful?
 - Answer(nshrivastava2-stat6250): The @n is an absolute pointer control that moves the input pointer to a specific column number. The @ moves the pointer to column n, which is the first column of the field that is being read. 
+- Question(tchan49-stat6250):When do you need to include 'd' in COMMAw.d informat?
+- Answer(tchan49-stat6250):If the data value contains decimal places, a d value is not needed. 
 
 
 
@@ -77,6 +84,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250):How to set up the default location of the column pointer control is column 2?
 - Question (nshrivastava2-stat6250): What si the funtion of The +n Pointer Control ?
 - Answer(nshrivastava2-stat6250): The +n pointer control moves the input pointer forward to a column number that is relative to the current position. The + moves the pointer forward n columns. 
+- Question(tchan49-stat6250):What is the default location of the column pointer?
 
 
 
@@ -90,6 +98,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250):When the raw data file contains data that is free-format?
 - Question (nshrivastava2-stat6250): list input causes SAS to scan the input lines for values rather than reading from specific columns. When the INPUT statement is submitted for processing, the input pointer is positioned at column 1 of the raw data file.
 - Answer(nshrivastava2-stat6250): SAS reads the first field until it encounters a blank space. The blank space indicates the end of the field, and the data value is assigned to the program data vector for the first variable in the INPUT statement.Next, SAS scans the record until the next nonblank space is found, and the second value is read until another blank is encountered. Then the value is assigned to its corresponding variable in the program data vector.
+- Question(tchan49-stat6250):How do you describe the data that is not arranged in columns or fixed fields?
 
 
 
@@ -103,6 +112,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250):When the raw data file contains data that is free-format?
 - Question (nshrivastava2-stat6250): How SAS can read the data value which is saperated by other than blank character.
 - Answer(nshrivastava2-stat6250): When characters other than blanks are used to separate the data values, one can use the DLM= option in the INFILE statement to specify a delimiter other than a blank. DLIMITER is an alias for the DLM option.
+- Question(tchan49-stat6250):Do you use mixed input to read data that is free-format?
 
 
 
@@ -114,6 +124,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question*(kamirneni-stat6250): What is the function of MISSOVER?
 - Question(pcheng14-stat6250):When should list input be used to read data that is free-format?
 - Question (nshrivastava2-stat6250): When PROC IMPORT is used to read a CSV, tab, or other character-delimited file, what procedure SAS uses / follows?
+- Question(tchan49-stat6250):Can you use list input to read data that is not free-format?
 
 
 
@@ -127,6 +138,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250):When should the INFILE statement identifies the location of the external data file?
 - Question (nshrivastava2-stat6250): How to read range of variables in the INPUT statement?
 - Answer(nshrivastava2-stat6250): When the variable values in the raw data file are sequential and are separated by a blank (or by another delimiter), can specify a range of variables in the INPUT statement. This is especially useful if your data contains similar variables.
+- Question(tchan49-stat6250):What is the function of DLM= option? 
 
 
 
@@ -138,6 +150,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250):Why the LENGTH statement should precede the INPUT statement?
 - Question (nshrivastava2-stat6250): How to list a range of specific variables?
 - Answer(nshrivastava2-stat6250): By specifying a range in the VAR statement with the PROC PRINT step to list a range of specific variables.
+- Question(tchan49-stat6250):Do you have to define the correct length of each character variable? 
 
 
 
@@ -148,6 +161,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question*(kamirneni-stat6250): What must one follow while mentioning the and modifier?
 - Question(pcheng14-stat6250):Why modified list input can be used to read the values that contain embedded blanks and nonstandard values?
 - Question (nshrivastava2-stat6250):  MISSOVER option works only for missing values that occur at the end of the record. What different method is required to read raw data that contains missing values at the beginning or middle of a record?
+- Question(tchan49-stat6250):How do you read the data that contains enbedded blanks and nonstandard values?
 
 
 
@@ -159,6 +173,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250):What kind of the data will contain embedded blanks or nonstandard values?
 - Question (nshrivastava2-stat6250): How program reads the raw data file with two consecutive delimeter / comma? 
 - Answer(nshrivastava2-stat6250): The DSD ( Delimeter Sensitive Data ) option sets the default delimiter to a comma and treats the two consecutive delimiters as a missing value. Hence, the data is read correctly.
+- Question(tchan49-stat6250):When do you have to use modified list input?
 
 
 
@@ -171,6 +186,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250):What kind of situation will result the numerous erroes displayed in system log?
 - Question (nshrivastava2-stat6250): Infile statement has DELIMITER= option which specifies characters (other than the blank default character) to use as the delimiter that are being read. Common delimiters include comma (,), vertical pipe (|), semi-colon (;) , and the tab. What has been use for a tab in option to define tab delimeter?
 - Answer(nshrivastava2-stat6250): In order to specify a tab delimiter, one can use hexadecimal value i.e DLM=’09’x.
+- Question(tchan49-stat6250):What are some common delimiters for DELIMITER= statement to define?
+-
 
 
 
@@ -182,5 +199,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250):What kind of the data steps can be thought of like a Swiss army knife?
 - Question (nshrivastava2-stat6250): What is the function of TERMSTR= option in INFILE statement to read delimited text files?
 - Answer(nshrivastava2-stat6250): TERMSTR= option specifies what end-of-line character to use for a file. This option is useful, to share data files that are created on one operating system with another operating system. For example, while working in a UNIX environment, need to read a file that was created under Windows, use TERMSTR=CRLF. Similarly, while working in the Windows environment, need to read a file that was created under UNIX, use TERMSTR=LF. 
+- Question(tchan49-stat6250):Can you use proc sql to replace proc means and proc freq?
 
 
