@@ -34,12 +34,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy-stat6250): How should format name be defined for character and numeric data ?
 - Question (lceballos-stat6250): Why can't the format with the VALUE statement end in a period?
 - Question (aguenane-stat6250): What is the general form of the VALUE statement?
-- *Answer* (asharda-stat6250):
-General form, VALUE statement:
-VALUE format-name
-range1='label1'
-range2='label2'
-...;
+- *Answer* (asharda-stat6250):General form, VALUE statement:VALUE format-name range1='label1' range2='label2'
 - *Question* (aamiri2-stat6250): While creating a format with a VALUE statement, why is it important to have the correct format in the beginning and ending statements?
 - Question(dfei-stat6250): What is the new format's name rule with VALUE statement rule?
 - Answer(dfei-stat6250): It must begin with a dollar sign ($) if used with a character variable.
@@ -85,7 +80,8 @@ range2='label2'
 - *Question* (ldai4-stat6250): How do we use VALUE statement to display one or more values?
 - *Answer* (ldai4-stat6250): The statement begins with the keyword VALUE and ends with a semicolon after all the labels have been defined.
 - Question (nshrivastava2-stat6250): How can we use the format procedure to create the formats? 
- - *Answer* (asharda-stat6250):PROC FORMAT
+ - *Answer* (asharda-stat6250):PROC FORMAT.The PROC FORMAT block contains three statements each terminating 
+wit a semicolon. The first statement calls PROC FORMAT. The second statement is a value clause that defines the name and contents of the user-defined format. The final statement is the run statement which, though not technically required, is good programming practice nonetheless.
 - Answer (nshrivastava2-stat6250): The name of a character format must begin with a dollar sign, followed by a letter or underscore, followed by letters, numbers, and underscores. Names for numeric formats must begin with a letter or underscore, followed by letters, numbers, and underscores. A format name cannot end in a number and cannot be the name of a SAS format. 
 - Question (lsun20-stat6250): If we add the semicolon after each line in the VALUE statement, what will happen?
 - Answer (lsun20-stat6250): If we add the semicolon after ever line, there will be error about the VALUE statement.
