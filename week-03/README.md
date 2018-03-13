@@ -103,7 +103,7 @@ make the SAS program easier to read and debug, and it makes the SAS log easier t
 
 [Course Textbook Chapter 3, Problem 3]
 - Question (ljiang11−stat6250): Why it shows "PROC PRINT running"?
-*Answer* (asharda-stat6250):The missing quotation mark in the LABEL statement causes SAS to misinterpret the statements in the program. When you submit the program, SAS is unable to resolve the PROC step, and a "PROC PRINT running" message appears at the top of the active window. 
+- *Answer* (asharda-stat6250):The missing quotation mark in the LABEL statement causes SAS to misinterpret the statements in the program. When you submit the program, SAS is unable to resolve the PROC step, and a "PROC PRINT running" message appears at the top of the active window. 
 - *Question* (jcanfield3-stat6250): Why does the program not recognize a ';' as the end of an unmatched quote?
 - *Answer* (jcanfield3-stat6250): Because the ';' could be intended to be within a quotation, and thus not a suitable solution for all cases.
 - Question (lceballos-stat6250): If a string contains quotation marks, how can we search for it in SAS with out without running into a syntax error?
