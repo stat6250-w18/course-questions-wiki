@@ -55,6 +55,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lceballos-stat6250): Can you use multiple ranges for the mean function.
 - *Question* (sbagdi-stat6250): Why should we specify the word OF before a list or array when specifying function arguments?
 - *Answer* (sbagdi-stat6250): To ensure that the function argument is interpreted as expected, OF must be used before a list or array.
+- *Question*(kamirneni-stat6250): Can the arguments of mean function be imported by some other way apart from a variable list?
+- *Answer*(kamirneni-stat6250): Yes, the variables can be referenced by an array.
 
 
 
@@ -100,6 +102,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lceballos-stat6250): What if a payrate includes non-numeric values?
 - *Question* (sbagdi-stat6250): How to convert a variable from character to numeric?
 - *Answer* (sbagdi-stat6250): The INPUT function is used to convert a variable from character to numeric.
+- *Question*(kamirneni-stat6250): Under what circumstances, does SAS convert character into numeric value?
 
 
 
@@ -141,6 +144,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (lceballos-stat6250): To avoid data type mismatches and circumvent automatic conversion.
 - *Question* (sbagdi-stat6250): How are functions INPUT and PUT different from each other?
 - *Answer* (sbagdi-stat6250): While INPUT function converts character variables to numeric, the PUT function converts the  umeric variables to character.
+- *Question*(kamirneni-stat6250): When converting data, what is the result if one forgets to skip the INPUT function?
+- *Answer*(kamirneni-stat6250): SAS detects the mismatched variables and tries an automatic character to numeric conversion or vice versa. This process is not always successful. It is recommended to include INPUT and PUT function.
 
 
 
@@ -180,6 +185,9 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (lceballos-stat6250): Using the PUT(source,format) statement
 - *Question* (sbagdi-stat6250): How to convert data values from numeric to character values? 
 - *Answer* (sbagdi-stat6250): With the use of PUT function. 
+- *Question* (sbagdi-stat6250): How to convert data values from numeric to character values?
+- *Question*(kamirneni-stat6250): What happens if one creates a variable in the PUT function?
+- *Answer*(kamirneni-stat6250): It creates a character variable whose length is equal to the format width.
 
 
 
@@ -223,6 +231,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (lceballos-stat6250): Is stored as the number of seconds between midnight on January 1, 1960, and a given date and time.
 - *Question* (sbagdi-stat6250): What does SCAN function does in SAS?
 - *Answer* (sbagdi-stat6250): To return the nth word in a character string, we make use of SCAN function.
+- *Question*(kamirneni-stat6250): How is the MDY function efficient?
 
 
 
@@ -264,6 +273,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lceballos-stat6250): Can you specify the delimiter when using a SCAN function?
 - *Question* (sbagdi-stat6250): What is INTCK function used for?
 - *Answer* (sbagdi-stat6250): The INTCK function returns the number of time intervals in a time span. It counts intervals from fixed intervals beginnings, not in multiples of interval unit. 
+- *Question*(kamirneni-stat6250): What are the specifications of INTNX function?
 
 
 
@@ -301,6 +311,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lceballos-stat6250): How can we extract the month and year but not the day?
 - *Question* (sbagdi-stat6250): How are SCAN and SUBSTR different from each other?
 - *Answer* (sbagdi-stat6250): The SCAN function returns a specific word from a character value, but the SUBSTR function extracts a substring or replaces character values.
+- *Question*(kamirneni-stat6250): What is the maximum number of delimiters that can be used in a SCAN function?
 
 
 
@@ -338,6 +349,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lceballos-stat6250): What's the difference between INDEX and FIND?
 - *Question* (sbagdi-stat6250): What is INTNX function?
 - *Answer* (sbagdi-stat6250): To apply multiples of an interval to a date value, we use the INTNX function and specify the interval constant or variable, the start-from date value, and the increment. 
+- *Question* (sbagdi-stat6250): What is INTNX function? 
+- *Question*(kamirneni-stat6250): What is the criteria of using the pre-defined functions in nested functions?
 
 
 
@@ -370,6 +383,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lceballos-stat6250): What is the function of first.School_Code*last.School_Code = 0?
 - *Question* (sbagdi-stat6250):  What are FIRST. and LAST. variables in by-group processing?
 - *Answer* (sbagdi-stat6250): They identify the first and last observations respectively in each BY group.
+- *Question*(kamirneni-stat6250): How is isolating the duplicates more efficient from PROC SORT function?
 
 
 
@@ -405,5 +419,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lceballos-stat6250): Can we use this if the dataset has special characters?
 - *Question* (sbagdi-stat6250): What does the ‘kd’ option in compress function do?
 - *Answer* (sbagdi-stat6250): The ‘kd’ option keeps just the digits and remove all the characters from the values of variables.
+- *Question*(kamirneni-stat6250): What are the implications of removing all characters from values of a variable?
 
 
