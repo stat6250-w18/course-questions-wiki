@@ -51,6 +51,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): Which SAS statement can be used to reference an external file?
 - *Answer* (cnguyen77-stat6250): You assign a fileref by using a FILENAME statement in the same way that you assign a libref by using a LIBNAME statement.
 - *Question* (sbagdi-stat6250): Where are the filerefs defined for a SAS session listed?
+- *Answer* (sbagdi-stat6250): In the SAS explorer window.
 - *Question* (asharda-stat6250): How do you use a FILENAME statement?.
 - *Answer* (asharda-stat6250): When reading raw data, you can use the FILENAME statement to point to the location of the external file  that contains the data. Just as you assign a libref by using  a LIBNAME statement, you assign a fileref by using a FILENAME statement.
 
@@ -94,6 +95,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): When does fileref remain in effect?
 - *Answer* (cnguyen77-stat6250): Like LIBNAME statements, FILENAME statements are global; they remain in effect until you change them, cancel them, or end your SAS session.
 - *Question* (sbagdi-stat6250): How to view the details about a referenced file?
+- *Answer* (sbagdi-stat6250): To view the fileref detils, we need to click on File shortcuts -> View -> Details.
 - *Question* (asharda-stat6250): Are LIBNAME and FILENAME statements global?
 - *Answer* (asharda-stat6250): Yes,LIBNAME and FILENAME statements are global.
 
@@ -132,7 +134,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (xyin6-stat6250): What does the dollar sign "$" in INPUT statement stand for?
 - *Answer* (xyin6-stat6250): The dollar sign identifies the variable type as character (if the variable is numeric, then nothing appears here).
 - Question (tbishaw-stat6250): why would we need to use the LIBNAME statement as we are writing a program?
-* Question (ljiang11-stat6250): Will the variable name take from input statement?
+- *Answer* (sbagdi-stat6250): LIBNAME is used to reference permanent SAS library in which desired files or data set are stored.
+- *Question* (ljiang11-stat6250): Will the variable name take from input statement?
 - *Question* (aacharya4−stat6250): What is the purpose of the INPUT statement in SAS?
 - *Answer* (aacharya4−stat6250): The input statement creates variables in the SAS dataset as per the names, types and number of fields as mentioned in the INPUT statement.
 - *Question* (cnguyen77-stat6250): What does the dollar sign ($) in INPUT statement mean?
@@ -180,6 +183,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): Is it necessary to read fields in an order when using column input?
 - *Answer* (cnguyen77-stat6250): You can use column input to read fields in any order. You must specify the variable name, identify character variables with a $, and specify the correct starting and ending column for each field.
 - *Question* (sbagdi-stat6250): What does startcol and endcol represent in an input statement?
+- *Answer* (sbagdi-stat6250): startcol and endcol represent the starting and end columns of the variables respectively.
 - *Question* (asharda-stat6250): Is Column input appropriate in all situations?
 - *Answer* (asharda−stat6250): Column input is appropriate only in some situations. When you use column input,your data must be standard character and numeric values, and these values must be in fixed fields.
 
@@ -218,6 +222,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): How to re-define the values of a variable in an assignment statement?
 - *Answer* (cnguyen77-stat6250): To re-define the values of a variable in an assignment statement, you specify the variable name on the left side of the equal sign and an appropriate expression including the variable name on the right side of the equal sign.
 - *Question* (sbagdi-stat6250): What should be the range of length of variable names in SAS?
+- *Answer* (sbagdi-stat6250): The length could be between 1-32 characters for variable names.
 - *Question* (asharda-stat6250): How do you re-define the values of the variable in an assignment statement?
 - *Answer* (asharda−stat6250): To re-define values of the variable in an assignment statement, one must specify the variable name on the left side of the equal sign and an appropriate expression including the variable name on the right side of the equal sign.
 
@@ -261,6 +266,7 @@ errors. Most syntax errors prevent further processing of the DATA step. When the
 - *Question* (cnguyen77-stat6250): When is the descriptor of the new SAS data set created?
 - *Answer* (cnguyen77-stat6250): The descriptor portion of the new SAS data set is created at the end of the compilation phase. The descriptor portion includes the name of the data set, the number of observations and variables, and the names and attributes of the variables. Observations are not written until the execution phase.
 - *Question* (sbagdi-stat6250): Why is an input buffer created? Which DATA step phase is it created in?
+- *Answer* (sbagdi-stat6250): An input buffer is created at the start of the compilation phase to hold a record from external file.
 - *Question* (asharda-stat6250): What is created at the beginning of compilation phase?
 - *Answer* (asharda-stat6250): At the beginning of the compilation phase, the input buffer (an area of memory) is created to hold a record from the external file.
 
@@ -297,6 +303,7 @@ errors. Most syntax errors prevent further processing of the DATA step. When the
 - *Question* (cnguyen77-stat6250): What are the common errors that a syntax checking can identify?
 - *Answer* (cnguyen77-stat6250): Syntax checking can detect many common errors including invalid options or variable names, missing or invalid punctuation, missing or misspelled keywords. However, it cannot verify the values of variables or the correctness of formats.
 - *Question* (sbagdi-stat6250): What are different syntax errors that can be identified by syntax checking?
+- *Answer* (sbagdi-stat6250): Missing or mispelled keywords, invalid variable names, invalid punctuations, and invalid option.
 - *Question* (asharda-stat6250): What does SYNTAX errors include?
 
 
@@ -333,6 +340,7 @@ errors. Most syntax errors prevent further processing of the DATA step. When the
 - *Question* (cnguyen77-stat6250): When are records in the input raw data file written to the new data set as observations?
 - *Answer* (cnguyen77-stat6250): During execution, each record in the input raw data file is read into the input buffer, copied to the program data vector, and then written to the new data set as an observation. The DATA step executes once for each record in the input file, unless otherwise directed by additional statements.
 - *Question* (sbagdi-stat6250): What are the two important phases of a DATA step?
+- *Answer* (sbagdi-stat6250): Two phases are- Compilation phase and Execution phase.
 - *Question* (asharda-stat6250): Are variables that are created with an assignment statement in the DATA step , also added to the program data vector?
 - *Answer* (asharda-stat6250): Yes,Any variables that are created with an assignment statement in the DATA step are also added to the program data vector.
 
@@ -364,6 +372,7 @@ errors. Most syntax errors prevent further processing of the DATA step. When the
 - Question (lsun20-stat6250): Why the answer is "missing"?
 - *Question* (xyin6-stat6250): What statement is the next after defining the _N_ & _ERROR_ values?
 - Question (tbishaw-stat6250): What are included in the descriptor portion of the SAS data set?
+- Answer (sbagdi-stat6250): It includes- Name of the data set, Number of vriables, attribute and names of the variables. 
 * Question (ljiang11-stat6250): Why at the beginning of the execution phase, the variables that aren't executed are set to missing?
 - *Question* (aacharya4−stat6250): What happens to the automatic variable 'N' of program data vector with each iteration of the DATA step?
 - *Answer* (aacharya4−stat6250): With each iteration of the DATA step, the automatic variable 'N' is increamented by 1.
@@ -389,6 +398,7 @@ errors. Most syntax errors prevent further processing of the DATA step. When the
 - *Question* (jbettonville-stat6250): If the \_ERROR\_ variable resets after each iteration of the DATA step, what is the purpose of including it?
 - *Answer* (jbettonville-stat6250): One example might be for the purpose of debugging SAS code with a PUT statement that outputs the record number given by \_N\_ along with the \_ERROR\_ variable so that it can be determined if SAS received an error on a given record.
 - *Question* (shatcher4-stat6250): Why would the automatic variable _ERROR_ reset to zero?
+- *Answer* (sbagdi-stat6250): Because, if there's no errors at all, it should display 0.
 - Question (tchan49-stat6250):When would the value of the sutomatic variable _ERROR_ larger than one? 
 - Question(dfei-stat6250): How to know What is the value of the automatic variable _ERROR_?
 - *Question* (aamiri2-stat6250): What is the value of the automatic variable _ ERROR_ when there is more than one error? 
@@ -442,6 +452,7 @@ errors. Most syntax errors prevent further processing of the DATA step. When the
 - *Question* (aacharya4−stat6250): When is descriptor information created during compilation phase of SAS program?
 - *Question* (cnguyen77-stat6250): What happens at the beginning of an iteration of the DATA step?
 - *Question* (sbagdi-stat6250): What happens at the beginning of the iteration of a DATA step?
+- *Answer* (sbagdi-stat6250): The values of the varaibles created in the programming statements are re-set to missing in the program data vector.
 - *Question* (asharda-stat6250): What happens at the end of DATA step?
 
 
@@ -464,6 +475,7 @@ errors. Most syntax errors prevent further processing of the DATA step. When the
 This way, when you call out the dataset, it won't cause any confusions. 
 - Question(dfei-stat6250): Why PDF is one of the most difficult parts in SAS?
 - *Question* (aamiri2-stat6250): What are the differences between RETAIN and KEEP statements?
+- *Answer* (sbagdi-stat6250): RETAIN is used to set variable order and a KEEP statement is used to explicitly list the columns to keep an output.
 - Question (aguenane−stat6250): Even though it looks redundant to have the same variables in both the RETAIN and KEEP statements, why is this necessary?
 - *Question* (ldai4-stat6250): How can we read a remote excel file in the SAS?
 - Question (ldeng11-stat6250): What is the difference between retain and keep staments?
@@ -514,7 +526,7 @@ This way, when you call out the dataset, it won't cause any confusions.
 - *Answer* (aacharya4−stat6250): When PROC SQL statement is used to load data, it loads all records of a dataset into the memory from the memory at one go. In case of DATA step, records are loaded into the memory one by one from disk.
 - *Question* (cnguyen77-stat6250): What are the pros of using Proc sql in SAS?
 - *Question* (sbagdi-stat6250): What is the limitation of PROC SQL over the Retain and Keep statements in SAS?
+- *Answer* (sbagdi-stat6250): Only data sets that can fit in the memory can be processed in PROC SQL.
 - *Question* (asharda-stat6250): What is one of the drawback of using proc sql?
-
 
 
