@@ -556,7 +556,7 @@ c) Check log again to ensure that there're no further errors.
 - Question (ldeng11−stat6250): How the SAS would sort the data set if you specify multiple variables in the by statement?
 - *Question* (akrishnamurthy-stat6250): How are duplicate values for key column handled while sorting the dataset?
 - *Question* (cnguyen77-stat6250): Do you need to specify the out=option when sorting data in SAS?
-- *Answer* (sbagdi-stat6250): The OUT=option is although, optional, but should be used to prevent the original data set to be overwritten.
+- *Answer* (sbagdi-stat6250): The OUT=option is although, optional, should be used to prevent the original data set to be overwritten.
 - *Question* (shatcher4-stat6250): Why is the out= option optional in the case of sorting data?
 - *Question* (jbettonville-stat6250): How sensitive is SAS to memory usage, and under what circumstances might we be concerned about creating a sorted duplicate of a large data set?
 - *Question* (aamiri2-stat6250): What would be our results if we sort before removing duplicate files?
