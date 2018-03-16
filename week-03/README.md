@@ -21,8 +21,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ljiang11−stat6250): why the format is important?
 - Answer (ljiang11−stat6250): Because SAS is free free format, keeping an organized format would be easier for developers to read.
 - *Question* (jcanfield3-stat6250): What makes the Quit function different than the Run function?
-- Answer (asharda-stat6250):Though the RUN statement is not always required between steps in a SAS program, using it can
-make the SAS program easier to read and debug, and it makes the SAS log easier to read. Quit is used to end a procedure.
+- Answer (asharda-stat6250):Though the RUN statement is not always required between steps in a SAS program, using it can make the SAS program easier to read and debug, and it makes the SAS log easier to read. Quit is used to end a procedure.
 - Question (lceballos-stat6250): Will a program run if the PROC or run are not in column one?
 - Answer (lceballos-stat6250): It would run but it won't be easy to read which makes it difficult to understand the purpose of the program.
 - Question (ldeng11−stat6250): What are the good practing rules/styles you should follow if you want to write an easy-to-read and easy-to-maintain code? 
@@ -103,7 +102,7 @@ make the SAS program easier to read and debug, and it makes the SAS log easier t
 
 [Course Textbook Chapter 3, Problem 3]
 - Question (ljiang11−stat6250): Why it shows "PROC PRINT running"?
-- *Answer* (asharda-stat6250):The missing quotation mark in the LABEL statement causes SAS to misinterpret the statements in the program. When you submit the program, SAS is unable to resolve the PROC step, and a "PROC PRINT running" message appears at the top of the active window. 
+- *Answer* (asharda-stat6250):The missing quotation mark in the LABEL statement causes SAS to misinterpret the statements in the program.  
 - *Question* (jcanfield3-stat6250): Why does the program not recognize a ';' as the end of an unmatched quote?
 - *Answer* (jcanfield3-stat6250): Because the ';' could be intended to be within a quotation, and thus not a suitable solution for all cases.
 - Question (lceballos-stat6250): If a string contains quotation marks, how can we search for it in SAS with out without running into a syntax error?
@@ -230,8 +229,7 @@ b) if that abbreviation is recognized, a tooltip displays the expanded text; Pre
 - Question(pcheng14-stat6250): What is “DATA step running” meaning?
 - Answer(pcheng14-stat6250): It same as “PROC running”.
 - *Question* (aacharya4−stat6250): How does one avoid making "invalid option" error while writing SAS code?
-- Answer(asharda-stat6250): You should recall the program, remove or replace the invalid option, check your statement syntax as
-needed, and resubmit the corrected program.
+- Answer(asharda-stat6250): You should recall the program, remove or replace the invalid option, check your statement syntax as needed, and resubmit the corrected program.
 - Question(tchan49-stat6250): When you have an invalid option in SAS program, is it a syntax error or data error? 
 - Question (lsun20-stat6250): What is the reason may cause an invalid option in a SAS program?
 - *Question* (ldai4-stat6250): Can a log message indicate spelling errors in addition to notifying the invalid option?
@@ -341,8 +339,7 @@ needed, and resubmit the corrected program.
 - *Question (aguenane−stat6250): When producing a list report, if you don’t want to list all of the variables in the data set, can you choose indiv*idual variables to show?
 - Question (who7−stat6250): one of the answer attempted to change the label name of a variable, can we display variable a as "A"?
 - *Question* (sbagdi-stat6250): Which option is used to remove the default observation column (column that displays observation numbers)? Where do the programmer specifies that option in his program?
-- *Answer* (asharda-stat6250): The DATA= option specifies the data set that you are listing, and the ID statement replaces the Obs column with the specified variable. The VAR statement specifies variables and controls the order in which they appear, and the WHERE
-statement selects rows based on a condition. 
+- *Answer* (asharda-stat6250): The DATA= option specifies the data set that you are listing, and the ID statement replaces the Obs column with the specified variable. The VAR statement specifies variables and controls the order in which they appear, and the WHERE statement selects rows based on a condition. 
 
 
 
@@ -535,8 +532,7 @@ OR | or, either. If either expression is true, then the compound expression is t
 - *Question* (aacharya4−stat6250): What happens if the OUT option is not set to a NULL dataset while removing duplicate records from a SAS dataset?
 - *Answer* (aacharya4−stat6250): If the OUT option is not set to a NULL dataset while removing duplicate records from a SAS dataset, it creates a deduplicated datset.
 - Question(tchan49-stat6250): Why is it important to check duplicate records for unique IDs especially the dataset is obtained from external source?
-- *Answer* (asharda−stat6250): For data analysis, we usually assume that each row corresponds to an observation for a unique experimental unit w.r.t. a unique id, so it's important to check any dataset loaded from an external source for duplicate records
-values of the unique id.
+- *Answer* (asharda−stat6250): For data analysis, we usually assume that each row corresponds to an observation for a unique experimental unit w.r.t. a unique id, so it's important to check any dataset loaded from an external source for duplicate records values of the unique id.
 - Question (lsun20-stat6250): What will be the influence if we use a dataset with some duplicated records?
 - *Question* (ldai4-stat6250): How can we remove the duplicate variables from SAS data set?
 - Question (xyin6-stat6250): If three variables (County_code, District_code and School_code) are followed by the By statement, will that three being sorted all together? (I thought only one variable can be sorted each time)
