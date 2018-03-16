@@ -32,6 +32,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(dfei-stat6250): What's the rule of SAS statement associates the fileref Crime with the raw data file?
 - Answer(dfei-stat6250): It is filename crime 'c:\states\data\crime.dat'
 - *Question* (aamiri2-stat6250): What are the steps in creating a raw data file? How can one identify a raw data file in a SAS statement?
+- *Answer* (asharda-stat6250):To read the raw data file, the DATA step must provide location or name of the external text file,a name for the new SAS data set,a reference that identifies the external file,a description of the data values to be read to SAS:
 - Question (aguenane-stat6250): To read a raw data file, what four instructions must the DATA step provide to SAS?
 - Answer (aguenane-stat6250): The location or name of the external text file, the name for the new SAS data set, the reference that identifies the external file, and a description of the data values to be read. 
 - *Question* (ldai4-stat6250): What is the difference for FILENAME and LIBNAME?
@@ -58,6 +59,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 5, Problem 2]
 - *Question* (cli19-stat6250): What is the best practice for maintaining filerefs when programming?
+- *Answer* (asharda-stat6250): FILENAME statements are global; they remain in effect until you change them, cancel them,or end your SAS session. 
 - *Question* (jcanfield3-stat6250): Can filrefs be removed without your permission?
 - *Answer* (jcanfield3-stat6250): No since they can only be manually changed or when SAS is closed.
 - *Question* (akrishnamurthy-stat6250): What is the scope of files referenced by FILENAME statement?
@@ -115,6 +117,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jbettonville-stat6250): In the example shown in this problem, why would we use a dollar sign after 'ID'? In this case, isn't ID a numeric variable, and therefore should not be cast as a character variable?
 - *Answer* (jbettonville-stat6250): While it is not made explicit in the example, the ID fields are not sequential, nor are any values beyond the four shown included; if other ID values contained characters, it would be appropriate to cast the ID field as a character variable.
 - *Question* (shatcher4-stat6250): What information is needed in the INPUT statement to read each wanted field of raw data into a SAS data set?
+- *Answer* (asharda-stat6250): The INPUT statement creates a variable using the name that you assign to each field. Therefore, when you write an INPUT statement, you need to specify the variable names exactly as you want them to appear in the SAS data set.
 - Question (tchan49-stat6250):How can you assign a new column name to each column in a output table where the columns are imported from raw table? 
 - Question(dfei-stat6250): Why SAS shows 1-----+-----10-------+---------20-------+--------30 these kind of format?
 - *Question* (aamiri2-stat6250): When running an INPUT statement, when are dollar signs ($) used and when is it not needed?
@@ -161,6 +164,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (tchan49-stat6250):How do you differentiate numeric and character variable when you input columns from raw dataset?
 - Answer (tchan49-stat6250):Put a $ sign in front of the start column number if the variable is character. Nothing happens to the numeric variables. 
 - Question(dfei-stat6250): Do I have to put some speical sign in "input" statement? 
+- *Answer* (asharda-stat6250): Yes,you have to put some speical sign in "input" statement.
 - *Question* (aamiri2-stat6250): Does the ruler in a raw data file have a maximum limit? Is there another method to find out where individual fields begin and end?
 - Question (aguenane−stat6250): If you wanted to name a new variable NewBalance, when do you need to specify it in the exact case you wanted stored and when can you specify the name in uppercase, lowercase, or mixed case?
 - *Question* (ldai4-stat6250): Which variable need to add a $ before the name in using column input to read fields in any order?
@@ -187,6 +191,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 5, Problem 8]
 - *Question* (cli19-stat6250): Is it considered "bad practice" to create a new variable using the same name as an existing variable?
+- *Answer* (asharda-stat6250): Yes.It's considered "bad practice" to create a new variable using the same name as an existing variable
 - *Question* (jcanfield3-stat6250): If income isn't predefined, what is the resulting output of income=income*2?
 - *Question* (akrishnamurthy-stat6250): How to redefine a variable with a new value using SAS expressions?
 - Question (who7-stat6250): Can we use operator for character varailbe to add 2 words together?
@@ -257,6 +262,7 @@ errors. Most syntax errors prevent further processing of the DATA step. When the
 - Question (tbishaw-stat6250): How is a SAS DATA step processed? 
 - Answer (tbishaw-stat6250): A SAS DATA step is processed in two phases: Compilation Phase and Execution Phase.
 * Question (ljiang11-stat6250): When is the first observation created?
+- *Answer* (asharda-stat6250): During Execution Phase.
 - *Question* (aacharya4−stat6250): What are the automatic variables of Program Data Vector (PDV)?
 - *Question* (cnguyen77-stat6250): When is the descriptor of the new SAS data set created?
 - *Answer* (cnguyen77-stat6250): The descriptor portion of the new SAS data set is created at the end of the compilation phase. The descriptor portion includes the name of the data set, the number of observations and variables, and the names and attributes of the variables. Observations are not written until the execution phase.
@@ -298,6 +304,7 @@ errors. Most syntax errors prevent further processing of the DATA step. When the
 - *Answer* (cnguyen77-stat6250): Syntax checking can detect many common errors including invalid options or variable names, missing or invalid punctuation, missing or misspelled keywords. However, it cannot verify the values of variables or the correctness of formats.
 - *Question* (sbagdi-stat6250): What are different syntax errors that can be identified by syntax checking?
 - *Question* (asharda-stat6250): What does SYNTAX errors include?
+- *Answer* (asharda−stat6250): Synatax error include invalid variable names/options, missing or invalid punctuation, missing or misspelled words.
 
 
 
@@ -309,6 +316,7 @@ errors. Most syntax errors prevent further processing of the DATA step. When the
 - Answer (who7-stat6250): Yes, you can use proc sql to create table as well.
 - Question (ttruong59-stat6250): Is it possible DATA step execute more than each record in the input file?
 - Question (lceballos-stat6250): Does SAS support recursion functions?
+- *Answer* (asharda-stat6250): Yes.It does support recursive function.
 - Question (nshrivastava2-stat6250): What are the errors SAS diagnose during compilation phase?
 - Answer (nshrivastava2-stat6250): During the compilation phase, SAS can interpret some syntax errors such as misspelled keywords and data set names,unbalanced quotation marks,invalid options. 
 - *Question* (jbettonville-stat6250): Under what circumstances might we want to execute the DATA step more or less than once per record in the input file?
@@ -364,6 +372,7 @@ errors. Most syntax errors prevent further processing of the DATA step. When the
 - Question (lsun20-stat6250): Why the answer is "missing"?
 - *Question* (xyin6-stat6250): What statement is the next after defining the _N_ & _ERROR_ values?
 - Question (tbishaw-stat6250): What are included in the descriptor portion of the SAS data set?
+- *Answer* (asharda-stat6250):variable names,attributes etc
 * Question (ljiang11-stat6250): Why at the beginning of the execution phase, the variables that aren't executed are set to missing?
 - *Question* (aacharya4−stat6250): What happens to the automatic variable 'N' of program data vector with each iteration of the DATA step?
 - *Answer* (aacharya4−stat6250): With each iteration of the DATA step, the automatic variable 'N' is increamented by 1.
@@ -378,6 +387,7 @@ errors. Most syntax errors prevent further processing of the DATA step. When the
 
 [Course Textbook Chapter 6, Problem 5]
 - *Question* (cli19-stat6250): When data errors are encountered, does SAS produce outputs?
+- *Answer* (asharda-stat6250):Because SAS could interpret the misspelled word, the program runs and produces output
 - *Question* (jcanfield3-stat6250): Why can _Error_ only take values 0 or 1? Wouldn't knowing the amount of errors be more useful?
 - *Question* (akrishnamurthy-stat6250): Is the program data vector values initialized before every record read or will the input data be stored as an array in the program data vector?
 - Question (who7-stat6250): Would a syntax error be counted in the _ERROR_ value?
@@ -417,6 +427,7 @@ errors. Most syntax errors prevent further processing of the DATA step. When the
 
 [Course Textbook Chapter 6, Problem 6]
 - *Question* (cli19-stat6250): Why does the program data vector get reset to missing with each iteration?
+- *Answer* (asharda-stat6250):The program data vector gets reset to missing values at the beginning of each iteration and therefore does not retain the value.
 - *Question* (jcanfield3-stat6250): Is the descriptor portion also reset along with the values?
 - *Question* (akrishnamurthy-stat6250): After the iterative read by DATA statement, what happens to the program data vector during and after execution phase?
 - Question (who7-stat6250): What are the main limiatations when creating the descriptor portion of the dataset?
@@ -479,11 +490,13 @@ This way, when you call out the dataset, it won't cause any confusions.
 - *Question* (sbagdi-stat6250): Why is it important to explicitly list output columns? Which statement, if not the Keep statement, can be used to list columns to keep in output?
 - *Answer* (sbagdi-stat6250): It is considered best practice to explicitly list output column, so that the code is more self-documenting. The drop statement can also be used to list the columns to keep in output.
 - *Question* (asharda-stat6250): In addition to variable names what does a PDV also keep track of?
+- *Answer* (asharda-stat6250):the PDV is one of SAS' main features since it allows SAS to read datasets from disk one record at a time, meaning that arbitrarily large datasets can be processed.
 
 
 
 [adv_recipe_for_creating_analytic_datasets Week 5 Recipe]
 - *Question* (cli19-stat6250): Aside from differences in number of lines of code or required disk space, how can one decide whether SAS procedures or PROC SQL is the better option?
+- *Answer* (asharda-stat6250):proc sql loads all data into memory, rather than loading records one-by-one from disk like a data step, so only datasets that can fit into memory can be processed with proc sql.
 - *Question* (jcanfield3-stat6250): What are some other uses of proc sql?
 - *Answer* (jcanfield3-stat6250): Proq Sql can be used to "retrieve and manipulate data that is stored in tables or views; create tables, views, and indexes on columns in tables; create SAS macro variables that contain values from rows in a query's result; add or modify the data values in a table’s columns or insert and delete rows. You can also modify the table itself by adding, modifying, or dropping columns; and send DBMS-specific SQL statements to a database management system (DBMS) and retrieve DBMS data". 
 - *Question* (akrishnamurthy-stat6250): What is the function of PROC SQL statement? Can larger datasets be processed with PROC SQL ?
