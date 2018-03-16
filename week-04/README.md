@@ -80,8 +80,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (ldai4-stat6250): How do we use VALUE statement to display one or more values?
 - *Answer* (ldai4-stat6250): The statement begins with the keyword VALUE and ends with a semicolon after all the labels have been defined.
 - Question (nshrivastava2-stat6250): How can we use the format procedure to create the formats? 
- - *Answer* (asharda-stat6250):PROC FORMAT.The PROC FORMAT block contains three statements each terminating 
-wit a semicolon. The first statement calls PROC FORMAT. The second statement is a value clause that defines the name and contents of the user-defined format. The final statement is the run statement which, though not technically required, is good programming practice nonetheless.
+ - *Answer* (asharda-stat6250):PROC FORMAT.The PROC FORMAT block contains three statements each terminating with a semicolon. The first statement calls PROC FORMAT. The second statement is a value clause that defines the name and contents of the user-defined format. The final statement is the run statement which, though not technically required, is good programming practice nonetheless.
 - Answer (nshrivastava2-stat6250): The name of a character format must begin with a dollar sign, followed by a letter or underscore, followed by letters, numbers, and underscores. Names for numeric formats must begin with a letter or underscore, followed by letters, numbers, and underscores. A format name cannot end in a number and cannot be the name of a SAS format. 
 - Question (lsun20-stat6250): If we add the semicolon after each line in the VALUE statement, what will happen?
 - Answer (lsun20-stat6250): If we add the semicolon after ever line, there will be error about the VALUE statement.
@@ -252,8 +251,7 @@ proc means data=mydata &mmse.;
 run;
 ```
 - Question (who7-stat6250): What is the main difference between PROC MEAN and PROC SUMMARY?
-- *Answer* (asharda-stat6250): The difference between the two procedures is that PROC MEANS produces a report by default 
-- 282 - (remember that you can use the NOPRINT option to suppress the default report). By contrast, to produce a report in PROC SUMMARY, you must include a PRINT option in the PROC SUMMARY statement.
+- *Answer* (asharda-stat6250): The difference between the two procedures is that PROC MEANS produces a report by default  (remember that you can use the NOPRINT option to suppress the default report). By contrast, to produce a report in PROC SUMMARY, you must include a PRINT option in the PROC SUMMARY statement.
 - Question (tchan49-stat6250): Can you get the median of the data set by the default setting of the MEAN procedure?
 - Question (ttruong59-stat6250): What are the default statistics produced by the MEANS procedure?
 - Answer (ttruong59-stat6250): By default, MEANS procedure returns the n, mean, min, max, and standard deviation.
