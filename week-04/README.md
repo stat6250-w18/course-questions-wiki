@@ -50,6 +50,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (tbishaw-stat6250): Anytime a PROC FORMAT is uese to create a format, the format is stored in a format catlog. If the SAS libary does not already contain a fortmat catalog, SAS automatically creates one.  
 - *Question* (cnguyen77-stat6250): What are the rules to name a format with VALUE statement?
 - *Question* (sbagdi-stat6250): With the VALUE statement, the format name should start with which special character?
+- *Answer* (sbagdi-stat6250): If the format name is a character value, then it should start with a '$' sign.
 
 
 
@@ -90,11 +91,13 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): Is it necessary to have a semicolon after the PROC FORMAT statement and VALUE statement?
 - *Answer* (cnguyen77-stat6250): A semicolon is needed after the PROC FORMAT statement. The VALUE statement begins with the keyword VALUE and ends with a semicolon after all the labels have been defined.
 - *Question* (sbagdi-stat6250): Which options are included in the PROC FORMAT statement?
+- *Answer* (sbagdi-stat6250): Options included are- LIBRARY= libref and FMTLIB
 
 
 
 [Course Textbook Chapter 7, Problem 5]
 - *Question* (shatcher4-stat6250): How do you specify a range of character values with the VALUE statement?
+- *Answer* (sbagdi-stat6250): The range of character values should be specified in the quotation mark. Example: 'India'
 - Question(pcheng14-stat6250): A range of numeric values, such as 50000-99999 is the ranges in the VALUE statement can be specify?
 - *Question* (cli19-stat6250): What type of messages should we expect to see in the SAS log if the VALUE range includes a mistake?
 - *Question* (aacharya4-stat6250): How to define a list of values (either numeric or character) in the VALUE statement?
@@ -127,7 +130,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): Can ranges in the VALUE statement specify a list of numeric and character values separated by commas?
 - *Answer* (cnguyen77-stat6250): You can list values separated by commas, but the list must contain either all numeric values or all character values. Data set variables are either numeric or character.
 - *Question* (sbagdi-stat6250): What is the value range for numeric values? Also, what is the maximum character length for numeric format name?
-- *Answer* (sbagdi-stat6250): The numeric VALUE range is – 0-1500. And, numeric format names can be up to 36 characters in length.
+- *Answer* (sbagdi-stat6250): The numeric VALUE range is: 0-1500. And, numeric format names can be up to 36 characters in length.
 
 
 
@@ -163,7 +166,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): Is there any limitation for the number of characters of a label?
 - *Answer* (cnguyen77-stat6250): When specifying a label, enclose it in quotation marks and limit the label to 256 characters.
 - *Question* (sbagdi-stat6250): How many quotation marks should be used to makes the apostrophe to appear in a label?
- 
+- *Answer* (sbagdi-stat6250):  Two single quotation marks must be used to make the apostrophe appear in a label. Example- 'India''s currency'.
 
 
 
@@ -200,6 +203,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): How to label missing numeric values as well as any values that are not specified in a range?
 - *Answer* (cnguyen77-stat6250): The keyword OTHER can be used in the VALUE statement to label missing values as well as any values that are not specifically included in a range.
 - *Question* (sbagdi-stat6250): For which type of format (character or numeric) the keyword LOW includes missing values?
+- *Answer* (sbagdi-stat6250): For character formats.
 
 
 
@@ -233,6 +237,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): Can FORMAT statement be used in a DATA step?
 - *Answer* (cnguyen77-stat6250): Yes. By placing the FORMAT statement in a DATA step, you permanently associate the defined format with variables.
 - *Question* (sbagdi-stat6250): Where are the formats created in the PROC FORMAT steps stored?  
+- *Answer* (sbagdi-stat6250): In a permanent format catalog called Library.formats
 
 
 
@@ -251,6 +256,7 @@ proc means data=mydata &mmse.;
 run;
 ```
 - Question (who7-stat6250): What is the main difference between PROC MEAN and PROC SUMMARY?
+- *Answer* (sbagdi-stat6250): PROC MEANS produce a report by default, whereas, to produce a report in PROC summary, we must include PRINT option in the PROC SUMMARY statement.
 - *Answer* (asharda-stat6250): The difference between the two procedures is that PROC MEANS produces a report by default  (remember that you can use the NOPRINT option to suppress the default report). By contrast, to produce a report in PROC SUMMARY, you must include a PRINT option in the PROC SUMMARY statement.
 - Question (tchan49-stat6250): Can you get the median of the data set by the default setting of the MEAN procedure?
 - Question (ttruong59-stat6250): What are the default statistics produced by the MEANS procedure?
@@ -312,6 +318,7 @@ run;
 - *Question* (cnguyen77-stat6250): How to specify the variables that PROC MEANS analyzes?
 - *Answer* (cnguyen77-stat6250): To specify the variables that PROC MEANS analyzes, add a VAR statement and list the variable names.
 - *Question* (sbagdi-stat6250): Which option in PROC MEANS statement is used to limit the decimal places? What is the need for using such option?
+- *Answer* (sbagdi-stat6250): MAXDEC= option limits the places of decimals in a PROC MEANS statement. Sometimes the default decimal values are unnecessary and makes the output hard to read. Therefore limiting decimal places is important.
 
 
 
@@ -346,11 +353,13 @@ run;
 - *Question* (cnguyen77-stat6250): What is the key difference between CLASS and BY processing?
 - *Answer* (cnguyen77-stat6250): Unlike CLASS processing, BY group processing requires that your data already be indexed or sorted in the order of the BY variables. You might need to run the SORT procedure before using PROC MEANS with a BY group.
 - *Question* (sbagdi-stat6250): What are the key differences between the CLASS and BY statements in group processing?
+- *Answer* (sbagdi-stat6250): Unlike CLASS processing, the BY processing requires that the data be sorted in the order of the BY variables. Secondly, CLASS group layouts are different than the BY group layouts.
 
 
 
 [Course Textbook Chapter 8, Problem 7]
 - *Question* (shatcher4-stat6250): What can the FREQ procedure be used for?
+- *Answer* (sbagdi-stat6250): The FREQ procedures are descriptive as well as statistical procedures. They're used to produce one-way and n-ways frequency tables.
 - *Answer* (asharda-stat6250): By default, PROC FREQ creates a table for all variables in a data set. 
 - Question(pcheng14-stat6250):Besides PROC FREQ, do we have other ways to create a table of frequencies and percentages?
 - *Question* (cli19-stat6250): Does PROC FREQ also count the number and percent of missing values?
@@ -415,7 +424,7 @@ run;
 - *Question* (cnguyen77-stat6250): When is the best case to use frequency distributions?
 - *Answer* (cnguyen77-stat6250): Frequency distributions work best with categorical values.
 - *Question* (sbagdi-stat6250): Which statement is used to avoid the appearance of cumulative frequency in a frequency table?
-  
+ - *Answer* (sbagdi-stat6250): NOCUM operation to the TABLES statement.
 
 
 
@@ -439,6 +448,7 @@ run;
 - *Question* (aamiri2-stat6250): What is the benefit of creating a two-way frequency table as compared to a one-way frequency table?
 - Question(dfei-stat6250): What is the first step to produce a table in SAS?
 - *Question* (kamirneni-stat6250): What is the use of NOFREQ option?
+- *Answer* (sbagdi-stat6250): The NOFREQ option supresses the cell frequencies in a frequency table.
 - *Question* (ldai4-stat6250): How does PROC FREQ produce two-way tables?
 - *Answer* (asharda-stat6250): In the PROC FREQ step join two variables with an asterisk in the TABLES statement  .
 - Question (nshrivastava2-stat6250): Why and How  PROC UNIVARIATE is useful?
@@ -485,11 +495,13 @@ run;
 - *Question* (cnguyen77-stat6250): What are the two most basic statistical procs in SAS?
 - *Answer* (cnguyen77-stat6250): Proc mean and proc means are the two most basic statistical procs in SAS.
 - *Question* (sbagdi-stat6250): What is the missing option in PROC MEANS statement used for?
+- *Answer* (sbagdi-stat6250): For the rows with the missing values for the listed variables.
 
 
 
 [recipe_for_summarizing_qualitative_values Week 4 Recipe]
 - *Question* (shatcher4-stat6250): Why should you use the nlevels options?
+- *Answer* (sbagdi-stat6250): To precede the cross-tab output with the number of distinct values of each variable.
 - Question(pcheng14-stat6250): Have any better way can we summarize the qualitative data in SAS?
 - *Question* (cli19-stat6250): Is there a limit on how many levels per variable can be cross-tabulated?
 - *Question* (aacharya4-stat6250): How to create two way table using TABLES statement in PROC FREQ?
@@ -533,6 +545,7 @@ run;
 - Question (who7-stat6250): how can we avoid edge cases when binning values?
 - Answer (who7-stat6250): We can use the keywords low or high to avoid edge cases when binning values.
 - Question (tchan49-stat6250): How can you permanently associate a format to a variable? 
+- *Answer* (sbagdi-stat6250): By defining format in the data step.
 - Question (ttruong59-stat6250): Temporarily binning values with a format is a two-step process, can a user make it permanently?
 - Question (ldeng11-stat6250): What is “missing list” statement doing here?
 - *Question* (jcanfield3-stat6250): Can I format formats?
