@@ -515,6 +515,3 @@ This way, when you call out the dataset, it won't cause any confusions.
 - *Question* (cnguyen77-stat6250): What are the pros of using Proc sql in SAS?
 - *Question* (sbagdi-stat6250): What is the limitation of PROC SQL over the Retain and Keep statements in SAS?
 - *Question* (asharda-stat6250): What is one of the drawback of using proc sql?
-
-
-
