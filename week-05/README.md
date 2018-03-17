@@ -72,7 +72,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250): What is a fileref that is assigned using a FILENAME statement?
 - *Answer* (shatcher4-stat6250): A fileref is a name associated with an external file, that is 1 to 8 characters long that begins with a letter or underscore, and contains only letters, numerals, or underscores.
 - Question (tchan49-stat6250): Would Filerefs remain in effect permanently?
- Answer(asharda-stat6250): No, they will not remain in effect.
+- Answer(asharda-stat6250): No, they will not remain in effect.
 - Question(dfei-stat6250): Does Filerefs remain in effect after you cancel them or end your SAS session? 
 - Answer(dfei-stat6250): No, they will not in effect.
 - *Question* (aamiri2-stat6250): What are the differences and similarities between Fileref and Libref?
@@ -528,3 +528,6 @@ This way, when you call out the dataset, it won't cause any confusions.
 - *Question* (cnguyen77-stat6250): What are the pros of using Proc sql in SAS?
 - *Question* (sbagdi-stat6250): What is the limitation of PROC SQL over the Retain and Keep statements in SAS?
 - *Question* (asharda-stat6250): What is one of the drawback of using proc sql?
+
+
+
