@@ -47,6 +47,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ljiang11−stat6250): Why the label is not "Amount of Loan"?
 - Answer (ljiang11−stat6250): The LABEL statement in PROC PRINT overrides the previous LABEL.
 - *Question* (akrishnamurthy-stat6250): Can multiple formats be assigned to same variable?
+- *Answer* (asharda-stat6250): A single FORMAT statement can associate the same format with several variables, or it can associate different formats with different variables.
 - *Question* (cnguyen77-stat6250): How does the label and format in PROC PRINT affect the label and format in DATA step?
 - *Answer* (cnguyen77-stat6250): Temporary labels or formats that are assigned in a PROC step override permanent labels or formats that are assigned in a DATA step.
 - *Question* (ldai4-stat6250): Does the temporary labels or format that are assigned in a PROC step override permanent labels or formats that are assigned in DATA step?
@@ -66,6 +67,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250):Do we must enclose character values in quotation marks?
 - Answer(pcheng14-stat6250):Yes, we do.
 - Question (ldeng11−stat6250): What are thr rules when you have logical operand in the IF-THEN statement?
+- *Answer* (asharda-stat6250): You can use the NOT logical operator in combination with any SAS and WHERE expression operator. And you can combine the NOT operator with AND and OR
 - *Question* (asharda-stat6250): What is the advantage of using ELSE statement with IF-THEN statement?.
 - *Answer* (asharda-stat6250): Using ELSE statements with IF-THEN statements can save resources.
 - *Question* (aacharya4−stat6250): What are the possible results that are possible from using IF-THEN statement in SAS?
@@ -109,6 +111,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ldeng11−stat6250): How many factors can affect the length of a new variable?
 - Answer (ldeng11−stat6250): You could use LENGTH statement; assignment statement to define the length of a new variable; or it could be the length of the variable from the first reference in the DATA step.
 - *Question* (asharda-stat6250): How do you find length of new variable in SAS?.
+- *Answer* (asharda-stat6250): Using the LENGTH Function,you can find the length of new variable in SAS.
 - *Question* (aacharya4−stat6250): How is the length of a variable determined in SAS?
 - *Answer* (aacharya4−stat6250): The length of a variable in SAS can be determined by VLENGTH or VARLEN function.
 - Question (lceballos-stat6250): Do you need to specify the length if using SQL statements?
@@ -173,6 +176,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): What is the function of ELSE statement?
 - *Answer* (cnguyen77-stat6250): You can write multiple ELSE statements to specify a series of mutually exclusive conditions. The ELSE statement must immediately follow the IF-THEN statement in your program. An ELSE statement executes only if the previous IF-THEN/ELSE statement is false.
 - *Question* (ldai4-stat6250): Must the ELSE statement immediately follow the IF-THEN statement?
+- *Answer* (asharda-stat6250): The ELSE statement, if used, must immediately follow the IF-THEN statement
 - *Question* (xyin6-stat6250): When we assign values to a variable, should we use quotation marks for both numeric value and character value?
 - Question (lsun20-stat6250): How the ELSE statement works?
 - Answer (lsun20-stat6250): The ELSE statement works when the previous IF-THEN/ELSE statement is false.
@@ -186,6 +190,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aamiri2-stat6250): What is the main purpose of using a LENGTH statement? What is the general form of it?
 - *Answer* (aamiri2-stat6250): LENGTH statement is used to specify the number of bytes for TestLength before the first value is referenced in the DATA step. The general form is usually LENGTH variable(s) <$> length. The variable is the name to be assigned a length, $ is used if it is a character variable, and length is an integer that specifies the length.
 - Question (dfei-stat6250): How to determind the length of the variable Type?
+- *Answer* (asharda-stat6250):  SAS determines the length of a variable from its first occurrence in the DATA step.
 - Question(pcheng14-stat6250):How many types of the length of the variable we have?
 - Question (ldeng11−stat6250): Where you should place the LENGTH statement if you want to use it in the DATA step?
 - *Question* (asharda-stat6250): What is the length of new variable determined by?
@@ -235,6 +240,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lceballos-stat6250): Can you use DROP or KEEP in a SQL step?
 - Question (nshrivastava2-stat6250): What is the default number of bytes that SAS uses to store the values of any newly created numeric variables?
 - *Answer* (sbagdi-stat6250): Default number of bytes for numeric varaibles is 8 bytes in SAS.
+- *Answer* (asharda-stat6250):  For numeric variables, 2 to 8 or 3 to 8, depending on your operating environment. 
 - *Question* (cli19-stat6250): How does syntax differ when dropping, keeping, or renaming variables in DATA steps versus PROC steps?
 - Question (tbishaw-stat6250): Is there an alternative to IF-THEN/ELSE statement? If so what is it?
 - Answer (tbishaw-stat6250): As an alternative to IF-THEN/ELSE statmenent you can use SELECT groups in DATA steps to perform conditional processing. 
@@ -271,6 +277,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nshrivastava2-stat6250): Where to specify DROP= and KEEP= options ?
 - Answer(nshrivastava2-stat6250): One can specify DROP= and KEEP= in either the DATA statement or the SET statement, depending on whether or not one want to process values of the variables in that DATA step. If one don't process certain variables and don't want them to appear in the new data set, then specify them in the DROP= option in the SET statement. And,  If one do need to process a variable in the original data set (in a subsetting IF statemente), one must specify the variable in the DROP= option in the DATA statement. Otherwise, the statement that is using the variable for processing causes an error.
 - *Question* (cli19-stat6250): What is the purpose of specifying DROP or KEEP variables in the SET statement?
+- *Answer* (asharda-stat6250):  The DROP= option tells SAS which variables you want to drop from a data set.The KEEP= option tells SAS which variables you want to keep in a data set.
 - Question (tbishaw-stat6250): What are the steps you need to perform before you create the data set? 
 - Answer (tbishaw-stat6250): To create the data set, you must first reference the library in which your data is stored and then you wirte a DATA step to read your data and create a new data set; you must assign a libref to the SAS library that will store the data set.
 - Question (tchan49-stat6250):What is the difference between having DROP/KEEP option in SET statement or DATA step? 
@@ -332,6 +339,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question*(kamirneni-stat6250): What is a minor difference between STOP and DATA step in looping with POINT function?
 - *Question* (sbagdi-stat6250)- How is KEEP dataset option different rom KEEP statement in a DATA step?
 - *Answer* (sbagdi-stat6250): Unlike, Keep data set option, a KEEP statement cannot be used in SAS procedure steps. 
+- *Answer* (asharda-stat6250):  The KEEP= data set option differs from the KEEP statement in the following ways: In DATA steps, the KEEP= data set option can apply to both input and output data sets. In DATA steps, when you create multiple output data sets, use the KEEP= data set option to write different variables to different data sets.
 
 
 
@@ -358,6 +366,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aguenane−stat6250): What are the values in FIRST.variable and LAST.variable?
 - Answer (aguenane-stat6250): Their values are either 1 for the first and last observations respectively or 0 for any other observation.
 - *Question* (shatcher4-stat6250): What happens when you use the BY statement with the SET statement?
+- *Answer* (asharda-stat6250):  The BY statement modifies the action of the SET, MERGE, MODIFY, or UPDATE statement by controlling when the values in the program data vector are set to missing. During BY-group processing, SAS retains the values of variables until it has copied the last observation it finds for that BY group in any of the data sets.
 - *Question* (who7-stat6250): What are some other interesting ways to use the FRIST and LAST variables?
 - *Question* (jcanfield3-stat6250): Is there a way to output the first. and last. variables?
 - Question (ttruong59-stat6250): When using BY- group processing, the DATA steps create 2 temp variables for each BY variable: FIRST. variable and LAST.variable, and their values are either 1 or 0. Are these variables stored in the data set?
@@ -380,6 +389,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250):What kind of the program should use the END= option?
 - Question (ldeng11−stat6250): What you should do if you only want to select the last observation?
 - *Question* (asharda-stat6250): When do you use END=option?.
+- *Answer* (asharda-stat6250):  For example, you might want to perform calculations only on the last observation in a data set, or you might want to write an observation only after the last observation has been processed. For this purpose, you can use the END= option for the SET, MERGE, MODIFY, or UPDATE statement.
 - *Question* (aacharya4−stat6250): What is the use of END data set option in SAS?
 - *Answer* (aacharya4−stat6250): The END data set option is to signify a temporary variable that contains the end-of-file marker.
 - Question (lceballos-stat6250): What is the purpose of the statement "if last;"?
@@ -413,6 +423,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aamiri2-stat6250): What are some syntax errors that can occur in the second step of the compilation phase?
 - Question (dfei-stat6250): What does compilation phase mean?
 - Question(pcheng14-stat6250):What is the meaning of PDV?
+- *Answer* (asharda-stat6250):It stands for program data vector
 - Question (ldeng11−stat6250): What happend during the data compilation phase?
 - *Question* (asharda-stat6250): What is the general form basic DATA step for reading a single data set?
 - *Question* (aacharya4−stat6250): What is Program Data Vector (PDV)?
@@ -449,6 +460,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [basic_recipe_for_combining_data_vertically Week 7 Recipe]
 - *Question* (aamiri2-stat6250): While creating values for data source why is it assigned a character value at first?
+- *Answer* (asharda-stat6250): While creating values for data_source, note that data_source is assigned a character value the first time it appears in the code, meaning that it's implicitly being created as a character value when it's added to the PDV during SAS' compilation phase when evaluating the data step before executing it.
 - Question (dfei-stat6250): If two datasets with same column can not combine together successfully, what will the error messagers show?
 - Question(pcheng14-stat6250):What is meaning of "business logic"?
 - Question (ldeng11−stat6250): How do you use in= option?
@@ -485,6 +497,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aamiri2-stat6250): While using PROC SQL, are datasets allowed to have duplicate rows? If so, how does this affect our data?
 - Question (dfei-stat6250): In the second short video, the "select * " command seems like sql language, isn't it?
 - Question(pcheng14-stat6250):Why many SAS programers rely on proc sql for the bulk of thier data manipulation tasks?
+- *Answer* (asharda-stat6250): since it's a more flexible tool for combining datasets while requiring significantly less code.
 - Question (ldeng11−stat6250): Can you write the equivalent DATA step code to repalce the PROC SQL code?
 - *Question* (asharda-stat6250): Does using "union" allow datasets to contain duplicates?
 - *Answer* (sbagdi-stat6250): Yes, Union does allow the datasets to have duplicates.
