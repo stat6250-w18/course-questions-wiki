@@ -28,6 +28,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(tchan49-stat6250):Why some variables' names specified by column input followed by a dollar($) sign?
 - Answer(tchan49-stat6250):If the variables are character values, and the beginning and ending column locations of the raw data values
 - *Question* (asharda-stat6250): What are different Column Input Features?
+- *Answer* (asharda-stat6250) Column input has several features that make it useful for reading raw data.It can be used to read character variable values that contain embedded blanks.No placeholder is required for missing data. A blank field is read as missing and does not cause other fields to be read incorrectly.  
 - *Question* (aacharya4−stat6250): How can we use column input to read values from raw data file?
 - *Answer* (aacharya4−stat6250): When we use column input to read values, we specify the variable name(followed by $ sign in case of character variable) and the start and end location of raw data values.
 - Question (ttruong59-stat6250): Does the column input have the ability to read fields in any order? 
@@ -53,6 +54,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(dfei-stat6250): Is Standard as well as nonstandard data values can be read considered as advantage of column input?
 - Answer(dfei-stat6250): No, it is not.
 - *Question* (shatcher4-stat6250): What are informats?
+- *Answer* (asharda-stat6250):An informat that is associated with an INFORMAT statement behaves like an informat that you specify with a colon (:) format modifier in an INPUT statement.
 - *Question*(kamirneni-stat6250): What is considered to be non-standard data?
 - *Answer*(kamirneni-stat6250): Data which includes values containing fractions, $ sign, % sign and commas.
 - Question(pcheng14-stat6250): Is the part number of columns that contain the raw data field.
@@ -80,6 +82,7 @@ The instructor will then review the pull request and make comments should furthe
 [Course Textbook Chapter 16, Problem 7]
 - *Question* (cli19−stat6250): How can the "+" and "@" symbols be used to move the input column pointer?
 - Question(dfei-stat6250): In INPUT statement, What does the special signal "@" mean?
+- *Answer* (asharda-stat6250):It holds an input record for the execution of the next INPUT statement within the same iteration of the DATA step. This line-hold specifier is called trailing @.
 - *Question* (shatcher4-stat6250): What informat is used to read character data and what informat is used to read standard numeric data?
 - *Question*(kamirneni-stat6250): What is @n column pointer control?
 - *Answer*(kamirneni-stat6250): It is an absolute pointer control that moves the input pointer to a specific column number.
@@ -110,6 +113,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(dfei-stat6250): In INPUT statement,  What does the special signal to sperate the numeric values?
 - Answer(dfei-stat6250): Do not need anything to sperate.
 - *Question* (shatcher4-stat6250): How do you read nonstandard numeric data?
+- *Answer* (asharda-stat6250):When they are read into a SAS data set, numeric values are stored in the floating-point format native to the operating environment.
 - *Question*(kamirneni-stat6250): How does SAS store numeric values?
 - *Answer*(kamirneni-stat6250): By default,SAS stores numeric values as floating point numbers in 8 bytes of storage.
 - Question(pcheng14-stat6250):Do we must use the COMMAw.d informat when the values for Cost contain dollar signs and commas?
@@ -155,6 +159,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): What is a default location of the column pointer control?
 - Answer (ttruong59-stat6250): The default location of the column pointer control is column 1 and a column pointer control is optional for reading the first field.
 - *Question* (ldai4-stat6250): What is the column pointer control?
+- *Answer* (asharda-stat6250):Column pointer controls indicate the column in which an input value starts.
 - *Question* (sbagdi-stat6250): Why is it important to specify the actual field width of raw data in an input statement?
 - *Answer* (sbagdi-stat6250): If the exact field width is missing, and we specify a default field width of 8 for all numeric values, SAS will read inappropriate variable values when program executes.
 - *Question* (who7-stat6250): It seems there are multiple ways to ready data, which is the most common?
@@ -177,6 +182,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nshrivastava2-stat6250): list input causes SAS to scan the input lines for values rather than reading from specific columns. When the INPUT statement is submitted for processing, the input pointer is positioned at column 1 of the raw data file.
 - Answer(nshrivastava2-stat6250): SAS reads the first field until it encounters a blank space. The blank space indicates the end of the field, and the data value is assigned to the program data vector for the first variable in the INPUT statement.Next, SAS scans the record until the next nonblank space is found, and the second value is read until another blank is encountered. Then the value is assigned to its corresponding variable in the program data vector.
 - Question(tchan49-stat6250):How do you describe the data that is not arranged in columns or fixed fields?
+- *Answer* (asharda-stat6250):Data in a fixed-width text file is arranged in rows and columns, with one entry per row.No delimiters are used to separate the fields in the file.
 - *Question* (asharda-stat6250): What different input styles does SAS provide? 
 - *Answer* (asharda-stat6250):  SAS providesthree primary input styles: column, formatted, and list input. 
 - *Question* (aacharya4−stat6250): What is the meaning of free format data in a raw data file?
@@ -220,6 +226,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (who7-stat6250): You can use the modifier &.
 - *Question* (akrishnamurthy-stat6250): Can range of variables be specified using formatted input?
 - Question (ljiang11−stat6250): How many kind of input style are there in SAS?
+- *Answer* (asharda-stat6250):You can use the following different input styles, depending on the layout of data values in the records: list input. column input. formatted input. named input. 
 - Question (aguenane−stat6250): What should be specified in list input?
 - Answer (aguenane−stat6250): All fields must be separated by blank/delimiter, traverse from left to right and can't skip or re-read fields.
 - *Question* (ldeng11−stat6250): How do you choose the correct way to read different format input data?
@@ -232,6 +239,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(dfei-stat6250): Do I have to put some special signal when reading the raw data values in order?
 - *Question* (shatcher4-stat6250): How do you specify a range of variables in the INPUT statement?
 - *Question*(kamirneni-stat6250): What is the function of MISSOVER?
+- *Answer* (asharda-stat6250): This option prevents SAS from going to a new input line if it does not find values for all of the variables in the current line of data.
 - Question(pcheng14-stat6250):When should list input be used to read data that is free-format?
 - Question (nshrivastava2-stat6250): When PROC IMPORT is used to read a CSV, tab, or other character-delimited file, what procedure SAS uses / follows?
 - Question(tchan49-stat6250):Can you use list input to read data that is not free-format?
@@ -263,6 +271,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nshrivastava2-stat6250): How to read range of variables in the INPUT statement?
 - Answer(nshrivastava2-stat6250): When the variable values in the raw data file are sequential and are separated by a blank (or by another delimiter), can specify a range of variables in the INPUT statement. This is especially useful if your data contains similar variables.
 - Question(tchan49-stat6250):What is the function of DLM= option? 
+- *Answer* (asharda-stat6250): The dlm= option can be used to specify the delimiter that separates the variables in your raw data file. 
 - *Question* (asharda-stat6250): When do you use DSD option in file statement?.
 - *Question* (aacharya4−stat6250): What is the use of DLM option in INFILE statement?
 - *Answer* (aacharya4−stat6250): The DLM option in the INFILE statement is used to specify the delimiter that seperates the data fields.
@@ -299,6 +308,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (who7-stat6250): What would happen if the length of varialbe part is after the input part?
 - *Question* (akrishnamurthy-stat6250): Can the order of variables be defined along with LENGTH overrides?
 - Question (ljiang11−stat6250): Where do we specify the length of a variable? 
+- *Answer* (asharda-stat6250):  LENGTH Statement specifies the number of bytes for storing character and numeric variables, or the number of characters for storing VARCHAR variables.
 - Question (aguenane−stat6250): What is the condition for specifying a range of character variables?
 - *Question* (ldeng11−stat6250): How do you read the data if all fields have different length, and start in different location?
 
@@ -324,6 +334,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (akrishnamurthy-stat6250): The ampersand (&) modifier is used to read character values with embedded blanks. The colon(:) modifier is used to read variables greater than 8 characters without any embedded blanks.
 - Question (ljiang11−stat6250): How is modified list input different from list input?
 - Question (aguenane−stat6250): What are the limitations of list input?
+- *Answer* (asharda-stat6250): Fields must be separated by at least one blank (or other delimiter),Fields must be read in order from left to right.,You cannot skip or re-read fields,Data must be in standard character or numeric format.
 - *Question* (ldeng11−stat6250): How do you read the data if the data in one single field have different format, like some have blanks, some don't?
 
 
@@ -344,6 +355,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): What kind of data can contain embedded blanks or nonstandard values?
 - Answer (ttruong59-stat6250): free-format data
 - *Question* (ldai4-stat6250): Which input can be used to read the values for year?
+- *Answer* (asharda-stat6250): The INPUT statement reads raw data from instream data lines or external files into a SAS data set. You can use the following different input styles, depending on the layout of data values in the records: list input. column input. formatted input. named input. You can also combine styles of input in a single INPUT statement.
 - *Question* (sbagdi-stat6250): What does a LENGTH statement in SAS used for?
 - *Answer* (sbagdi-stat6250): LENGTH statement in SAS is used to increase the character length of the variables, whose character lengths are greater than 8, so that they do not get truncated.
 - *Question* (who7-stat6250): Would it cause an error if i put & and dlm = " " in the same step?
@@ -365,6 +377,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(nshrivastava2-stat6250): In order to specify a tab delimiter, one can use hexadecimal value i.e DLM=’09’x.
 - Question(tchan49-stat6250):What are some common delimiters for DELIMITER= statement to define?
 - *Question* (asharda-stat6250): Why is the "replace" option excluded?.
+- *Answer* (asharda-stat6250):  "replace" option has been excluded in order to prevent a pre-existing dataset already named "frpm_raw" in the Work library from being overwritten.
 - *Question* (aacharya4−stat6250): What would have been the value for the delimiter option in the proc import step in case a .tsv file i.e tab seperated file was used?
 - *Answer* (aacharya4−stat6250): The delimiter option in proc import step should have been specified as "09"x, which is a hexadecimal representation of a tab character if a .tsv file was used.
 - Question (ttruong59-stat6250): Why is “dlm” assigned for DBMS= option in proc import?
@@ -382,6 +395,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [adv_recipe_to_load_remote_delimited_file Week 10 Recipe]
 - *Question* (cli19−stat6250): When are DATA steps preferred over PROC SQL?
+- *Answer* (asharda-stat6250):  Like proc sql, data steps can be thought of like a Swiss army knife since they can be used to accomplish many different types of tasks, including importing raw text files (including non-delimited, free-form or fixed-column width formats), data cleaning, copying datasets, combing datasets, and even simulate many of the featues of procs like proc means and proc freq.
 - Question(dfei-stat6250): Is L rec L option commonly used in SAS programming?
 - *Question* (shatcher4-stat6250): What does the truncover option do?
 - *Question*(kamirneni-stat6250): What does the input statement specifies?
