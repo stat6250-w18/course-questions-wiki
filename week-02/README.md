@@ -50,6 +50,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19−stat6250): How can we view a summary or overview of a dataset that includes the number of observations or the number of variables? 
 - *Answer* (cli19−stat6250): The PROC CONTENTS procedure in SAS can allow us a general overview of what we can expect to see in our dataset specified.
 - Question (dfei−stat6250): What does observation mean in programming?
+- *Answer* (sbagdi-stat6250): The observations correspond to rows or data lines.
 - *Answer* (asharda-stat6250): In SAS it means collection of data values relating to single object.
 - *Question* (tbishaw-stat6250): Is the result of processing programs in SAS the same across all SAS programs?
 - *Answer* (tbishaw-stat6250): The result of processing might vary across different SAS programs. For example, some SAS programs open interactive window so you can directly modify data, such as the REPORT window. 
@@ -62,6 +63,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 1, Problem 2]
 - Question (lceballos-stat6250): Since SAS runs a program everytime it reads PROC or DATA, is the run command necessary for running SAS programs?
+- *Answer* (sbagdi-stat6250): RUN statement isn't always necessary, but using it makes programs more readable and debugging becomes easier.
 - Question (pcheng14−stat6250): What is the lowest program steps are executed in the program when program is processed?
 - Answer:one
 - Question (lsun20-stat6250): Is there any other statements can make the SAS stop reading statement and executes the step in the program? 
@@ -127,6 +129,7 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - Question (nshrivastava2-stat6250): If the Value is missing from the dataset, How it interprets for character variables.
 - Answer(nshrivastava2-stat6250): For character variables, a blank represents a missing value.
 - *Question* (shatcher4-stat6250): What purpose does a variable type serve?
+- *Answer* (sbagdi-stat6250): A variable type determines how missing values are displyed. 
 - *Question* (akrishnamurthy-stat6250):Can special characters be assigned to numeric variables ?
 - *Question* (ldai4-stat6250): Can a variable be either character or numeric? 
 - Question (ldeng11−stat6250): What are the types of variable?
@@ -174,7 +177,11 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - Answer (dfei−stat6250): A numeric character reference (NCR) is a common markup construct used in SGML and SGML-derived markup languages such as HTML and XML. It consists of a short sequence of characters that, in turn, represents a single character.
 - *Question* (tbishaw-stat6250): How are steps executed in SAS tracked and logged? And is the result of processing the same across different SAS programs?
 - *Answer* (tbishaw-stat6250): Each time a step is executed, SAS generates a log to keep track of the processing activities and the result of the processing. And the result of processing varies across different SAS programs. While some SAS programs open an interactive window that creates output in the form of report other programs perform tasks such as sorting, which have no visible results other than messages in the log. 
-- Question (kamirneni-stat6250): What is the set of naming rules one should follow while saving SAS files? 
+- Question (kamirneni-stat6250): What is the set of naming rules one should follow while saving SAS files?
+- *Answer* (sbagdi-stat6250): The file name rules are-
+a) Can be 1-32 character long
+b) Must start with a letter or an underscore.
+c) Can continue to be a combination of numbers,underscores and / or letters. 
 - *Question* (aguenane−stat6250): Is it valid to change the variable name Brand to 10Brand? 
 - *Answer* (aguenane-stat6250): No, each variable name need  to begin with a letter or an underscore.
 
@@ -219,12 +226,14 @@ underscores.
 - Answer (dfei−stat6250): Variable name rules are as follows: SAS variable names can be up to 32 characters in length. The first character must begin with an English letter or an underscore. Subsequent characters can be English letters, numeric digits, or underscores.
 - *Question* (tbishaw-stat6250): What is a major difference between referencing a temporary SAS file versus referencing a permanent SAS file?
 - Question (kamirneni-stat6250): Is inheritance possible in SAS programming?
-- *Question* (aguenane−stat6250): Can variable names have  a space?
+- *Question* (aguenane−stat6250): Can variable names have a space?
+- *Answer* (sbagdi-stat6250): No, names cannot have space, but they can be grouped by using underscore.
 
 
 
 [Course Textbook Chapter 1, Problem 8]
 - Question (lceballos-stat6250): What is the maximum lenght for a floating number in SAS?
+- *Answer* (sbagdi-stat6250): The maximum lenght for a floating number in SAS is 8 bytes.
 - Question (pcheng14−stat6250): What is the meaning of the the numeric variable Balance?
 - *Answer* (asharda−stat6250): The numeric variable Balance has a default length of 8. Numeric values (no matter how many digits they contain) are stored in 8 bytes of storage unless you specify a different length.
 - Question (lsun20-stat6250): Does the numeric variable which are stored in 8 bytes have a range? if yes, what is it?
@@ -266,6 +275,7 @@ underscores.
 
 [Course Textbook Chapter 2, Problem 3]
 - Question (lceballos-stat6250): Does YEARCUTOFF=2000 pick 1918 or 2018 if the date is 1/9/18?
+- *Answer* (sbagdi-stat6250): It picks 2018, since the YEARCUTOFF=2000. So, the 100 years range woulb 2000-2099.
 - *Answer* (aacharya4−stat6250): In SAS, the default value of YEARCUTOFF option is 1920.So it cannot pick 1918.
 - Question (pcheng14−stat6250): When shoud I use data values in SAS programming?
 - Question (lsun20-stat6250): How the "YEARCUTOFF=option" works in SAS?
@@ -334,6 +344,10 @@ The second line of the code creates a new dataset called "totalsales". This data
 - *Answer* (tbishaw-stat6250): If you are running SAS within other operating systems other than windows the platform-specific names and locations will look different. Otherwise, SAS programming code will be the same across operating systems and environments. 
 - Question (kamirneni-stat6250):Is there any predefined interface coding between SAS and DBMS such that no engine is required to import data set from a DBMS file? 
 - *Question* (aguenane−stat6250): What are the steps to reference a permanent SAS file?
+- *Answer* (sbagdi-stat6250): Steps-
+a) Assign name to the SAS library.
+b) Use libref as first part of the file name.
+
 
 
 [Course Textbook Chapter 2, Problem 8]
@@ -350,7 +364,8 @@ The second line of the code creates a new dataset called "totalsales". This data
 - *Question* (aamiri2-stat6250): What is the reason for using YEARCUTOFF= option and what are the benefits?
 - *Answer* (aamiri2-stat6250): This option helps specify which 100-year span is used to interpret two-digit year values. This usually needs to be specified such as YEARCUTOFF=1940 so the 100 year span dates would be 1940 – 2039
 - Question (who7-stat6250): Is there a way to expand the range of time period for more than 100 years?
-- Question(tchan49-stat6250):When you set up a YEARCUTOFF= and count a time span(100years), does the year you intend to start count as the first year of the span? 
+- Question(tchan49-stat6250):When you set up a YEARCUTOFF= and count a time span(100years), does the year you intend to start count as the first year of the span?
+- *Answer* (sbagdi-stat6250): Yes, the first year of the 100 years span is the year mentioned in YEARCUTOFF= option.
 - Question (ttruong59-stat6250): Why is the default value of YEARCUTOFF= 1920? Is there any benefit of using 1920, instead of using different year as a default value? If so, what is it?
 - Question (nshrivastava2-stat6250): What is the general format of  LIBNAME statement ?
 - *Question* (shatcher4-stat6250): Why are two-digit year values treated differently than a four-digit year value in the YEARCUTOFF option?
@@ -396,6 +411,7 @@ command to delete the libref.
 - Question (dfei−stat6250): Can librefs last from more than one SAS session to another?
 - *Question* (tbishaw-stat6250): What are the capabilities of a PROC DATASETS in terms of what tasks it allows users to perform?
 - Question (kamirneni-stat6250): Do libriefs work for multiple sessions with mentioning again in SAS code and SAS windows?
+- *Answer* (sbagdi-stat6250): librefs are in effect untill the SAS session lasts.
 - Answer (kamirneni-stat6250):No, they don't work for SAS code if not mentioned in each and every session. It works for SAS windows
 - *Question* (aguenane−stat6250): What is the default libref for temporary SAS files?
 
@@ -432,8 +448,8 @@ command to delete the libref.
 - Answer (kamirneni-stat6250):Just mention the link to the FTP with user, directory, host, password. 
 - *Question* (aguenane-stat6250): How can we use mico and macros on SAS?
 - *Question* (aguenane−stat6250): What does it mean to assign TEMP to the file name tempfile?
-
-
+- *Question* (sbagdi-stat6250): How is PROC http step terminated in SAS?
+- *Answer* (sbagdi-stat6250): By using run statement. 
 
 [bonus_advanced_recipe_for_loading_data_from_remote_Excel_file Week 2 Recipe]
 - Question (lceballos-stat6250): When using a macro, what do the names in paranthesis mean?
@@ -465,5 +481,7 @@ command to delete the libref.
 - Question (kamirneni-stat6250): Is there any other way apart from FTP to load data from excel file?
 - Answer (kamirneni-stat6250): Using macros code,it is possible to do so
 - *Question *(aguenane-stat6250): why we use macros on Sas?
+- *Question* (sbagdi-stat6250): What is '&' used for?
+- *Answer* (sbagdi-stat6250): The '&' is used to reference a macro variable.
 
 
