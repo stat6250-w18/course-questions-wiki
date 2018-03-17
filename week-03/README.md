@@ -21,6 +21,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ljiang11−stat6250): why the format is important?
 - Answer (ljiang11−stat6250): Because SAS is free free format, keeping an organized format would be easier for developers to read.
 - *Question* (jcanfield3-stat6250): What makes the Quit function different than the Run function?
+- Answer (asharda-stat6250):Though the RUN statement is not always required between steps in a SAS program, using it can make the SAS program easier to read and debug, and it makes the SAS log easier to read. Quit is used to end a procedure.
 - Question (lceballos-stat6250): Will a program run if the PROC or run are not in column one?
 - Answer (lceballos-stat6250): It would run but it won't be easy to read which makes it difficult to understand the purpose of the program.
 - Question (ldeng11−stat6250): What are the good practing rules/styles you should follow if you want to write an easy-to-read and easy-to-maintain code? 
@@ -28,6 +29,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): What is the good format to write SAS statements when writing and editing SAS programs?
 - *Answer* (cnguyen77-stat6250): Although you can write SAS statements in almost any format, a consistent layout enhances readability and enables you to understand the program's purpose. It's a good idea to begin DATA and PROC steps in column one, to indent statements within a step, to begin RUN statements in column one, and to include a RUN statement after every DATA step or PROC step.
 - *Question* (shatcher4-stat6250): Why should you write SAS statements in a consistent layout?
+- *Answer* (sbagdi-stat6250): A consistent layout enhances readability and enables us to understand program's purpose.
 - *Question* (jbettonville-stat6250): The text mentions that it is a "good idea" to add a RUN statement after every DATA or PROC step; does this phrasing suggest that there are circumstances under which the absence of a RUN statement after a DATA or PROC step would not cause the program to fail?
 - *Answer* (jbettonville-stat6250): If there is another PROC or DATA step after the PROC or DATA step that does not have a RUN statement, the second statement will execute. However, if there is no RUN statement at the end of the final PROC or DATA step, the final step will continue to run.
 - *Question* (aamiri2-stat6250): What are the advantages of editing SAS programs in the Enhanced Editor?
@@ -61,6 +63,8 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 3, Problem 2]
 - Question (ljiang11−stat6250): Why clear the log window?
+- *Answer* (sbagdi-stat6250): After every new program submission, its a good practice to clear the log window so as not to get confused with previous logs.
+- *Answer* (asharda-stat6250):Clear the log window so that the log from new run could be verified.
 - *Question* (jcanfield3-stat6250): Are there a set number of mispellings that SAS can still run through? (Like dat is treated as data)
 - Question (lceballos-stat6250): What is the statement to clear the log?
 - Answer (lceballos-stat6250): "dm log 'clear;"
@@ -100,6 +104,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 3, Problem 3]
 - Question (ljiang11−stat6250): Why it shows "PROC PRINT running"?
+- *Answer* (asharda-stat6250):The missing quotation mark in the LABEL statement causes SAS to misinterpret the statements in the program.  
 - *Question* (jcanfield3-stat6250): Why does the program not recognize a ';' as the end of an unmatched quote?
 - *Answer* (jcanfield3-stat6250): Because the ';' could be intended to be within a quotation, and thus not a suitable solution for all cases.
 - Question (lceballos-stat6250): If a string contains quotation marks, how can we search for it in SAS with out without running into a syntax error?
@@ -120,12 +125,13 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250): What is the meaning of var resthr maxhr rechr date?
 - *Question* (aacharya4−stat6250): What happens when missing quotation mark is encountered by the SAS program?
 - Question(tchan49-stat6250): When you miss a quotation in a SAS statement, where can you find the error message? 
-- Question (lsun20-stat6250): what is the maxmum length of a quoted string?
+- Question (lsun20-stat6250): what is the maximum length of a quoted string?
 - *Question* (ldai4-stat6250): What is some common syntax errors?
 - *Answer* (ldai4-stat6250): Common syntax errors include spelling mistakes, omitting semicolons, leaving quotation marks unbalanced, and specifying invalid options.
 - Question (xyin6-stat6250): Can we just simply add a quotation mark can solve the problem in the warning message?
 - Answer (xyin6-stat6250): No, it usually **DOES NOT** solve the problem, SAS still considers the quotation marks to be unbalanced. We have to cancel the statements then resubmitting.
 - *Question* (tbishawstat6250): What are the major capabilities of the Enhanced Editor in SAS software? 
+- *Answer* (sbagdi-stat6250): It provides some useful editing features: color coding and syntax checking, recordable macros, multi-level undo redo etc.
 - Question (ttruong59-stat6250): How do users correct a "PROC PRINT running" message at the top of the active window?
 - *Question* (aguenane−stat6250): What is the benefit of issuing the RECALL command or selected Run -> Recall Last Submit?
 - *Answer* (aguenane-stat6250): This allows you to obtain the statements you just submitted. This allows you to edit your code easily when you run into syntax errors.
@@ -147,6 +153,7 @@ b) if that abbreviation is recognized, a tooltip displays the expanded text; Pre
 - *Question* (cnguyen77-stat6250): Will the SAS continue process the step if there is a syntax error in it?
 - *Answer* (cnguyen77-stat6250): Syntax errors generally cause SAS to stop processing the step in which the error occurred. When a program that contains an error is submitted, messages regarding the problem also appear in the Log window. When a syntax error is detected, the Log window displays the word ERROR, identifies the possible location of the error, and gives an explanation of the error.
 - *Question* (shatcher4-stat6250): What happens when a syntax error is detected and how is it corrected?
+- Answer (asharda−stat6250): When a syntax error is detected, the Log window displays the word ERROR, identifies the possible location of the error, and gives an explanation of the error.Fixing the location indicated.
 - *Question* (jbettonville-stat6250): Does SAS produce "warnings" instead of errors when a statement runs but produces a result that may not be what the author of the statement intended?
 - *Question* (aamiri2-stat6250): What are some examples of syntax errors and what type of message will appear if it has been detected?
 - Question (nshrivastava2-stat6250):How the missing RUN Statement interpret in SAS program?
@@ -167,12 +174,14 @@ b) if that abbreviation is recognized, a tooltip displays the expanded text; Pre
 - *Question* (aguenane−stat6250): When debugging your programs, can you just look at the Output window?
 - Question (who7−stat6250): Would there be an instance where program encounter a syntax error and continue running?
 - *Question* (sbagdi-stat6250): What are the different types of syntax errors?
+- *Answer* (sbagdi-stat6250): Types of syntax errors: Mispelled keywords, specifying invalid option, leaving quotation marks unbalanced, ommiting semicolons.
 
 
 
 [Course Textbook Chapter 3, Problem 5]
 - Question (ljiang11−stat6250): What are the rules of SAS usage?
 - *Question* (jcanfield3-stat6250): Are there other syntax errors besides spelling errors?
+- Answer (asharda−stat6250): Other syntax errors are omitting semicolons, quotation marks unbalanced, invalid options etc.
 - Question (lceballos-stat6250): What's the difference between syntax errors, data errors and logic errors?
 - Question (ldeng11−stat6250): What are the common syntax errors?
 - Answer (ldeng11−stat6250): Common syntax errors are misspelled keywords, omitting semicolons, quotation marks unbalanced, invalid options etc.
@@ -202,6 +211,7 @@ b) if that abbreviation is recognized, a tooltip displays the expanded text; Pre
 - *Answer* (aguenane-stat6250): A syntax error occurs when program statements do not conform to the rules of the SAS language while a data error occurs when some data values are not appropriate for the SAS statements that are specified in the program.
 - Question (who7−stat6250): What is the main difference between syntax error and other error in SAS?
 - *Question* (sbagdi-stat6250): How to locate a statement that lacks a semi-colon in an error message?
+- *Answer* (sbagdi-stat6250): By looking at the underscored keywords in the error messege and working backwards.
 
 
 
@@ -224,6 +234,7 @@ b) if that abbreviation is recognized, a tooltip displays the expanded text; Pre
 - Question(pcheng14-stat6250): What is “DATA step running” meaning?
 - Answer(pcheng14-stat6250): It same as “PROC running”.
 - *Question* (aacharya4−stat6250): How does one avoid making "invalid option" error while writing SAS code?
+- Answer(asharda-stat6250): You should recall the program, remove or replace the invalid option, check your statement syntax as needed,and resubmit the corrected program.
 - Question(tchan49-stat6250): When you have an invalid option in SAS program, is it a syntax error or data error? 
 - Question (lsun20-stat6250): What is the reason may cause an invalid option in a SAS program?
 - *Question* (ldai4-stat6250): Can a log message indicate spelling errors in addition to notifying the invalid option?
@@ -234,6 +245,7 @@ b) if that abbreviation is recognized, a tooltip displays the expanded text; Pre
 - *Question* (aguenane−stat6250): How do you resolve an invalid option error?
 - Question (who7−stat6250): Is there a better to keep track of different variables when writing code to avoid invalid option error?
 - *Question* (sbagdi-stat6250): Why doesn’t simply adding a quotation mark (in missing quotation mark errors) and resubmitting a program resolves the problem? 
+- *Answer* (sbagdi-stat6250): Because SAS is often unable to detect the end of the sentence, therefore simply adding the quotation marks and resubmitting doesn't help.
 
 
 
@@ -253,6 +265,7 @@ b) if that abbreviation is recognized, a tooltip displays the expanded text; Pre
 - *Question* (cli19−stat6250): What are other common syntax errors that SAS can successfully interpret and return warnings rather than erros?
 - Question(dfei-stat6250): How to find a syntax error in a quick way?
 - Question(pcheng14-stat6250): What is meaning of syntax error?
+- *Answer* (asharda−stat6250):Syntax errors are common types of errors. Some SAS system options and features of the code editing window can help you identify syntax errors.
 - *Question* (aacharya4−stat6250): What is the way to terminate a DATA step in a SAS program?
 - *Answer* (aacharya4−stat6250): A DATA step in a SAS program can be terminated by using a RUN statement or by beginning another DATA step or a PROC step.
 - Question(tchan49-stat6250): How can you correct the misspelling key work on a SAS statement? Do you need to re-type the entire statement? 
@@ -265,6 +278,10 @@ b) if that abbreviation is recognized, a tooltip displays the expanded text; Pre
 - *Question* (aguenane−stat6250): What type of errors are the following: omitting semicolons, leaving quotation marks unbalanced, specifying invalid options?
 - Question (who7−stat6250): What would be the best way to avoid syntax error?
 - *Question* (sbagdi-stat6250): What are the essential steps to resolve the issue of invalid option?
+- *Answer* (sbagdi-stat6250): Essential steps:
+a) Remove or replace the invalid option.
+b) Resubmit the program
+c) Check log again to ensure that there're no further errors.
 
 
 
@@ -272,6 +289,8 @@ b) if that abbreviation is recognized, a tooltip displays the expanded text; Pre
 - Question (ljiang11−stat6250): Will there be any message in log window?
 - *Question* (jcanfield3-stat6250): Can you tell if a continuous "DATA step running" is due to a run missing or long compiling time, without looking at the code?
 - Question (lceballos-stat6250): Why is the run statement necessary?
+- *Answer* (sbagdi-stat6250): In order to prevent unexpected results, its a good practice to use run statement at the end of the program. 
+- Answer(asharda-stat6250):Without a RUN statement (or a following DATA or PROC step), the DATA step doesn't execute, so it continues to run. 
 - Question (ldeng11−stat6250): What happen if you see the window display the message "DATA step running" for a long time?
 - *Question* (akrishnamurthy-stat6250): Since SAS always executes a current step when it encounters the next PROC or DATA statement, why should a RUN statement be explicitly specified?
 - *Answer* (akrishnamurthy-stat6250): Although RUN statements are not mandatory and are not considered as error,omitting RUN statements can sometimes produce unexpected results. Especially if the last step in program is not followed by RUN, the program will compile successfully but the last step will not be executed. 
@@ -294,7 +313,7 @@ b) if that abbreviation is recognized, a tooltip displays the expanded text; Pre
 - *Question* (tbishawstat6250): What is the comment symbol in SAS? And does the SAS program execute or read the comments you make?
 - Question (ttruong59-stat6250): Is each step compiled and executed independently?
 - *Question* (aguenane−stat6250): Is it true that each step in a SAS program is compiled and executed independently from every other step.
-- Question (who7−stat6250): Why wouldn't SAS automate the RUN; statement into the program?
+- Question (who7−stat6250): Why wouldn't SAS automate the RUN statement into the program?
 - *Question* (sbagdi-stat6250): Which syntax error, other than the ‘missing run statement’, results in error message- ‘DATA Step running’ at the top of active window?
 
 
@@ -331,6 +350,8 @@ b) if that abbreviation is recognized, a tooltip displays the expanded text; Pre
 - *Question (aguenane−stat6250): When producing a list report, if you don’t want to list all of the variables in the data set, can you choose indiv*idual variables to show?
 - Question (who7−stat6250): one of the answer attempted to change the label name of a variable, can we display variable a as "A"?
 - *Question* (sbagdi-stat6250): Which option is used to remove the default observation column (column that displays observation numbers)? Where do the programmer specifies that option in his program?
+- *Answer* (sbagdi-stat6250): NOOBS option in the PROC PRINT statement.
+- *Answer* (asharda-stat6250): The DATA= option specifies the data set that you are listing, and the ID statement replaces the Obs column with the specified variable. The VAR statement specifies variables and controls the order in which they appear, and the WHERE statement selects rows based on a condition. 
 
 
 
@@ -347,6 +368,7 @@ b) if that abbreviation is recognized, a tooltip displays the expanded text; Pre
 - *Question* (jbettonville-stat6250): Is there a way of specifying case insensitive values in a WHERE statement?
 - *Question* (aamiri2-stat6250): What is the difference between CONTAINS and WHERE statements? In what situations would you apply these to?
 - Question (nshrivastava2-stat6250): How one can remove the default Obs column that displays observation numbers?
+- *Answer* (sbagdi-stat6250): By using NOOBS option in the PROC PRINT statement.
 - *Question* (cli19−stat6250): Is it necessary to include commas to delimit items listed in the "in" operator?
 - *Answer* (cli19−stat6250): No, SAS can process this if the list is delimited by spaces.
 - Question(dfei-stat6250): Are "in" and "=" same in SAS programming?
@@ -354,6 +376,7 @@ b) if that abbreviation is recognized, a tooltip displays the expanded text; Pre
 - *Question* (aacharya4−stat6250): Which operator in SAS is used to classify observations based on a range of values?
 - *Answer* (aacharya4−stat6250): The "IN" operator in SAS is used to classify observations based on a range of values.
 - Question(tchan49-stat6250): When you test for multiple values of the same variable, besides using OR in a WHERE statement, what operator can you use? 
+- *Answer* (asharda−stat6250): "IN" operator in SAS is used to test for multiple values of the same variable.
 - Question (lsun20-stat6250): Can we use double quotation marks in this situation?
 - *Question* (ldai4-stat6250): What step can be used to selected observations?
 - Question (xyin6-stat6250): Can I also use IN operator for selecting multiple numeric values? Is the quote sign required?
@@ -377,6 +400,7 @@ b) if that abbreviation is recognized, a tooltip displays the expanded text; Pre
 - *Question* (cnguyen77-stat6250): Do you need to specify the data set in a PROC SORT step?
 - *Answer* (cnguyen77-stat6250): In a PROC SORT step, you specify the DATA= option to specify the data set to sort. The OUT= option specifies an output data set. The required BY statement specifies the variable(s) to use in sorting the data.
 - *Question* (shatcher4-stat6250): What does the SORT procedure do?
+- *Answer* (asharda-stat6250): In a PROC SORT step, you specify the DATA= option to specify the data set to sort. The OUT= option specifies an output data set.
 - *Question* (jbettonville-stat6250): When sorting by a variable, how do we specify the direction (ascending or descending) of the sort order?
 - *Answer* (jbettonville-stat6250): By default, variables are sorted in ascending order. The option DESCENDING can be applied following BY but immediately before a variable if that variable should instead be sorted in descending order.
 - *Question* (aamiri2-stat6250): What are the steps in sorting you data permanently and temporarily? 
@@ -397,7 +421,8 @@ b) if that abbreviation is recognized, a tooltip displays the expanded text; Pre
 - Question (ttruong59-stat6250): How do users sort data and create a temporary data set to store sorted data?
 - *Question* (aguenane−stat6250): What is the general form of a simple PROC SORT step?
 - Question (who7−stat6250): What is the difference between sorting data set to name and a.name?
-- *Question* (sbagdi-stat6250): What happens if a programmer doesn’t use OUT= option in a PROC SORT step? 
+- *Question* (sbagdi-stat6250): What happens if a programmer doesn’t use OUT= option in a PROC SORT step?
+- *Answer* (sbagdi-stat6250): If not specified, PROC SORT overwrites the data set specified in the DATA= option.
 
 
 
@@ -410,7 +435,9 @@ b) if that abbreviation is recognized, a tooltip displays the expanded text; Pre
 - Answer (ldeng11−stat6250): The original data set would be overwritten by the sorted data set, which is not the good practice because we like to keep the original data set for reference.
 - *Question* (akrishnamurthy-stat6250): Is sort statement mandatory before printing a dataset in SAS ?
 - *Question* (cnguyen77-stat6250): Is the BY statement required in PROC SORT step?
+- *Answer* (asharda-stat6250): The BY statement is required in PROC SORT.
 - *Question* (shatcher4-stat6250): Why do you need to use PROC SORT before PRINT?
+- *Answer* (sbagdi-stat6250): PROC PRINT lists observations in the order in which they appear in the data set. So, to sort the data, we must use PROC SORT.
 - *Question* (jbettonville-stat6250): Assuming that the BY statement is included in PROC SORT, if an OUT option is not specified, does PROC SORT sort the data in place? (i.e. is the data altered if an OUT option is not specified?)
 - *Question* (aamiri2-stat6250): If the wrong value is accidentally typed on column totals, how can this be corrected?
 - Question (nshrivastava2-stat6250): If there are special character for instance German three letter-diacritic combinations (Ä/ä, Ö/ö, Ü/ü). Will the SORT function will take care of those and if yes,how?
@@ -438,6 +465,7 @@ b) if that abbreviation is recognized, a tooltip displays the expanded text; Pre
 - Question (lceballos-stat6250): What is the difference between the eq function and "="?
 - Question (ldeng11−stat6250): What is the running sequence when you have different logical operand in the same statement?
 - *Question* (akrishnamurthy-stat6250): How are compound expressions evaluated in SAS ?
+- *Answer* (asharda-stat6250): AND & and, both. If both expressions are true, then the compound expression is true. OR | or, either.
 - *Question* (cnguyen77-stat6250): How to ensure that the compound expression is evaluated correctly?
 - *Question* (shatcher4-stat6250): What are the comparison operators that can be used in a WHERE statement?
 - *Question* (jbettonville-stat6250): What is the functional difference between "eq" and =, or "le" and <=? Can they be used interchangeably?
@@ -460,6 +488,7 @@ b) if that abbreviation is recognized, a tooltip displays the expanded text; Pre
 - Question (ttruong59-stat6250): What are the comparison operators used in WHERE statement?
 - *Question* (aguenane−stat6250): Can you use quotation marks when specifying certain character strings, or must you use apostrophes?
 - Question (who7−stat6250): Can we create new abbreviation in SAS?
+- *Answer* (sbagdi-stat6250): Yes, new abreviations can be created in SAS.
 - *Question* (sbagdi-stat6250): Which operator is used to select observations that include a specified string?
 - *Answer* (sbagdi-stat6250):The contains operator is used to select observations including a specified string- CONTAINS ‘xyz’ OR ? ‘xyz.
 
@@ -473,6 +502,7 @@ b) if that abbreviation is recognized, a tooltip displays the expanded text; Pre
 - Question (ldeng11−stat6250): What does PROC PRINT display if you don't specific any options?
 - *Question* (akrishnamurthy-stat6250): What is the syntax of PRINT procedure and how can the output be customized to filter columns or rows?
 - *Question* (cnguyen77-stat6250): What is the default function of PROC PRINT?
+- *Answer* (asharda-stat6250):PROC PRINT displays all observations and variables in the data set, a column for observation numbers onthe far left, and variables in the order in which they occur in the data set. 
 - *Question* (shatcher4-stat6250): What is the default of PROC PRINT?
 - *Answer* (shatcher4-stat6250): It lists the observations in the order they appear in the data set
 - *Question* (jbettonville-stat6250): In data sets with a large number of columns, are there any shortcuts for displaying several columns without specifying the name of each variable? Is it possible to select ranges of columns to display?
@@ -495,6 +525,7 @@ b) if that abbreviation is recognized, a tooltip displays the expanded text; Pre
 - Question (who7−stat6250): Can we write a statement that only print the first row of data?
 - Answer (who7−stat6250): Yes, you can limit the number of data shown by using (obs=1).
 - *Question* (sbagdi-stat6250): How many ‘WHERE’ statements can there be in any PROC PRINT step?
+- *Answer* (sbagdi-stat6250): Multiple 'WHERE' statements can be used in a PROC PRINT step.
 
 
 
@@ -517,6 +548,7 @@ b) if that abbreviation is recognized, a tooltip displays the expanded text; Pre
 - *Question* (aacharya4−stat6250): What happens if the OUT option is not set to a NULL dataset while removing duplicate records from a SAS dataset?
 - *Answer* (aacharya4−stat6250): If the OUT option is not set to a NULL dataset while removing duplicate records from a SAS dataset, it creates a deduplicated datset.
 - Question(tchan49-stat6250): Why is it important to check duplicate records for unique IDs especially the dataset is obtained from external source?
+- *Answer* (asharda−stat6250): For data analysis, we usually assume that each row corresponds to an observation for a uniqueexperimental unit w.r.t. a unique id, so it's important to check any dataset loaded from an external source for duplicate records values of the unique id.
 - Question (lsun20-stat6250): What will be the influence if we use a dataset with some duplicated records?
 - *Question* (ldai4-stat6250): How can we remove the duplicate variables from SAS data set?
 - Question (xyin6-stat6250): If three variables (County_code, District_code and School_code) are followed by the By statement, will that three being sorted all together? (I thought only one variable can be sorted each time)
@@ -527,6 +559,7 @@ b) if that abbreviation is recognized, a tooltip displays the expanded text; Pre
 - Question (who7−stat6250): Would there be a situation where looking for duplicate data is not recommended?
 - Answer (who7−stat6250): There might be a scenario when duplicate data is common and by removing duplicate data you will be removing valuable data.
 - *Question* (sbagdi-stat6250): What happens if the OUT= option is set to anything other than the null value? Specify the statement used to sort the duplicate records.
+- *Answer* (sbagdi-stat6250): If the OUT= option is set to anything other than the null value, then duplicated data set could be formed. DUPOUT= option to sort the duplicate records.
 
 
 
@@ -536,9 +569,11 @@ b) if that abbreviation is recognized, a tooltip displays the expanded text; Pre
 - *Question* (jcanfield3-stat6250): Are "stable" datasets unpreffered?
 - Question (lceballos-stat6250): Why would we ever sort the data if there could be information lost by sorting it?
 - Question (ldeng11−stat6250): How the SAS would sort the data set if you specify multiple variables in the by statement?
-- *Question* (akrishnamurthy-stat6250): How are duplicate values for key column handled while sorting the dataset ?
+- *Question* (akrishnamurthy-stat6250): How are duplicate values for key column handled while sorting the dataset?
 - *Question* (cnguyen77-stat6250): Do you need to specify the out=option when sorting data in SAS?
+- *Answer* (sbagdi-stat6250): The OUT=option is although, optional, should be used to prevent the original data set to be overwritten.
 - *Question* (shatcher4-stat6250): Why is the out= option optional in the case of sorting data?
+- *Answer* (asharda-stats6250): The out= option is optional but should whenever possible; if out= is left out, then the original dataset will be overwritten with the results of the sorting process.
 - *Question* (jbettonville-stat6250): How sensitive is SAS to memory usage, and under what circumstances might we be concerned about creating a sorted duplicate of a large data set?
 - *Question* (aamiri2-stat6250): What would be our results if we sort before removing duplicate files?
 - Question (nshrivastava2-stat6250): Can we define SORT procedure and WHERE statement in one single PROC statement? If yes,Why/ if no, Whynot?
@@ -591,5 +626,6 @@ b) if that abbreviation is recognized, a tooltip displays the expanded text; Pre
 - *Question* (aguenane−stat6250): How do you specify which rows will be used when using a PROC PRINT command?
 - Question (who7−stat6250): By the video, it seems it is easy for SAS to change to Excel mode. What are the advantage of using SAS over Excel?
 - *Question* (sbagdi-stat6250): What does a (OBS= ) statement does in PROC PRINT?
+- *Answer* (sbagdi-stat6250): To limit the number of observations to be printed in the result.
 
 

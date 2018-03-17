@@ -43,7 +43,9 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ldeng11−stat6250): DO loops can process a group of statement for any number of times rather than only one time. This can greatly reduce the number of statements for the repetitive calculation.
 - Question (ljiang11−stat6250): Can DO loops be used in PROC steps?
 - *Question* (akrishnamurthy-stat6250): Can DO loops include DATA and PROC steps?
+- Answer(asharda-stat6250): No, it can not
 - *Question* (sbagdi-stat6250): What is DO statement used for?
+- *Answer* (sbagdi-stat6250): Do statement process SAS statements repeatedly, thereby reducing the number of statements required for repeted calculations.
 - Question(pcheng14-stat6250):What kind of step statements are DO loops and cannot be used in conjunction with PROC steps?
 - Answer(pcheng14-stat6250):DATA step statements.
 - Question (aguenane−stat6250): What can be changed within the DO loop?
@@ -75,10 +77,12 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (who7-stat6250): It is very similar.  The way it goes through their iteration are very similar.
 - *Question* (jcanfield3-stat6250): Why does the do loop resolve at the top rather than at the end?
 - Question (ldeng11−stat6250): How do you know how many times of excution of the statements in the DO loop? 
+- Answer (asharda−stat6250): By looking at the stoping value after DO statement.
 - Question (ljiang11−stat6250): How to determine how many times DO loop executed?
 - Answer (ljiang11−stat6250): By looking at the stoping value after DO statement.
 - *Question* (akrishnamurthy-stat6250): What is the significance of index variable in a DO loop?
 - *Question* (sbagdi-stat6250): How can we terminate an iterative DO statement in SAS program?
+- *Answer* (sbagdi-stat6250): The iterative DO statement in SAS can be terminated  by a END statement.
 - Question(pcheng14-stat6250):What is the number of iterations determined by?
 - Answer(pcheng14-stat6250):It is DO statement's stop value.
 - Question (aguenane−stat6250): What is the optional BY clause used for?
@@ -98,6 +102,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (tbishaw-stat6250): What happens when you place an explicit OUTPUT statement in a DATA step?
 - Answer (tbishaw-stat6250): It overrides automatic output, causing SAS to add an observation to the data set only when the explicit OUTPUT statement is executed.
 - *Question*(kamirneni-stat6250): What is a purpose of INDEX statement?
+- *Answer* (sbagdi-stat6250): The INDEX variable stores the value of the current iteration of the DO loop.
 - *Question* (cli19−stat6250): How else can the start and stop values in a DO statement be incremented, if not with the BY option?
 - Question (nshrivastava2-stat6250): To construct an iterative DO loop, What are the conditions an index variable execute the loop?
 - Question (ttruong59-stat6250): What happens if users do not include END statement in DO loop along with other SAS statements?
@@ -106,6 +111,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (who7-stat6250): The default increment is 1 unless otherise specified.
 - *Question* (jcanfield3-stat6250): Can you use a statement like "do count=1 to (x*n)", or would x*n need to be pre-defined first?
 - Question (ldeng11−stat6250): What is the syntax of DO loop?
+- *Answer* (asharda-stat6250): The basic iterative DO statement in SAS has the syntax DO value = start TO stop. An END statement marks the end of the loop.
 - Question (ljiang11−stat6250): Can DO loops followed by a variable that has assigned value?
 - *Question* (akrishnamurthy-stat6250): How should the index variables be defined for nested DO loops?
 - *Question* (sbagdi-stat6250): How can we increase or decrease the value of index variable by 1 in an interactive DO statement?
@@ -126,6 +132,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (ldai4-stat6250): Why do we need to specify an index variable when creating a DO loop with the iterative DO statement?
 - *Answer* (ldai4-stat6250): The index variable stores the value of the current iteration of the DO loop.
 - Question (tbishaw-stat6250): What is the difference between the DO UNTIL and DO WHILE statements? 
+- *Answer* (asharda-stat6250): The only difference between do while and do until is that the first one loops is execute as long as the condition is true, while the second one loops execute as long as the condition is false. 
 - *Question*(kamirneni-stat6250): What is the difference between using DO loop with WHILE and UNTIL clause?
 - *Answer*(kamirneni-stat6250): In case of DO loop with WHILE clause, first the condition is evaluated before executing the statements within the loop. In case of DO loop with UNTIL clause, it executes at least one time because the condition is evaluated at the end of loop.
 - *Question* (cli19−stat6250): How does SAS know it has reached the end of a DO loop?
@@ -138,6 +145,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7−stat6250): Can we set arbituary variable for the count in a DO loop?
 - *Question* (jcanfield3-stat6250): Can SAS detect an infinite loop, or does it get stuck iterating it until manually stopped?
 - Question (ldeng11−stat6250): What is the value of the index variable after the last step of the DO loop?
+- *Answer* (sbagdi-stat6250): The STOP values of the loop is the last value of the index variable.
 - Question (ljiang11−stat6250): How would DO loop execute after it reaches the maximum set value?
 - Answer (ljiang11−stat6250): It will increment one more step and ends after it finds the condition doesn't suffice.
 - *Question* (akrishnamurthy-stat6250): Should index variables always be incremented by 1? How to define list of values for index variables?
@@ -155,6 +163,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (asharda-stat6250): What is the use of OUTPUT statement ?
 - *Answer* (asharda-stat6250): The OUTPUT statement overrides the automatic output at the end of the DATA step. 
 - *Question* (shatcher4-stat6250): Why does an OUTPUT statement need to be placed inside a DO loop?
+- *Answer* (sbagdi-stat6250): To create an obseravtion for each iteration.
 - *Question* (ldai4-stat6250): Does the OUTPUT statement override the automatic output at the end of the dATA step?
 - Question (tbishaw-stat6250): Is the WHILE expression evaluated before or after the execution of the DO loop?
 - Answer (tbishaw-stat6250): The WHILE expression is evaluated before the execution of the DO loop. 
@@ -164,6 +173,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): When does OUTPUT statement write observations?
 - Answer (ttruong59-stat6250): The OUTPUT statement writes the current observations to a SAS dataset immediately, not a the end of the DATA step. But the observation will be written to the dataset listed if no dataset name is specified.
 - Question(tchan49-stat6250):What is the function of OUTPUT in DO Loop?
+- *Answer* (asharda-stat6250): It  tells SAS to write observations to the data set or data sets that are being created
 - Question (who7−stat6250): What will happen if we did not include end after the DO loop?
 - *Question* (jcanfield3-stat6250): Does the year variable get deleted at the end of the data step (Does it still = 2005 after)?
 - Question (ldeng11−stat6250): What is the OUTPUT statement doing?
@@ -201,7 +211,9 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ldeng11−stat6250): How do you know the number of steps in the DO loop?
 - Question (ljiang11−stat6250): Where is value+interest stored?
 - *Question* (akrishnamurthy-stat6250): How to generate observation for each iteration of a DO loop? Is Output a default option for DO loop?
-- *Question* (sbagdi-stat6250): WHat is the Do loop syntax in a SAS programming?
+- *Answer* (sbagdi-stat6250): An explicit output statement must be put inside a DO loop to generate observation for each iteration. By default, an implicit OUTPUT statement is the option for DO loop.
+- *Question* (sbagdi-stat6250): What is the Do loop syntax in a SAS programming?
+- *Answer* (asharda-stat6250): DO; ...more SAS statements...END;
 - Question(pcheng14-stat6250):What is the number of observations based on?
 - Question (aguenane−stat6250): What precaution one must take while listing items in a series?
 
@@ -209,6 +221,8 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 14, Problem 7]
 - Question(dfei-stat6250): What does nested DO loops mean?
+- *Answer* (sbagdi-stat6250): Putting a DO loop within a DO loop is called nesting.
+- *Answer* (asharda-stat6250):A nested DO loop is a loop within a loop, an inner loop within the body of an outer one. 
 - *Question* (aacharya4−stat6250):  What is the case in case we use decrementing DO loops?
 - *Answer* (aacharya4−stat6250): In case of decrementing DO loops, the BY clause has a negative value. Thus, the start value of the index variable should be greater than the stop value of the index variable.
 - *Question* (asharda-stat6250): Which statements do you use to loop  when number of iterations is fixed?.
@@ -240,6 +254,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 14, Problem 8]
 - Question(dfei-stat6250): How to evaluate DO UNTIL statements?
+- Answer(asharda-stat6250):The bottom of the loop so that a DO UNTIL loop executes at least once. 
 - *Question* (aacharya4−stat6250):  How can we generate observations with the DO loops for each iteration of the loop?
 - *Answer* (aacharya4−stat6250): To generate observations for each iteration of the DO loop, we can use the OUTPUT statement.
 - *Question* (asharda-stat6250): When is DO UNTIL condition evaluated?.
@@ -260,6 +275,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): What happens if the until value is reached before the loop begins?
 - *Answer* (jcanfield3-stat6250): The loop iterates only once then, since the loop is always executed at least once.
 - Question (ldeng11−stat6250): What is DO UNTIL statement using for?
+- *Answer* (sbagdi-stat6250): Do until statement executes a DO statement until an expression becomes true.
 - Question (ljiang11−stat6250): When is the condition stop being evaluated?
 - *Question* (akrishnamurthy-stat6250): How to execute a DO loop when the iterations are not fixed and depends on a condition?
 - *Question* (sbagdi-stat6250): What are DO WHILE and DO UNTIl statements?
@@ -270,6 +286,8 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 14, Problem 9]
 - Question(dfei-stat6250): What is the difference between do until and DO WHILE statement?
+- *Answer* (sbagdi-stat6250): The DO WHILE expression is evaluated at the top of the LOOP. SO, if the expression is false the first time, DO loop will never execute.
+- *Answer* (asharda-stat6250)The only difference between do while and do until is that the first one loops is execute as long as the condition is true, while the second one loops execute as long as the condition is false. 
 - *Question* (aacharya4−stat6250):  What are the possible types of start, stop and increment/decrement values for index variable in iterative DO statements?
 - *Answer* (aacharya4−stat6250): The start, stop and increment/decrement values for index variable can be any number, numeric variable or SAS expression which evaluates to give a numeric value.
 - *Question* (asharda-stat6250): When is DO WHILE loop evaluated?.
@@ -303,7 +321,9 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250): What occurs when you enclose a SET statement in a DO loop and what occurs when you add a POINT= option to that SET statement?
 - *Question* (ldai4-stat6250): If we want to the DO LOOP to stop executing some condition, should we use the WHILE statement?
 - Question (tbishaw-stat6250): How many values is the index variable always incremented by?
+- *Answer* (sbagdi-stat6250): The INDEX value is always incremented by 1 value.
 - *Question*(kamirneni-stat6250): What is the function of OUTPUT statement?
+- *Answer* (asharda-stat6250) :An OUTPUT statement overrides the default process by telling SAS to output the current observation when the OUTPUT statement is processed — not at the end of the DATA step.
 - *Question* (cli19−stat6250): When is it best to specify the start and stop values if a WHILE or UNTIL condition is specified in the DO loop?
 - Question (nshrivastava2-stat6250): When we use the Do WHILE statement?
 - Answer(nshrivastava2-stat6250):  You can use the DO WHILE statement to execute a DO loop while the expression is true. 
@@ -315,7 +335,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ldeng11−stat6250): What are the differences between DO UNTIL and DO WHILE statements?
 - Question (ljiang11−stat6250): Can DO loop contain conditional clause?
 - *Question* (akrishnamurthy-stat6250): How to use conditional clauses with the iterative DO statement?
-- *Question* (sbagdi-stat6250): When do we used the decrementing DO loops?
+- *Question* (sbagdi-stat6250): When do we use the decrementing DO loops?
 - Question(pcheng14-stat6250):Which expression would cause the DO loop to stop executing?
 - Question (aguenane−stat6250): What is the exact process when the loop reaches the limit value?
 
@@ -326,8 +346,10 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250):  Is it possible to store both numeric and character variables in a single array in SAS?
 - *Answer* (aacharya4−stat6250): No, a single array in SAS can store either numeric or character variables and not both.
 - *Question* (asharda-stat6250): What does an ARRAY statement do?.
+- *Answer* (asharda-stat6250) :The ARRAY statement can be used to create variables, must contain either all numeric or all character elements, and must be used to define an array before the array name can be referenced.
 - *Answer* (asharda-stat6250):  It merely defines an array.
 - *Question* (shatcher4-stat6250): What is a SAS array?
+- *Answer* (sbagdi-stat6250): A SAS array is temporarliy grouping of SAS variables under single name.
 - *Question* (ldai4-stat6250): What is ARRAY statement?
 - *Answer* (ldai4-stat6250): The ARRAY statement can be used to create variables, must contain either all numeric or all character elements, and must be used to define an array before the array name can be referenced.
 - Question (tbishaw-stat6250): How can you process variables as a group?
@@ -345,7 +367,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ljiang11−stat6250): Is ARRAY statement executable?
 - *Question* (akrishnamurthy-stat6250): What is the use of ARRAY statement?
 - *Answer* (akrishnamurthy-stat6250): Arrays are used to simplify the code needed to perform repetitive calculations,create many variables with same attributes,read data,rotate SAS datasets by changing variables to observations or observation to variables,compare variables,table lookups.
-- *Question* (sbagdi-stat6250): Is there a difference between one-dimensional and mlti-dimensional arrays? If so, what is it?
+- *Question* (sbagdi-stat6250): Is there a difference between one-dimensional and multi-dimensional arrays? If so, what is it?
 - Question(pcheng14-stat6250):Why an ARRAY statement is not an executable statement?
 - Question (aguenane−stat6250): Is array similar to list/tuple in python?
 
@@ -370,9 +392,11 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7−stat6250): Waht would happen if the number within the bracket is different from the number f variables listed in the ARRAY statement?
 - *Question* (jcanfield3-stat6250): What error if any is produced if an incorrect number is placed in parantheses?
 - Question (ldeng11−stat6250): What is the array statement?
+- *Answer* (asharda-stat6250) :The ARRAY statement defines a set of elements that you plan to process as a group.
 - Question (ljiang11−stat6250): Can a variable be inside the parenthesis?
 - *Question* (akrishnamurthy-stat6250): Is it mandatory to specify the array length while defining the array ?
 - *Question* (sbagdi-stat6250): WHy should we specify the array dimensions?
+- *Answer* (sbagdi-stat6250): Dimensions should be specified as they describes the number and arrangements in an array. 
 - uestion(pcheng14-stat6250):What kinds of the value indicates the number of elements in the array?
 - Question (aguenane−stat6250): What is the maximum number of variables that can be used in an array?
 
@@ -400,6 +424,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7−stat6250): Can we use DO WHILE or DO UNTIL for the array?
 - *Question* (jcanfield3-stat6250): What error if any is produced if i try to access a nonexistent array element?
 - Question (ldeng11−stat6250): How do you specify the dimension in the array?
+- *Answer* (sbagdi-stat6250): DImension in an array can be specified by using an '*' sign. 
+- *Answer* (asharda-stat6250) :{subscript} describes the number and arrangement of elements in the array by using an asterisk, a number, or a range of numbers. Subscript has one of these forms:
 - Question (ljiang11−stat6250): Can a DO loop conjugate with an ARRAY statement?
 - *Question* (akrishnamurthy-stat6250): While referencing an array element using DO loop index variable, should the stop value of index variable be equal to array length?"
 - *Question* (sbagdi-stat6250): What happen if we specify array elements outside of array statements?
@@ -418,6 +444,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (ldai4-stat6250): What does the index value represent?
 - Question (tbishaw-stat6250): What length are all character variables that are created with an ARRAY statement assigned by default?  
 - *Question*(kamirneni-stat6250): How can one define a range of values for the index in an array?
+- *Answer* (asharda-stat6250) :By specifying a constant value within the brackets, you can specify the number of variables or elements that are to be associated with the array.
 - *Question* (cli19−stat6250): At what value does SAS begin its index count?
 - *Answer* (cli19−stat6250): SAS starts its count at 1.
 - Question (nshrivastava2-stat6250): Describe 5 Ways To Do A "table Lookup" In Sas?
@@ -432,6 +459,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy-stat6250): Can the dimension of array and array elements be defined as range of values?
 - *Answer* (akrishnamurthy-stat6250): Yes, the array dimension can be specified as a range like array{4-7}. The array elements can also be defined as variable list. The variable list can be a numbered range of variables, all numeric, all character, all character or numeric types.
 - *Question* (sbagdi-stat6250): What is DIM function used for in SAS?
+- *Answer* (sbagdi-stat6250): When using DO loops to process arrays, one can use the DIM function to specify the TO clause of the iterative DO statement.
 - Question(pcheng14-stat6250):Wht the index value represents the position of the array element?
 - Question (aguenane−stat6250): What are the rules for defining a numbered range of variables?
 
@@ -445,6 +473,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (asharda-stat6250):  To process all the elements in an array, you can either specify the array dimension or use the DIM function with the array name as the argument.
 - *Question* (shatcher4-stat6250): What is the purpose of the i in the DO loop of an array?
 - *Question* (ldai4-stat6250): How can we use the DIM function?
+- *Answer* (asharda-stat6250) :Use DIM in array processing to avoid changing the upper bound of an iterative DO group
 - Question (tbishaw-stat6250): How can we assign initial values to character varaibles?  
 - *Question*(kamirneni-stat6250): What is the index value in an array?
 - *Question* (cli19−stat6250): What does the DIM function do? Can this function be used outside of an array?
@@ -461,6 +490,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (sbagdi-stat6250): WHat type of variables can be created in an array statement?
 - Question(pcheng14-stat6250):When should we use the DIM function with the array name as the argument?
 - Question (aguenane−stat6250): What variable is used in DO loop to reference element of an array?
+- *Answer* (sbagdi-stat6250): The INDEX varaible is used to reference element of an array. 
 
 
 
@@ -473,6 +503,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250):  If exisiting variables within an array are not referenced, why does SAS automatically create new variables and assigns them default names?
 - *Question* (ldai4-stat6250): Do we need to specify the array elements in the ARRAY statement?
 - Question (tbishaw-stat6250): How can we define a multidimensional arrays? 
+- *Answer* (asharda-stat6250) :To create a multidimensional array, place the number of elements in each dimension after the array name in the form {n, … } where n is required for each dimension of a multidimensional array.
 - *Question*(kamirneni-stat6250): What is the specific use of DIM function?
 - *Question* (cli19−stat6250): Do varaibles need to be identified as either numeric or character before they are created in an array?
 - Question (nshrivastava2-stat6250): How we specify an array element in SAS?
@@ -485,7 +516,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ljiang11−stat6250): Can numeric variable be created in ARRAY statement?
 - Answer (ljiang11−stat6250): Yes, both numeric and character variables can be created in ARRAY statement.
 - *Question* (akrishnamurthy-stat6250): What are the rules for creating a numbered range of array variables?
-- *Question* (sbagdi-stat6250): How to create temporary array statements?
+- *Question* (sbagdi-stat6250): How to create temporary array elements?
+- *Answer* (sbagdi-stat6250): By specifying _TEMPORARY_ after array name and dimension.
 - Question(pcheng14-stat6250):Can either numeric or character variables be created by an ARRAY statement?
 - Question (aguenane−stat6250): What is the DIM function used as an alternative for?
 
@@ -498,6 +530,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (asharda-stat6250): Which  variables can be created by an ARRAY statement.
 - *Answer* (asharda-stat6250):  Either numeric or character variables can be created by an ARRAY statement. 
 - *Question* (shatcher4-stat6250): How do you create an array of character variables?
+- *Answer* (asharda-stat6250) :Using $ - Indicates the elements within the array are character type variables
 - *Question* (ldai4-stat6250): Can we give an array the same name as a variqable in the same DATA step?
 - Question (tbishaw-stat6250): What does rotating a data set accomplish?
 - Answer (tbishaw-stat6250): Rotating a data set changes variables to observations or observations to variables. 
@@ -515,6 +548,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (sbagdi-stat6250): WHat are the ways to 'table lookup' in SAS?
 - *Answer* (sbagdi-stat6250): There are 5 ways to do so- match merging, direct access, array, format tables, and PROC SQL. 
 - Question(pcheng14-stat6250):When should we use define multidimensional arrays in SAS?
+- *Answer* (sbagdi-stat6250): When we want to combine variables into table like structure, we use multi-dimensional arrays.
 - Question (aguenane−stat6250): While creating variables in ARRAY statement,does one need to specify elements?
 
 
@@ -541,7 +575,9 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ldeng11−stat6250): What is temporary array?
 - Question (ljiang11−stat6250): What is the format to create temporary array elements?
 - *Question* (akrishnamurthy-stat6250): How to reference the elements of multi dimensional array?
-- *Question* (sbagdi-stat6250): WHat are temporary array statements used for?
+- *Question* (sbagdi-stat6250): What are temporary array statements used for?
+- *Answer* (sbagdi-stat6250): When arrays are only meant for calculations, and when the performance time is to be improved, the temporary array elements are used. 
+- *Answer* (asharda-stat6250) :To define bounds array
 - Question(pcheng14-stat6250):When should we create temporary array elements?
 - Question (aguenane−stat6250): What is the use of rotating a dataset in SAS?
 
@@ -552,6 +588,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250):  Can we use arrays to rotate datasets (changing variable to observation and vice versa) in SAS?
 - *Answer* (aacharya4−stat6250): We can use arrays to rotate datasets (changing variable to observation and vice versa) in SAS.
 - *Question* (asharda-stat6250): How do you create  create temporary array elements?
+- *Answer* (asharda-stat6250) :The elements are defined by the key word _TEMPORARY_. 
 - *Question* (shatcher4-stat6250): How do assign inital values in an ARRAY statement?What is the purpose of temporary array elements 
 - *Question* (ldai4-stat6250): How do we specify the array reference in the nested DO loops?
 - Question (tbishaw-stat6250): How can we indicate the dimension of a one-dimensional array?
@@ -568,6 +605,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ljiang11−stat6250): How many rows and columns does ARRAY ques{3, 25} q1-q75 have?
 - *Question* (akrishnamurthy-stat6250): Instead of initializing entire array, is it possible to initialize specific array elements?
 - *Question* (sbagdi-stat6250): Can arrays be used to rotate datasets in a SAS?
+- *Answer* (sbagdi-stat6250): Yes, arrays can be used to rotate datasets in SAS. The observations become variables and vice-versa. 
 - Question(pcheng14-stat6250):When should we use arrays to rotate datasets in SAS?
 - Question (aguenane−stat6250): What is the syntax required for creating temporary elements in an array?
 
@@ -578,6 +616,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): Why is the "z6." format used for conversion of automatic variable to character variable in the SAS recipe?
 - *Answer* (aacharya4−stat6250): The "z6." format is used to make the converted character value to be exactly of 6 digits, which is one magnitude larger than the number of records of the dataset being used.
 - *Question* (asharda-stat6250): What happens during compilation phase of data step?.
+- *Answer* (asharda-stat6250) :In particular, _N_ is created automatically during the compilation phase of the data step and is added automatically to the PDV, but it is given a drop attribute, preventing it from being included in the output dataset. However, it can be treated like any other numeric variable in a data step, including being included in computations.
 - *Question* (shatcher4-stat6250): What is the purpose of the double-pipe operator?
 - *Question* (ldai4-stat6250): How can I assign serial numbers to observations in a data set?
 - Question (tbishaw-stat6250): How can we adda new ID column in SAS? 
@@ -594,6 +633,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ljiang11−stat6250): How does _N_ work?
 - *Question* (akrishnamurthy-stat6250): What does the format z6 signify?
 - *Question* (sbagdi-stat6250): WHat is the double pipe operartor's purpose in SAS?
+- *Answer* (sbagdi-stat6250): The double pipe operator (||) is used to concatenate strings, i.e. to form a single string, combining the two.
 - Question(pcheng14-stat6250):What kind of the format used for conversion of automatic variable to character variable in the SAS recipe is best?
 - Question (aguenane−stat6250): Are there any other formats apart from Z6 SAS to convert automatic variable to character variable?
 
@@ -612,11 +652,13 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nshrivastava2-stat6250): Why is the initianlzation process relevant when no retain statement is involved?
 - Question (ttruong59-stat6250): Why do we use RETAIN statements in the DO loop for this recipe? Is it mainly because we like to override the default values? 
 - Question(tchan49-stat6250):What statement you might want to use when you don't want to count missing values? 
+- *Answer* (asharda-stat6250) :In the example provided will use :where not(missing(Enrollment_K12));
 - Question (who7−stat6250): How is the second example different from the first example besides removing all missing value?
 - *Question* (jcanfield3-stat6250): So the code just creates repeated lines of each record based on the value of Enrollment_K12 right?
 - Question (ldeng11−stat6250): Why we should retain the student_record_counter as 0?
 - Question (ljiang11−stat6250): What is the purpose to disaggregate data?
 - *Question* (akrishnamurthy-stat6250): What is the use of RETAIN statement?
+- *Answer* (sbagdi-stat6250): SAS sets the initial values of variables created by INPUT or assignmnet system as missing by default. RETAIN statement overrides these default values. 
 - *Question* (sbagdi-stat6250): How to pad character variable with the leading zeroes?
 - *Answer* (sbagdi-stat6250): We can pad character variable with the leading zeroes by making use of Z4. format, which adds the leading zeroes.
 - Question(pcheng14-stat6250):What is the meaning of RETAIN statement in SAS and when should we use it?
